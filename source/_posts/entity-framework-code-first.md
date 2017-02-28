@@ -19,7 +19,7 @@ Please note that **MultipleActiveResultSets** by default is false, making it imp
 
 ## Many-to-many relationship
 I'll illustrate this relationship with a wildly-used user&role model.
-```
+``` 
 public class Role {
 	// EF is able to recognize two kinds of naming conversions: TypeID or ID
 	// Personally, I prefer the former except for the case of inheritance
@@ -150,11 +150,10 @@ public class Order {
 
 	public virtual ICollection<Study> Studies { get; set; } = new HashSet<Study>();
 }
-
 ```
 
 Add the following in DbContext's OnModelCreating method to fine-tune the model:
-```
+``` 
 modelBuilder.Entity<Patient>().ToTable("Patient", "EFSample");
 
 modelBuilder.Entity<Study>().ToTable("Study", "EFSample");
@@ -170,10 +169,10 @@ modelBuilder.Entity<Study>()
 	.HasRequired(s => s.Patient) // a study must belong to a patient
 	.WithMany()
 	.Map(m => m.MapKey("PatientID"));
-
 ``` 
 
 Notice that for required navigating property, the generated foreign keys will be marked as **ON DELETE CASCADE**: 
+The screen-shot is
 ![table-study](/images/entity-framework-code-first/table-study.png)
 
 Also notice that during saving a study to an order, both of the following ways is working:
