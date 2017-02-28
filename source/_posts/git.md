@@ -77,6 +77,7 @@ Port 443
 ## Upload
 ```
 git remote add origin git@github.com:sevenbamboos/test.git
+git push --set-upstream origin master
 git push origin master
 git pull origin master
 ```
