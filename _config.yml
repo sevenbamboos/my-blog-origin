@@ -3,12 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sam's Blog
-subtitle:
-description:
+title: Sam's Chest of Drawers
+subtitle: Thinking about Programming and Lifestyle
+description: 85608565
 author: Yuping Wang
-language:
+language: en
 timezone:
+avatar: https://s.gravatar.com/avatar/67a6b6bab2f6f4fb0f035c398789a241?s=80
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -64,7 +65,10 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ##theme: landscape
-theme: false 
+theme: next
+#scheme: Muse
+#scheme: Mist
+scheme: Pisces
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
