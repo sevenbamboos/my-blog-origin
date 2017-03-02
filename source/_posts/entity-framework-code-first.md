@@ -17,6 +17,8 @@ public EFSampleContext() : base(@"Data Source=(LocalDB)\MSSQLLocalDB; AttachDbFi
 ```
 Please note that **MultipleActiveResultSets** by default is false, making it impossible to use DbReader nested inside loop
 
+<!-- more -->
+
 ## Many-to-many relationship
 I'll illustrate this relationship with a wildly-used user&role model.
 ``` 
