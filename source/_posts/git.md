@@ -1,7 +1,11 @@
 ---
 title: Git & Github Basic
 date: 2016-06-01 22:59:32
-tags: Tool 
+categories: Tool 
+tags:
+- Git
+- Github
+- cmder
 ---
 
 # Git

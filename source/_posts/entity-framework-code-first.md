@@ -1,7 +1,12 @@
 ---
 title: Code First in Entity framework
 date: 2016-06-09 22:59:32
-tags: Programming
+categories: Programming
+tags:
+- .NET
+- Entity framework
+- ORM
+- Database
 ---
 
 ## Why choose code first

@@ -1,7 +1,8 @@
 ---
 title: Hexo - How to publish site on Github
 date: 2017-01-09 22:59:32
-tags: Tool
+categories: Tool
+tags: Hexo
 ---
 
 It's a tool that supports generating static HTML from Markdown, which makes it suitable to publish personal blog on website (e.g. github-pages).
@@ -29,5 +30,18 @@ npm install --save hexo-deployer-git
 hexo d[eploy]
 ```
 
-## Theme [TBD]
+## Theme
 There is a dedicate topic on Hexo at Zhihu.com
+A good starting point is [Next](http://theme-next.iissnan.com)
+
+### How to generate category and tag pages (in Next theme)
+By default, even enable these two in menu section of the theme config file, you will still get 404 error when nevigating to "categories" or "tags" pages. The reason is due to the missing index.html under the folder of the above two names. The fix is to add pages with `hexo new page categories` and `hexo new page index`. Then modify the generated index.md to:
+```
+// index.md for categories
+type: "categories"
+comments: false
+
+// index.md for tags 
+type: "tags"
+comments: false
+```

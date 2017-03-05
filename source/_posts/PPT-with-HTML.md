@@ -1,7 +1,12 @@
 ---
 title: PPT with HTML
 date: 2017-02-13 22:29:32
-tags: Tool
+categories: Tool
+tags:
+- webslides
+- PPT
+- html
+- javascript
 ---
 
 ### How to set up
