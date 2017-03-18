@@ -85,3 +85,8 @@ git push --set-upstream origin master
 git push origin master
 git pull origin master
 ```
+
+## Merge
+```
+git mergetool
+```
