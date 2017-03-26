@@ -5,11 +5,9 @@ categories: Programming
 tags:
 - Angular
 - typescript
-- Javascript
 - Redux
 - NgRx
 - RxJS
-- Reactive Functional Programming
 ---
 
 ## Introduction
@@ -63,6 +61,10 @@ Again, it depends whether there is a need for unit test.
 ng g component --flat true --inline-style true --spec false --app <app-name> folder/name
 ```
 If a component uses inline-style (and there is no unit test), then it has at most two files: one for source code, the other for template. As a result, we can use `flat` not to wrap it in a new folder. Note, as same as module, the new component will have a "component" suffix so it's unnecessary to include it in the command line argument.
+
+Regarding adding styles to @angular/cli, first we need to install the style with:
+`npm i --save bootstrap@next`, for now it will install a beta version of bootstrap 4.0. Then add reference to the "styles" section of angular-cli.json:
+`../node_modules/bootstrap/dist/css/bootstrap.min.css`. It starts the root folder from src, and that's the reason I put `..` at the beginning.
 
 ## Typescript
 Normally, with the help of @angular/cli, there is no need to configure Typescript. However, for Node projects, there is something to do to make Typescript compiler understand external libraries (which are not written in Typescript) as well as provide indication to IDE. 
