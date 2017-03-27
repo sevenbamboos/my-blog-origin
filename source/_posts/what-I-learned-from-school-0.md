@@ -3,9 +3,6 @@ title: What I Learned From School Part 0
 date: 2015-09-06 20:43:30
 categories: Lifestyle 
 tags:
-- physics
-- scientific method
-- Theory of Relativity 
 ---
 
 ## Fundamental quantitative knowledge of physical world

@@ -3,12 +3,6 @@ title: What I Learned From School Part 2
 date: 2015-11-16 22:35:00
 categories: Lifestyle 
 tags:
-- computer composition
-- Turning machine
-- digital logic&logic design
-- assembly language
-- compiling principles
-- Operating System
 ---
 
 ## Define key information in fundamental engineering

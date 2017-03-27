@@ -3,10 +3,6 @@ title: What I Learned From School Part 1
 date: 2015-10-23 20:43:30
 categories: Lifestyle 
 tags:
-- Fourier analysis
-- linear algebra
-- probability and statistics
-- differential equation 
 ---
 
 ## Mathematics, statistics and numerical methods

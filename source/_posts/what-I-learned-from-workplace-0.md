@@ -1,48 +1,50 @@
 ---
-title: What I Learned From Workplace Part 0
-date: 2015-12-19 21:59:00
+title: What I Learned From Workspace Part 0
+date: 2016-01-14 20:59:00
 categories: Lifestyle 
 tags:
-- O-notation 
-- hash table
-- DFS
-- BFS
-- Java
-- software engineering 
 ---
 
-## Knowledge to support practice
+## Research and analyse in design
 
-> I chose software as my research direction from the third year of university under the influence of “data structure” course. 
-
-As what the name suggests, the course helped me understand two basic elements of a program: data structure and algorithms, and their relationship.
-
-The order of growth (𝛩-notation) is the most fundamental concept to help understand why various data structures and algorithms are designed. For instance, most programming languages provide support for array or list, which stores data in a sequence of blocks of memory. The expectation of the time to look for an item in an array is 𝛩(n). It is an efficient data structure for cases that the number of the items are small. But there are exceptions.
+Before designing a software system, I will do use case analysis first, which helps me understand how the system interacts with external resource. Sometimes, a clear user case diagram also serves as a good communication with non-technical participants. Besides, performance specification also needs to be taken into consideration either with pseudo-code or prototype. In the passed 10 years as a senior software developer, I participated in the requirement analysis of enterprise applications in multiple domains ranging from manufacturing (2001), auction (2002-2006), entertainment (2006-2009) to healthcare.
 
 <!-- more -->
 
-> When debugging a radiology information system (2015), I found a search function of an array is extremely slow. 
+## Investigation and identification of system
 
-The function looks for an external system in an array of dozens of items. The root cause is that each item is persistent as a JSON object. During the search, each item needs to be parsed and converted into an object tree. So even with only dozens of items, the array is still not a good choice. My approach is to use a hash table as a memory cache. Hash table is a table with (key, value) pair and has 𝛩(1) for search operation. I put the identity of an external system into the hash table as key, the parsed object as value (so each item will be parsed once during the lifetime of the application). As a result, the change improves the performance more than 100 times.
+Since 2007, as a software developer (in Kodak product development centre and Agfa healthcare), one of my responsibilities is to analyse abnormal behaviour of a software program and provide solutions. Based on log files (stack trace), screen shots or the steps to reproduce , I am required to investigate the root cause, provide a fix or a temporary workaround if acceptable. To do this, I start from building a test environment to reproduce the issue. If not possible, I will read source code, try to reveal the cause from the result (it can be challenging for concurrency issue like race condition). I will do experiment in local environment to prove my hypothesis (Please refer to Element One for the discussion about scientific method). After that I will give my solution as well as an analysis of the impact of my change so that testing team can double-check the issue in regression test.
 
-But hash table is not the answer to all criteria. In a task (2014), I was asked to build an index for billing codes (the total number can be over 100K in some countries). Supposing the billing number is chose as the index property, then one billing code needs 4 bytes (32 bits). The total of billing codes will result in 400K of memory usage. What is more, hash table needs at least twice of the capacity to put hash key, which means the whole index needs to consume 1M of memory. So even with the expectation time of 𝛩(1) for search operation, hash table is not suitable in this case (bitmap is used instead).
+## Develop from principles
 
-I am also familiar with other data structures such as trees and graphs. I spent much time building parser and processor for HL7 / DICOM messages, which are certain kinds of tree. The common strategies to visit a tree are deep first search (DFS), breadth first search (BFS) and hill climbing search. The basic approach to solve tree-related problems is divide-and-conquer and recursion. That is to divide the question domain into multiple sub-domains, repeat the step recursively until sub-domain is small enough and a straightforward solution appears. The final step is to combine the solutions together. The approach can prove by Mathematical Induction that the overall cost can be much better than the solution of brute force. For example, supposing we divide the domain into two parts and need 𝛩(n) to combine the results, then the overall cost is 𝛩(n lgn).
+I use UML as a language of design. The nouns appearing in use case are candidates of domain models and their behaviour can be methods of these models. I will give a draft design with a high-level class diagram and deployment diagram. At the beginning of a project, I prefer not to put many details in the design diagrams as I believe that great software is not likely to create by design but by code refactoring. Design languages such as UML provide a way to communicate idea. But it can still include errors that are hard to detect (e.g., incorrect dependency between modules, unnecessary class hierarchy. Please refer to the project of connectivity module for details). What is more, an over-designed class diagram could bring more trouble than no design. In my current job, I do design cycle by cycle with an incremental approach, which is suitable for Scrum methodology.
 
-Regarding graph, it shares some common algorithms with tree but has its own specific use. I was once asked to calculate a path on an image of Digital Radiography (DR) study. The path needs to go through a group of points on the image. This is a shortest-path problem in a graph, just as how a navigating system finds a route on a map. The approach is to take the points as a network and divide them into multiple layers so that in each layer there are very few points and I can use brute-force to loop through all of them to get a local solution. I use the greedy algorithm to decide how many layers I need. And the final step is to combine local solutions together.
+## Design methods and tools
 
-Generally speaking, the knowledge of data structure and algorithm gives me the ability to design complex computation units. And I also gained knowledge about software engineering theory and object-oriented design principles, which gives me the ability to organise these computation units.
+I often use design pattern to explain the structure of my design. Classical patterns (Group of Four) appear many times in my design document. More importantly, I use Single-Responsibility Principle (SRP) and Open-Closed Principle (OCP) to explain the purpose of the design.
 
-## Systematic understanding
+SRP emphasises on the idea that a model should include all relevant details and expose as little as possible to the outside world. It encourages to design self-contained components.
 
-> I took an elementary course of “software engineering” (2000) and a programming course (2001) based on Java technology for my bachelor degree. 
+OCR is mainly about how to build loose coupling components. A component should be open for new functionality and close for irrelevant change. It has a well-known extension: Inversion of Control (IoC). Nowadays, many application frameworks provide IoC service to avoid strong dependencies between components.
 
-Waterfall model was used in the course at that time, which borrows idea from manufacturing workflows. It treats software development as sequential processes (analysis, design, implementation, testing and maintenance). In practice, software projects following this method have a high rate of failure due to the frequently changed requirements. For example, the problem found during the test phase can be a disaster for development team because it can cause a large scale of code refactoring or even the change to the design model. As a result, after leaving university two years, I took software engineering course (2003-2006) for a master’s degree. The courses include Introduction to Software Engineering, Software Project Management, Software and System Rapid Prototyping, Software Quality Assurance, Software Implementation and Testing and Software Maintenance and Re-engineering Evolution.
+With the evolution of technology, some design patterns become less important. For example, with the support of lambda calculus in Java and C#, command pattern and strategy pattern are not necessary. But the principles remain the same.
 
-In this period, Agile methodology emerged as an answer to the limitation of Waterfall model. I involved in many discussions of this topic. Generally, I believe Agile method is a repetitive waterfall model but with two good practices: Test-Driven development and refactoring. In an Agile method, we still follow sequential processes but repeat them every a certain period of time. On one hand, big features can be split into small tasks which can be scheduled in multiple cycles. And tasks with smaller scope tend to be easier to tackle. That is the idea of divide-and-conquer algorithm. On the other hand, product owner can give feedback to the product at the end of each cycle so that developer can improve it in next cycle. It acts as a feedback system for software projects just as the Nyquist stability criterion in control theory and stability theory, which reduces the cost of doing change compared to that in waterfall model. I have more than 6 years of experience in a Scrum team, working on a big project with cross-site cooperation and have the chance to practice what I learned in the above software engineering courses.
+## Decision making and problem solving of engineering problems
 
-## Application of complex engineering problems
+My model-based framework (2006) was under great influence of these two principles. An example is Mapper tool (2013), a middle ware on server side. In the first iteration, following OCR, I designed each sub-module (expression parser, executor, language package and runtime) in a loose coupling relationship. But the disadvantage is that the runtime had to interact with language package indirectly, which introduced much complicated source code and made the debugging very hard. As a result, I made a tradeoff between OCR and SRP and solve the problem by combining language package and runtime. It took two iterations for me to realise the optimum design and another two iterations to finish the code refactoring.
 
-> Regarding programming skills, I got Java certificated programmer in 2001. 
+## Analyse feasibility of projects
 
-Java was a young programming language at that time but I believe object-oriented design would be a trend. As a high-level programming language, Java language has a clear syntax and good support in open-source community. That is the reason why I invested a large amount of time in this technology. Most projects that I took part in were based on Java platform (2003-2006). Meanwhile, I also took a series of courses in object-oriented development: Object-oriented Method, Software Modelling and Design, Object-oriented Formal Methods, which improve my ability to design flexible software systems.
+There are several factors which can affect feasibility of a project. The first one is how to define the scope. I once joined a project (2001), in which the customer hoped to improve manufacturing workflow with the new Enterprise Resource Plan (ERP) system. But the requirements of the new system were based on the current workflow. So even the system can help increase the productivity to some extent, it is impossible to meet the original needs and therefore failed at last. This factor requires customers and project management to align their expectation for the outcome at the beginning of a project.
+
+The second factor is the performance specification. For example, the architecture of an online auction for 100 people is totally different from that for 100000 people. In 2005, I joined in a project to develop a program for online auction. I quickly built a web-based prototype ("Rapid prototyping" is a useful course, that gave the idea how to use prototype to analyse the feasibility of a project). After the analysis to the prototype, we found there was a big gap in performance and therefore we reached an agreement that the auction rule needs to be changed to avoid too many concurrent requests. So it is important to foresee this kind of difficulty in software design.
+
+The last factor is cooperation with team members (including members from external team). A clear job-sharing and good communication plays an important role in (big) software projects. In a big project of a radiology information system, new release comes out every cycle (3 months) without much delay, I ascribe the success to the close communication between development teams.
+
+## Design experience that includes various constraints in the real world
+
+I will use my experience in a project of radiology information system to illustrate my abilities in software design. I designed a component to process medical data every day and I have taken into consideration of a number of aspects.
+
+First of all, reliability is the most important in this design. The component is supposed to provide 24x7 hour service to process data between multiple systems. Additionally, any mistake inside the component could result in the data loss of a medical report or a medical study, which would be a severe issue of patient safety. As a result, Application Public Interface (API) is required to 100% test coverage and user scenarios need to be covered by automation test as much as possible. To meet this requirement, I’ve changed my design twice to make sure every sub-module is self-contained and testable before being deployed in a real production environment. Therefore, over 100 test cases have been designed and run every day on the continuous integration (CI) server.
+
+To improve user experience, a tool is provided with fancy features like drag&drop, double click and inline validation message to help user configure the component. More practically, a syntax-check (real time) is shipped with an expression editor which can detect configuration errors. Apart from a GUI tool, I built another tool on server side to enable administrators do urgent change and can be used to monitor runtime status.
