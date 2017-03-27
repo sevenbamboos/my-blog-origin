@@ -1,6 +1,6 @@
 ---
-title: What I learned from school 1
-date: 2015-02-23 20:43:30
+title: What I Learned From School Part 1
+date: 2015-10-23 20:43:30
 categories: Lifestyle 
 tags:
 - Fourier analysis
@@ -14,6 +14,8 @@ tags:
 > The course of “Fourier analysis” mainly focuses on the idea of mapping a function in the time domain to the one in the frequency domain. 
 
 I did not realize the usefulness in signal processing until I did a research on the compress algorithm of MP3, which is a file format to store sound wave in file system. When computer records a sound, first it receives the sound wave via a microphone. The sound becomes electronic signals and after processed by sound card, it is saved into file system with the original format WAV. Fourier transformation can convert the original signals (in the time domain) into a series of numbers which represent offsets on different frequencies. In this way, MP3 has enormous compression rate compared to the WAV format and therefore nowadays a portable music player is able to keep thousands of songs.
+
+<!-- more -->
 
 > In addition, with the help of Fourier transformation, we can analyze tones of music. 
 

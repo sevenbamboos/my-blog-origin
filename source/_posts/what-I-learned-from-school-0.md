@@ -1,6 +1,6 @@
 ---
-title: What I learned from school 0
-date: 2015-01-26 20:43:30
+title: What I Learned From School Part 0
+date: 2015-09-06 20:43:30
 categories: Lifestyle 
 tags:
 - physics
@@ -22,6 +22,8 @@ In practice, a car consists of many parts and each of them has different densiti
 + density-of-tyre * volume-of-tyre + density-of-chassis * volume-of-chassis
 + …
 ```
+
+<!-- more -->
 
 The second concept is Newton’s Second Law of Motion, which is the fundamentals of Kinetics. In a 3D world, the motion in each component can be described with the equation: 
 ```

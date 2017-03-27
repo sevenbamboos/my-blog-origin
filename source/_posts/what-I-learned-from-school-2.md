@@ -1,12 +1,12 @@
 ---
-title: What I learned from school 2
-date: 2015-03-16 22:35:00
+title: What I Learned From School Part 2
+date: 2015-11-16 22:35:00
 categories: Lifestyle 
 tags:
 - computer composition
 - Turning machine
 - digital logic&logic design
-- assembly languag
+- assembly language
 - compiling principles
 - Operating System
 ---
@@ -20,6 +20,8 @@ My specialization is computer science and software engineering, and my knowledge
 A more general concept, Universal Turning Machine (UTM), is a Turning machine that can turn into any Turning machine with the description of the target machine as input. It means we don’t need to build specific machines for specific tasks.
 
 For me, the theory of Turning machine has influence in two areas. One is that it helps to understand the modern computer systems (which I will describe later). The other is “Turning complete”, a way to measure the capability of a computer. There are four elements in “Turning complete”: unlimited storage, ability to do arithmetic, evaluation with condition and the support of repetition of execution. They are mandatory for a model with maximum capability of computation. Once we find them in a model, we can prove it has reached the limit of computation and therefore is “Turning complete”. That is the reason why I spent a large amount of time in my dissertation of a model-based framework (2005) to implement functional programming (or formally Lambda calculus) in an imperative programming language. Recently (2014), I implemented a Domain Specific Language (DSL) for healthcare business and filled a gap using this thesis.
+
+<!-- more -->
 
 Modern computer systems consist of a number of modules and sub modules, including Central Processing Unit (CPU), storage, the controllers to manage input / output devices and other external devices such as monitor, printer, massive storage (hard disk), network and so on. These modules talk to each other by an electronic pipeline called “bus”. In fact, the concept of bus is so widely used that it affects the design of software. For example, I prefer using event bus to connect multiple components to achieve the result of loose coupling. It builds communication between components without introducing strong dependency. It can also be used in the mode of “subscribe and publish”, which can further improve the flexibility of a system. For example, I worked in a Model-View-Controller (MVC) application. Controller receives data from model and updates view. Meanwhile, it talks to other controllers via an event bus so that all parts of User Interface (UI) get updated.
 

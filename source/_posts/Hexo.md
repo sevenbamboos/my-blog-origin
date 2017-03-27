@@ -12,6 +12,18 @@ It's a tool that supports generating static HTML from Markdown, which makes it s
 npm install -g hexo-cli
 ```
 
+## Issue of cannot-find-module-DTraceProviderBindings
+After playing a hexo project for some time, I happened to try a `yarn install`, which may update some underlying dependencies. Then I found hexo didn't work anymore. The complain is:
+```  
+Cannot find module './build/Release/DTraceProviderBindings
+```
+
+I tried: 
++ `npm i hexo`. No use.
++ `rm -rfd node_modules && npm i`. No use.
++ `npm i hexo --no-optional`. It works for me.
++ `npm uninstall hexo-cli -g && npm i hexo-cli -g`. It should work but I haven't tried it.
+
 ## Workflow
 ```
 hexo init <folder>
