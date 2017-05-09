@@ -1,12 +1,12 @@
 ---
-title: Swift For Java Programmer 2 - Struct
+title: Swift For Java Programmer 2
 date: 2017-05-08 23:20:36
 categories: Programming
 tags: 
 - Swift
 ---
 
-In this second series, I wanna to talk about struct, which is a rather new concept for Java programmer.
+In this second series, I want to talk about struct, which is a rather new concept for Java programmer.
 
 # Value type
 First of all, remember struct is value type (in comparison with reference type as class) so that on assignment instances are COPIED. It has the following impact:
