@@ -3,7 +3,7 @@ title: Swift For Java Programmer 3
 date: 2017-05-09 22:47:07
 categories: Programming
 tags: 
-- Swift:
+- Swift
 ---
 
 In the third series, let's start the part of class. In Swift, class is reference type, which has a lot in common with this concept in other programming language like Java, c# and Javascript.
