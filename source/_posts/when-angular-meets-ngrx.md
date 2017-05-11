@@ -1,5 +1,5 @@
 ---
-title: When Angular meets NgRx
+title: When Angular meets Redux
 date: 2017-03-24 22:33:00
 categories: Programming
 tags:

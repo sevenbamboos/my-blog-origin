@@ -1,5 +1,5 @@
 ---
-title: Swift For Java Programer
+title: Swift For Java Programer 1
 date: 2017-05-07 21:31:45
 categories: Programming
 tags: 

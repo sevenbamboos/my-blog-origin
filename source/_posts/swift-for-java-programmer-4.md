@@ -12,6 +12,8 @@ Let's focus on Pattern matching, a powerful language feature in Swift. When I fi
 
 > Edited on [May 11, 2017]: another thorough [tutorial](https://appventure.me/2015/08/20/swift-pattern-matching-in-detail/)
 
+<!--more-->
+
 # switch and enum
 Generally, any `case ... ` belongs to the scope of pattern matching. But a good starting point is `switch` and `enum`.
 > Note how I bind constant inside a case and use it in where clause as well as case handling code.
@@ -140,4 +142,4 @@ Now it's time to broad the scope from switch to other statement: if/guard/for.
         }
     } 
 
-Basically, these items wrap up the pattern matching topic in Swift.
+Basically, these items wrap up the pattern matching topic in Swift. And I also want to conclude the series of introduction to Swift.
