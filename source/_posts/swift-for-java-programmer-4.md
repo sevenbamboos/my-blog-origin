@@ -10,6 +10,8 @@ Let's focus on Pattern matching, a powerful language feature in Swift. When I fi
 
 > I find this [tutorial](http://alisoftware.github.io/swift/pattern-matching/2016/03/27/pattern-matching-1/) very helpful and use an [online Swift runner](https://iswift.org/playground) due to the lack of Swift compiler implementation on Windows. Note this is the only runner that supports Foundations.
 
+> Edited on [May 11, 2017]: another thorough [tutorial](https://appventure.me/2015/08/20/swift-pattern-matching-in-detail/)
+
 # switch and enum
 Generally, any `case ... ` belongs to the scope of pattern matching. But a good starting point is `switch` and `enum`.
 > Note how I bind constant inside a case and use it in where clause as well as case handling code.
