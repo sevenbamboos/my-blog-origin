@@ -86,7 +86,124 @@ So I'm curious to know how good the built-in sort is and whether my home-made so
   }
 ```
 
-# Merge Sort
+# Heap sort
+Heap sort relies on Priority Queue, which itself is not a straightforward and therefore increase the overheads of resource consumption during sorting. It makes it the least competitive among all advanced sorting methods.
+
+```
+public class PriorityQueue {
+
+  private Comparator comparator;
+  private Comparable[] items;
+  private int lastIndex = 0;
+
+  public PriorityQueue(Comparator comparator, int size) {
+    this.comparator = comparator;
+    items = new Comparable[size+1];
+  }
+
+  public boolean isEmpty() {
+    return lastIndex == 0;
+  }
+
+  public void addAll(Comparable[] a) {
+    for (Comparable i: a) {
+      add(i);
+    }
+  }
+
+  public void add(Comparable item) {
+    if (lastIndex == items.length-1) {
+      throw new RuntimeException("Not support to enlarge queue capacity yet");
+    }
+
+    items[++lastIndex] = item;
+    swim(lastIndex);
+  }
+
+  private void swim(int i) {
+    int parentIndex = parent(i);
+    if (parentIndex == 0) return;
+    if (isBetter(items[i], items[parentIndex])) {
+      exchange(items, i, parentIndex);
+      swim(parentIndex);
+    }
+  }
+
+  public Optional<Comparable> top() {
+    if (isEmpty()) {
+      return Optional.empty();
+    }
+    return Optional.of(items[1]);
+  }
+
+  public Optional<Comparable> pop() {
+    Optional<Comparable> top = top();
+    if (!top.isPresent()) {
+      return top;
+    }
+
+    exchange(items, 1, lastIndex);
+    items[lastIndex--] = null;
+    // TODO shrink items' capacity
+
+    sink(1);
+    return top;
+  }
+
+  private void sink(int i) {
+    int left = left(i), right = right(i);
+
+    if (left > lastIndex) {
+      return;
+    }
+
+    int exch = left;
+    if (left < lastIndex && isBetter(items[left+1], items[left])) {
+      exch = left + 1;
+    }
+
+    if (isBetter(items[exch], items[i])) {
+      exchange(items, i, exch);
+      sink(exch);
+    }
+
+  }
+
+  private boolean isBetter(Comparable c1, Comparable c2) {
+    return comparator.compare(c1, c2) > 0;
+  }
+
+  private int left(int index) {
+    return index * 2;
+  }
+
+  private int right(int index) {
+    return left(index) + 1;
+  }
+
+  private int parent(int index) {
+    return index / 2;
+  }
+}
+``` 
+
+With the availability of Priority Queue, heap sort is straightforward enough:
+```
+  public static Comparable[] heapSort(Comparable[] a) {
+    PriorityQueue pq = new PriorityQueue(MIN, a.length);
+    pq.addAll(a);
+
+    Comparable[] result = new Comparable[a.length];
+    int i = 0;
+    while (!pq.isEmpty()) {
+      result[i++] = pq.pop().get();
+    }
+
+    return result;
+  }
+```
+
+# Merge sort
 ```
   Comparable[] mergeSort(Comparable[] t) {
     doMergeSort(t, 0, t.length-1, new Comparable[t.length]);
@@ -128,7 +245,7 @@ So I'm curious to know how good the built-in sort is and whether my home-made so
   }
 ```
 
-# Quick Sort
+# Quick sort
 ```
   Comparable[] quickSort(Comparable[] t) {
     doQuickSort(t, 0, t.length-1);
@@ -190,6 +307,6 @@ From the chart we can see that all elementary sort methods start to struggle wit
 
 Admittedly, modern compiler and CPU are competitive enough for even elementary sort methods to handle array within 10K. In terms of code complexity and footprint, both Select Sort and Insert Sort have a straightforward code structure and easy to read, so they can be good candidates for non-resource-critical use. Shell Sort, however, has a rather complicated code and has the most significant performance issue and therefore should not be used unless in the special circumstance that most adjacent elements have a far distance.
 
-On the other hand, for large-scale applications, a decent sort method like Merge Sort or Quick Sort is the only choice when the sorting array consists of more than millions of data. Among these methods, Merge Sort falls behind when the data is over one million and Quick Sort manages to finish the sorting of one million within half a second.
+On the other hand, for large-scale applications, a decent sort method like Merge Sort or Quick Sort is the only choice when the sorting array consists of more than millions of data. Among these methods, Heap Sort has the least performance, Merge Sort falls behind when the data is over one million and Quick Sort manages to finish the sorting of one million within half a second.
 
 Another interesting finding is although the benchmark of JRE's built-in sort is stable for different inputs, it is beaten by my home-made Quick Sort when the size of incoming array is over one million. I did the same test several times and each time had the same conclusion.
