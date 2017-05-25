@@ -24,7 +24,11 @@ Implementation note: This implementation is a stable, adaptive, iterative merges
 I have checked another sort method's description:
 >Implementation note: The sorting algorithm is a Dual-Pivot Quicksort by Vladimir Yaroslavskiy, Jon Bentley, and Joshua Bloch. This algorithm offers O(n log(n)) performance on many data sets that cause other quicksorts to degrade to quadratic performance, and is typically faster than traditional (one-pivot) Quicksort implementations.
 
-So I'm curious to know how good the built-in sort is and whether my home-made sort can defeat it. It sounds like playing with AlphaGo, but I still decide to have a go. For the completeness, I include elementary sorting methods e.g. select sort, insert sort and shell sort, which have the performance of {% asset_img "o_n_2.png" "" %}, as well as more advanced sort e.g. merge sort and quick sort with the performance of {% asset_img "o_n_lgn.png" "" %}. Here is the detailed source code.
+So I'm curious to know how good the built-in sort is and whether my home-made sort can defeat it. It sounds like playing with AlphaGo, but I still decide to have a go. For the completeness, I include elementary sorting methods e.g. select sort, insert sort and shell sort, which have the performance of 
+{% asset_img "o_n_2.png" "" %}, 
+as well as more advanced sort e.g. merge sort and quick sort with the performance of 
+{% asset_img "o_n_lgn.png" "" %}. 
+Here is the detailed source code.
 
 <!--more-->
 
@@ -87,29 +91,10 @@ So I'm curious to know how good the built-in sort is and whether my home-made so
 ```
 
 # Heap sort
-Heap sort relies on Priority Queue, which itself is not a straightforward and therefore increase the overheads of resource consumption during sorting. It makes it the least competitive among all advanced sorting methods.
+Heap sort relies on Priority Queue, which itself is not a straightforward and therefore increase the overheads of resource consumption during sorting. It makes it the least competitive among all advanced sorting methods. For the brevity, I won't post the full source code of Priority Queue:
 
 ```
 public class PriorityQueue {
-
-  private Comparator comparator;
-  private Comparable[] items;
-  private int lastIndex = 0;
-
-  public PriorityQueue(Comparator comparator, int size) {
-    this.comparator = comparator;
-    items = new Comparable[size+1];
-  }
-
-  public boolean isEmpty() {
-    return lastIndex == 0;
-  }
-
-  public void addAll(Comparable[] a) {
-    for (Comparable i: a) {
-      add(i);
-    }
-  }
 
   public void add(Comparable item) {
     if (lastIndex == items.length-1) {
@@ -184,11 +169,7 @@ public class PriorityQueue {
   private int parent(int index) {
     return index / 2;
   }
-}
-``` 
 
-With the availability of Priority Queue, heap sort is straightforward enough:
-```
   public static Comparable[] heapSort(Comparable[] a) {
     PriorityQueue pq = new PriorityQueue(MIN, a.length);
     pq.addAll(a);
@@ -201,6 +182,7 @@ With the availability of Priority Queue, heap sort is straightforward enough:
 
     return result;
   }
+}
 ```
 
 # Merge sort
