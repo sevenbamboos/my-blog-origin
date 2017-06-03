@@ -24,5 +24,11 @@ tags:
 # MVC evolved into MVP and MVVM 
 {% asset_img "MVP_MVVM.png" "MVP and MVVM" %}
 
+The point of MVP is to extract UI independent logic out of UI controller, while MVVM's effect is to decouple the dependency between view and view model, view and model
+
 # MVVM + Redux, Best Practice?
 {% asset_img "MVVM_Redux.png" "MVVM + Redux" %}
+
+# Reference
+[GUI Architectures](https://martinfowler.com/eaaDev/uiArchs.html)
+[MVC|MVP|MVVM](https://juejin.im/post/593021272f301e0058273468)
