@@ -128,4 +128,62 @@ To make things more complicated, `required init` could be quite confusing if we 
         }    
     }
 
+# weak, unowned and implicitly unwrapped optional
+Instead of garbage collector, Swift relies on Automatic Reference Counting (ARC) to release unused memory. It means reference objects need to be treated with caution to avoid memory leak.
 
+Take a look at an example of two classes that have part-of relationship. In UML terminology, it's called aggregation.
+
+    class Person {
+        let name: String
+        var pet: Pet?
+    }
+
+    class Pet {
+        let name: String
+        weak var master: Person? // weak is used to break reference cycle and represents the reference might be empty (optional)
+    }
+
+In addition to part-of relationship, if the reference can't be shared and two classes have the same lifespan, just as composition in UML, unowned should be used.   
+
+    class Person {
+        let name: String
+        var bankAccount: Account?
+    }
+
+    class Account {
+        let name: String
+        unowned let customer: Person // unowned reference will never be empty unless the host stops existing. So it won't be an optional
+    }
+
+In above two examples, at least from one side the reference can be optional. If not, we need to use implicitly unwrapped optional to help initialize the objects. Suppose an examinee receives his test report of IELTS. An examinee who takes the test will always have the test report and a test report always belongs to an examinee. 
+
+    class Examinee {
+        let name: String
+        var testReport: Report!
+        init(name: String, band: String) {
+            self.name = name
+            testReport = Report(band: band, examinee: self) // if not Report!, this is still in the first phase of init and therefore can't pass self
+        }
+    }
+
+    class Report {
+        let band: String
+        unowned let examinee: Examinee
+        init(band: String, examinee: Examinee) {
+            self.band = band
+            self.examinee = examinee
+        }
+    }    
+
+Closure can also capture references and therefore introduce reference cycle. To solve it, we should define capture list inside a closure.
+
+    class Host {
+        let name: String
+        var eventHandler: (AnyObject) {
+            [unowned self, weak delegate = self.delegate] (sender) in
+            self.name ... // to access property or method from host, self should be used
+        }
+    }
+
+# Reference
+[ARC in Swift official documentation](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html)
