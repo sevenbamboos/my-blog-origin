@@ -10,7 +10,7 @@ Tips and references from articles about web programming. It's called mind map no
 
 Keywords | Comment & Reference
 --- | ---
-Webpack Gulp | [Webpack 3 with Gulp][1]
+Webpack Gulp | [Comment](#webpack-babel), [Webpack 3 with Gulp][1]
 module.exports exports | [Comment](#module-exports)
 MVC MVP MVVM | [Comment](#mvp-mvvm), [iOS architecture][2], [MVVM + Redux][3], [mvc and cocoa][4], [mvc/mvp/mvvm][5]
 flatMap | [Comment](#flatMap) [flatMap][7]
@@ -21,6 +21,9 @@ console.log | [Comment](#console-log), [Javascript console][10]
 partial curry high order Lodash | [Comment](#high-order-lodash), [Higher order in Lodash][11]
 
 <!-- more -->
+
+# webpack babel
+To support ES experience feature, install babel-preset-stage-x (0...3), as well as babel-loader, babel-core, babel-preset-env, and add module configuration to webpack config file.
 
 # high order lodash
 partial returns a function that binds rest of arguments to its first argument.
