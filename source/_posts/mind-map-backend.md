@@ -17,10 +17,21 @@ bitwise operation | [is-power-of-2][4], [find-odd-number][5]
 greatest common divider | [introduction by comic][6]
 max difference within array | [introduction by comic][7]
 circular linked list detect | Given node length known [introduction by comic][8]
-project template | [link][9]
+js dependency | [Comment](#js-dependency) [a js project template][9]
 git merge rebase fixup autosquash feature branch | see my post "Feature Branch Workflow"
 
 <!-- more -->
+
+# js dependency
+Check current dependency with `npm ls --depth=0`
+
+Before introducing a new dependency, check the maturity with `npm view <package-name>`
+
+List outdated dependencies with `npm outdated`
+
+Analyse dependency usage with [depcheck](https://www.npmjs.com/package/depcheck)
+
+Run test on npm package with [Snyk](https://snyk.io/test?utm_source=risingstack_blog)
 
 # dynamic programming
 Regarding gold mine puzzle, the key is the generate function of `F(n, w) = max(F(n-1, w), F(n-1, w-p[n-1]) + g[n-1])`.
