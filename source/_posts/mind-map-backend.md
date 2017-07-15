@@ -19,8 +19,14 @@ max difference within array | [introduction by comic][7]
 circular linked list detect | Given node length known [introduction by comic][8]
 js dependency | [Comment](#js-dependency) [a js project template][9]
 git merge rebase fixup autosquash feature branch | see my post "Feature Branch Workflow"
+slf4j logback MDC | [Comment](#log)
 
 <!-- more -->
+
+# log
+Simple log facade for Java(slf4j) defines logger interface for log libraries like java logging, log4j and logback. Check its [manual](https://www.slf4j.org/manual.html) for details. Note to introduce dependency in maven, don't directly use slf4j API (but use their adapted packages with log implementation).
+
+Logback is the next generation of log4j. Use `log.debug("foo {}", bar);` to avoid concat string if logger level is higher than DEBUG. Also check Mapped Diagnostic Context [MDC](https://logback.qos.ch/manual/mdc.html) for the support of multi-thread, remote client request (e.g. servlet filter) and microservice.
 
 # js dependency
 Check current dependency with `npm ls --depth=0`
