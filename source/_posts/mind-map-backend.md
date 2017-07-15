@@ -1,7 +1,7 @@
 ---
 title: Mind Map of Backend
 date: 2017-07-05 11:09:56
-category: Mind Map
+categories: Mind Map
 ---
 
 Backend tends to have a totally different topics than Web (frontend). What's more, before putting too many items into "Mind Map of Web", creating a new mind-map slot for backend is quite reasonable. Additionally, classical topics about algorithm are also appropriate here for the reason of an obvious different focus from frontend. So all these facts bring about a new mind map for backend.  
@@ -17,6 +17,8 @@ bitwise operation | [is-power-of-2][4], [find-odd-number][5]
 greatest common divider | [introduction by comic][6]
 max difference within array | [introduction by comic][7]
 circular linked list detect | Given node length known [introduction by comic][8]
+project template | [link][9]
+git merge rebase fixup autosquash feature branch | see my post "Feature Branch Workflow"
 
 <!-- more -->
 
@@ -31,5 +33,6 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [5]: http://blog.jobbole.com/106521/ 
 [6]: http://blog.jobbole.com/106315/
 [7]: http://blog.jobbole.com/108594/ 
-[8]: http://blog.jobbole.com/106227/ 
+[8]: http://blog.jobbole.com/106227/
+[9]: https://github.com/wearehive/project-guidelines#readme  
 

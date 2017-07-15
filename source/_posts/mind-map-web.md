@@ -1,7 +1,7 @@
 ---
 title: Mind Map of Web
 date: 2017-07-01 17:09:56
-category: Mind Map
+categories: Mind Map
 ---
 
 Tips and references from articles about web programming. It's called mind map not because of the mind map drawing, but due to the similarity of the data structure "map". Given a keyword, I can find the read articles within a constant time (O(1)), just as `map.for(key:) -> <Value?>`.
