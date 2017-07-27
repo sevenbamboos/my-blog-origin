@@ -21,8 +21,24 @@ js dependency | [Comment](#js-dependency) [a js project template][9]
 git merge rebase fixup autosquash feature branch | see my post "Feature Branch Workflow"
 slf4j logback MDC kafka | [Comment](#log)
 https | [Introduction] [10]
+scala sbt configuration | [Comment](#scala-sbt-configuration)
 
 <!-- more -->
+
+# scala sbt configuration
+Use fast maven repo within GFW to install sbt:
+```
+// ~/.sbt/repositories
+[repositories]
+	local
+	aliyun-ivy: http://maven.aliyun.com/nexus/content/groups/public, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]  
+	aliyun-maven: http://maven.aliyun.com/nexus/content/groups/public
+```
+Make sure there is no space characters at the end of 'local'.
+
+If git port is blocked, switch to https to download scala/hello-world template via this [link](https://stackoverflow.com/questions/41465656/helloworld-example-sbt-new-sbt-scala-seed-g8-not-working)
+
+If for some reason sbt version is incorrect (which could block sbt from downloading dependent libraries), make change to <project-name>/project/build.properties
 
 # log
 Simple log facade for Java(slf4j) defines logger interface for log libraries like java logging, log4j and logback. Check its [manual](https://www.slf4j.org/manual.html) for details. Note to introduce dependency in maven, don't directly use slf4j API (but use their adapted packages with log implementation).
