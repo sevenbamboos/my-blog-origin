@@ -20,8 +20,20 @@ circular linked list detect | Given node length known [introduction by comic][8]
 js dependency | [Comment](#js-dependency) [a js project template][9]
 git merge rebase fixup autosquash feature branch | see my post "Feature Branch Workflow"
 slf4j logback MDC | [Comment](#log)
+CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4j | [Comment](#cap-nosql)
 
 <!-- more -->
+
+# cap nosql
+In the absence of network failure, both consistency and availability can be satisfied. On the other hand, in the presence of network partition, distributed system has to choose between consistency and availability. 
+
+Note that CAP is not saying of choosing two of three. No trade-off when no network issues, though for large scale distributed systems network partition can't be avoided.
+
+No matter which to choose, reconciliation should be made via Eventual Consistency, which serves the fundamental of many NoSQL databases.
+
+HBase: distributed hashmap
+MongoDB: distributed json
+Redis: distributed hashmap in memory
 
 # log
 Simple log facade for Java(slf4j) defines logger interface for log libraries like java logging, log4j and logback. Check its [manual](https://www.slf4j.org/manual.html) for details. Note to introduce dependency in maven, don't directly use slf4j API (but use their adapted packages with log implementation).
