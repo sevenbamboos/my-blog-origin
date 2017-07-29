@@ -30,7 +30,7 @@ git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 [kdiff3](https://sourceforge.net/projects/kdiff3/) is a cross-platform  3-way merge tool. To configure it with git, run:
 ```
 $ git config --global merge.tool kdiff3
-$ git config --global mergetool.kdiff3.path "<path-to-kdiff3>"
+$ git config --global mergetool.kdiff3.path <path-to-kdiff3>
 // it will generate the following contents in ~/.gitconfig
 [merge]
 	tool = kdiff3
