@@ -22,9 +22,21 @@ git merge rebase fixup autosquash feature branch | see my post "Feature Branch W
 slf4j logback MDC kafka | [Comment](#log)
 CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4j | [Comment](#cap-nosql)
 https | [Introduction] [10]
-scala sbt configuration | [Comment](#scala-sbt-configuration)
+git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 
 <!-- more -->
+
+# git mergetool kdiff3
+[kdiff3](https://sourceforge.net/projects/kdiff3/) is a cross-platform  3-way merge tool. To configure it with git, run:
+```
+$ git config --global merge.tool kdiff3
+$ git config --global mergetool.kdiff3.path "<path-to-kdiff3>"
+// it will generate the following contents in ~/.gitconfig
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+```
 
 # cap nosql
 In the absence of network failure, both consistency and availability can be satisfied. On the other hand, in the presence of network partition, distributed system has to choose between consistency and availability. 
@@ -36,21 +48,6 @@ No matter which to choose, reconciliation should be made via Eventual Consistenc
 HBase: distributed hashmap
 MongoDB: distributed json
 Redis: distributed hashmap in memory
-
-# scala sbt configuration
-Use fast maven repo within GFW to install sbt:
-```
-// ~/.sbt/repositories
-[repositories]
-	local
-	aliyun-ivy: http://maven.aliyun.com/nexus/content/groups/public, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]  
-	aliyun-maven: http://maven.aliyun.com/nexus/content/groups/public
-```
-Make sure there is no space characters at the end of 'local'.
-
-If git port is blocked, switch to https to download scala/hello-world template via this [link](https://stackoverflow.com/questions/41465656/helloworld-example-sbt-new-sbt-scala-seed-g8-not-working)
-
-If for some reason sbt version is incorrect (which could block sbt from downloading dependent libraries), make change to <project-name>/project/build.properties
 
 # log
 Simple log facade for Java(slf4j) defines logger interface for log libraries like java logging, log4j and logback. Check its [manual](https://www.slf4j.org/manual.html) for details. Note to introduce dependency in maven, don't directly use slf4j API (but use their adapted packages with log implementation).
