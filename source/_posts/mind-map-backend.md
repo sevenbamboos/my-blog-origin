@@ -18,7 +18,7 @@ greatest common divider | [introduction by comic][6]
 max difference within array | [introduction by comic][7]
 circular linked list detect | Given node length known [introduction by comic][8]
 js dependency | [Comment](#js-dependency) [a js project template][9]
-git merge rebase fixup autosquash feature branch | see my post "Feature Branch Workflow"
+git merge rebase fixup autosquash feature branch | see my post "Feature Branch Workflow", [cheat-sheet][11]
 slf4j logback MDC kafka | [Comment](#log)
 https | [Introduction] [10]
 scala sbt configuration | [Comment](#scala-sbt-configuration)
@@ -72,3 +72,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [8]: http://blog.jobbole.com/106227/
 [9]: https://github.com/wearehive/project-guidelines#readme  
 [10]: https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA 
+[11]: https://sentheon.com/blog/git-cheat-sheet.html 
