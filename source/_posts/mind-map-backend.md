@@ -23,6 +23,8 @@ slf4j logback MDC kafka | [Comment](#log)
 CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4j | [Comment](#cap-nosql)
 https | [Introduction] [10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
+dash zeal mac | [zeal on mac][12]
+
 
 <!-- more -->
 
@@ -82,3 +84,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [9]: https://github.com/wearehive/project-guidelines#readme  
 [10]: https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA 
 [11]: https://sentheon.com/blog/git-cheat-sheet.html 
+[12]: http://mazhuang.org/2016/01/16/build-zeal-for-mac-osx/
