@@ -24,6 +24,7 @@ CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4
 https | [Introduction] [10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
+scala resource | [lots of resources[14]
 
 
 <!-- more -->
@@ -86,3 +87,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [11]: https://sentheon.com/blog/git-cheat-sheet.html 
 [12]: https://sspai.com/post/39951 
 [13]: https://sspai.com/post/34411
+[14]: https://github.com/lauris/awesome-scala 
