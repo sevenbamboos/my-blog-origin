@@ -25,9 +25,34 @@ https | [Introduction] [10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
 scala resource | [lots of resources[14]
+java nio | [Comment](#java-nio)
+java concurrency | [Comment](#java-concurrency)
 
 
 <!-- more -->
+
+# java concurrency 
+Singleton in double-checked locking [A]: 1) synchronized on getInstance is unnecessary for the case of initialized instance and therefore inefficient; 2) a nest synchronized block of the first null check on the singleton class, containing the second null check; 3) add volatile modifier to instance property to prevent other threads from seeing half-initialized instance (also see happen-before guarantee). 
+happen-before guarantee [A]: Without it, CPU won't guarantee changed variable is written to memory (so that other threads can see it) in the order of statement in source code. Thread.start and join have this guarantee so that statements happen before are ensured to be available in main memory.  
+Singleton in Enum [A]: thread-safety guarantee by JVM and working in case of serialization
+
+CAS [A]: Compare-And-Swap, the fundamental of non-blocking algorithm. Compare the value with the expected one and give up setting to the new value if the compare fails. CPU provides instruction for CAS, resulting better performance over synchronized lock in most cases. Also see Java's atomic types, which are used by many concurrent classes.
+aThread.join [A]: The current thread blocks until 'aThread' terminates.
+Reentrant Synchronization [A]: A thread can acquire a lock that it already owns.
+
+# java nio
+Types of Channel [A]: File, TCP and UDP; normal(blocking) and asynchronous
+Transfer between channels [A]: FileChannel.transferFrom and transerTo are more efficient than read&write since it can rely on file system cache without copy operation.
+Transfer between threads with Pipe [A]: Thread A writes data to Pipe.SinkChannel, which then sends the data to Pipe.SourceChannel which can be read by Thread B.
+Channel and Buffer [A]: For inbound, data reads from Channel and is put in Buffer; for outbound, Channel gets data from Buffer.
+Channel and Selector [A]: For non-blocking channels, multiple channels can register with a selector for events like connect, accept, read and write. Selector.select(it's blocking) returns the number of channels that have events. Selector.selectedKeys is used to iterate these events. 
+
+Capacity, limit and position of Buffer [A]: Invariant: 0 <= mark <= position <= limit <= capacity 
+Buffer clear [A]: position <- 0; limit <- capacity. (ready for put operations)
+Buffer flip [A]: limit <- position; position <- 0. (ready for get operations)
+Buffer rewind [A]: position <- 0. (for re-reading)
+Buffer mark and reset [A]: mark keeps a position so that later reset can restore to this position.
+Java io vs nio [A]: Stream doesn't provide a built-in buffer, and is blocking but can simplify data processing, while Channel and Buffer need more control over buffered data. Another difference is the possibility of non-blocking operation in nio. Two ways to invoke asynchronous operation: one is Future(though Future.get is blocking), the other is via callback.
 
 # git mergetool kdiff3
 [kdiff3](https://sourceforge.net/projects/kdiff3/) is a cross-platform  3-way merge tool. To configure it with git, run:
