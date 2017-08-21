@@ -39,6 +39,16 @@ Singleton in Enum [A]: thread-safety guarantee by JVM and working in case of ser
 CAS [A]: Compare-And-Swap, the fundamental of non-blocking algorithm. Compare the value with the expected one and give up setting to the new value if the compare fails. CPU provides instruction for CAS, resulting better performance over synchronized lock in most cases. Also see Java's atomic types, which are used by many concurrent classes.
 aThread.join [A]: The current thread blocks until 'aThread' terminates.
 Reentrant Synchronization [A]: A thread can acquire a lock that it already owns.
+Java Memory Model [A]: 1) Each thread has its own stack, containing local primitives and object references, while object instances are kept in shared heap. 2) On the other hand, each CPU has its own registers and cache, which keep changed value and sync with the main memory from time to time. 3) Therefore without volatile and synchronized lock, the changed value made by one CPU may be invisible to other CPU.
+BlockingQueue & BlockingDeque [A]: It provides operations in 4 ways: throw runtime exceptions; return special value; blocking; return after timeout.
+ConcurrentMap [A]: It has multiple table buckets, write operation locks only one bucket and read operation doesn't block.
+When volatile is enough [A]: In case only one thread updates the value while other threads are reading the value.
+ExecutorService [A]: Executors as a factory can generate multiple ExecutorService like normal thread pool, scheduled thread pool and ForkJoinPool. It can accept(submit) Runnable or Callable tasks and manage lifecycle of these tasks via shutDown and awaitTermination.   
+ForkJoinPool(FJP) [A]: Threads in the pool try to execute submitted tasks. execute is fire-and-forget style; invoke is blocking; submit returns ForkJoinTask.
+ForkJoinTask [A]: A lightweight form of Future for tasks running within FJP. fork starts execution and join wait for the result. The efficiency comes from the use of pure function and isolated objects as the computation.
+CopyOnWrite(COW) [A]: Copy internal data on mutate operation, and no lock on read-only operation. Suitable for the case that mutate operation happens much less than read. What's more, it's better to support batch mode for mutate operation. 
+CompletableFuture [A]: Promise in Java available from Java 8.
+Lock vs synchronized bloc [A]: lock acquire and release should be put in try-final block, while synchronization has no such an issue.
 
 # java nio
 Types of Channel [A]: File, TCP and UDP; normal(blocking) and asynchronous
