@@ -27,6 +27,7 @@ flashcard with Anki and Studies | [Anki][12] [Studies][13]
 scala resource | [lots of resources[14]
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
+linux command | [commands][15]
 
 
 <!-- more -->
@@ -123,3 +124,5 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [12]: https://sspai.com/post/39951 
 [13]: https://sspai.com/post/34411
 [14]: https://github.com/lauris/awesome-scala 
+[15]: https://zhuanlan.zhihu.com/p/28674639
+
