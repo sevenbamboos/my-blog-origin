@@ -28,7 +28,7 @@ scala resource | [lots of resources[14]
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
-
+disk clean (for Mac) | [16]
 
 <!-- more -->
 
@@ -125,4 +125,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [13]: https://sspai.com/post/34411
 [14]: https://github.com/lauris/awesome-scala 
 [15]: https://zhuanlan.zhihu.com/p/28674639
-
+[16]: https://sspai.com/post/40503
