@@ -28,7 +28,7 @@ scala resource | [lots of resources[14]
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
-disk clean (for Mac) | [16]
+disk clean (for Mac) | [link][16]
 
 <!-- more -->
 
