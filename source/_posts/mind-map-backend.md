@@ -21,10 +21,10 @@ js dependency | [Comment](#js-dependency) [a js project template][9]
 git merge rebase fixup autosquash feature branch | see my post "Feature Branch Workflow", [cheat-sheet][11]
 slf4j logback MDC kafka | [Comment](#log)
 CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4j | [Comment](#cap-nosql)
-https | [Introduction] [10]
+https | [Introduction][10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
-scala resource | [lots of resources[14]
+scala | [Comment](#scala-tip), [resources][14], [a blog][17], [reader monad][18]
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
@@ -32,38 +32,50 @@ disk clean (for Mac) | [link][16]
 
 <!-- more -->
 
-# java concurrency 
-Singleton in double-checked locking [A]: 1) synchronized on getInstance is unnecessary for the case of initialized instance and therefore inefficient; 2) a nest synchronized block of the first null check on the singleton class, containing the second null check; 3) add volatile modifier to instance property to prevent other threads from seeing half-initialized instance (also see happen-before guarantee). 
-happen-before guarantee [A]: Without it, CPU won't guarantee changed variable is written to memory (so that other threads can see it) in the order of statement in source code. Thread.start and join have this guarantee so that statements happen before are ensured to be available in main memory.  
-Singleton in Enum [A]: thread-safety guarantee by JVM and working in case of serialization
+# scala tip
+Question | Answer
+--- | ---
+compose, andThen | f _ compose g _ //=> f(g()); f _ andThen g _ //=> g(f())
+curried and Dependency Injection(DI) | minusCu = minus.curried //Int=>Int=>Int; minusCu(5)(2) //=3; Curried function can be used for DI, especially with implicit parameter. To avoid to give implicit dependency to each function, Reader monad comes to help. 
+Explicitly Typed Self References | this: Foo with Bar => // this trait/class/object must extend from Foo and Bar, so that this can use code in Foo and Bar (without explicit dependency of type if this is abstract class or trait). In Cake Pattern (great way for DI), it's used in service that declares dependency to other services.
+Structural typing (AKA Duck typing) | def greet(duck: {def quack(s: String): String}) = duck.quack(s"Hello ${duck.quack("Joe")}") // not only method, also include val. Multiple items can be separated with ; or new line. Also a great way for DI (see [link][19] for other ways of DI in scala).
+Partially applied function | minusBy2 = minus(_:Int,2); minusFunc = minus _ 
+PartialFunction | val int2bool: PartialFunction[Int, Boolean] = {case 0 => false; case 1 => true}; int2bool.isDefinedAt(2) //=> false
 
-CAS [A]: Compare-And-Swap, the fundamental of non-blocking algorithm. Compare the value with the expected one and give up setting to the new value if the compare fails. CPU provides instruction for CAS, resulting better performance over synchronized lock in most cases. Also see Java's atomic types, which are used by many concurrent classes.
-aThread.join [A]: The current thread blocks until 'aThread' terminates.
-Reentrant Synchronization [A]: A thread can acquire a lock that it already owns.
-Java Memory Model [A]: 1) Each thread has its own stack, containing local primitives and object references, while object instances are kept in shared heap. 2) On the other hand, each CPU has its own registers and cache, which keep changed value and sync with the main memory from time to time. 3) Therefore without volatile and synchronized lock, the changed value made by one CPU may be invisible to other CPU.
-BlockingQueue & BlockingDeque [A]: It provides operations in 4 ways: throw runtime exceptions; return special value; blocking; return after timeout.
-ConcurrentMap [A]: It has multiple table buckets, write operation locks only one bucket and read operation doesn't block.
-When volatile is enough [A]: In case only one thread updates the value while other threads are reading the value.
-ExecutorService [A]: Executors as a factory can generate multiple ExecutorService like normal thread pool, scheduled thread pool and ForkJoinPool. It can accept(submit) Runnable or Callable tasks and manage lifecycle of these tasks via shutDown and awaitTermination.   
-ForkJoinPool(FJP) [A]: Threads in the pool try to execute submitted tasks. execute is fire-and-forget style; invoke is blocking; submit returns ForkJoinTask.
-ForkJoinTask [A]: A lightweight form of Future for tasks running within FJP. fork starts execution and join wait for the result. The efficiency comes from the use of pure function and isolated objects as the computation.
-CopyOnWrite(COW) [A]: Copy internal data on mutate operation, and no lock on read-only operation. Suitable for the case that mutate operation happens much less than read. What's more, it's better to support batch mode for mutate operation. 
-CompletableFuture [A]: Promise in Java available from Java 8.
-Lock vs synchronized bloc [A]: lock acquire and release should be put in try-final block, while synchronization has no such an issue.
+# java concurrency 
+Question | Answer
+--- | ---
+Singleton in double-checked locking | 1) synchronized on getInstance is unnecessary for the case of initialized instance and therefore inefficient; 2) a nest synchronized block of the first null check on the singleton class, containing the second null check; 3) add volatile modifier to instance property to prevent other threads from seeing half-initialized instance (also see happen-before guarantee). 
+happen-before guarantee | Without it, CPU won't guarantee changed variable is written to memory (so that other threads can see it) in the order of statement in source code. Thread.start and join have this guarantee so that statements happen before are ensured to be available in main memory.  
+Singleton in Enum | thread-safety guarantee by JVM and working in case of serialization
+CAS | Compare-And-Swap, the fundamental of non-blocking algorithm. Compare the value with the expected one and give up setting to the new value if the compare fails. CPU provides instruction for CAS, resulting better performance over synchronized lock in most cases. Also see Java's atomic types, which are used by many concurrent classes.
+aThread.join | The current thread blocks until 'aThread' terminates.
+Reentrant Synchronization | A thread can acquire a lock that it already owns.
+Java Memory Model | 1) Each thread has its own stack, containing local primitives and object references, while object instances are kept in shared heap. 2) On the other hand, each CPU has its own registers and cache, which keep changed value and sync with the main memory from time to time. 3) Therefore without volatile and synchronized lock, the changed value made by one CPU may be invisible to other CPU.
+BlockingQueue & BlockingDeque | It provides operations in 4 ways: throw runtime exceptions; return special value; blocking; return after timeout.
+ConcurrentMap | It has multiple table buckets, write operation locks only one bucket and read operation doesn't block.
+When volatile is enough | In case only one thread updates the value while other threads are reading the value.
+ExecutorService | Executors as a factory can generate multiple ExecutorService like normal thread pool, scheduled thread pool and ForkJoinPool. It can accept(submit) Runnable or Callable tasks and manage lifecycle of these tasks via shutDown and awaitTermination.   
+ForkJoinPool(FJP) | Threads in the pool try to execute submitted tasks. execute is fire-and-forget style; invoke is blocking; submit returns ForkJoinTask.
+ForkJoinTask | A lightweight form of Future for tasks running within FJP. fork starts execution and join wait for the result. The efficiency comes from the use of pure function and isolated objects as the computation.
+CopyOnWrite(COW) | Copy internal data on mutate operation, and no lock on read-only operation. Suitable for the case that mutate operation happens much less than read. What's more, it's better to support batch mode for mutate operation. 
+CompletableFuture | Promise in Java available from Java 8.
+Lock vs synchronized bloc | lock acquire and release should be put in try-final block, while synchronization has no such an issue.
 
 # java nio
-Types of Channel [A]: File, TCP and UDP; normal(blocking) and asynchronous
-Transfer between channels [A]: FileChannel.transferFrom and transerTo are more efficient than read&write since it can rely on file system cache without copy operation.
-Transfer between threads with Pipe [A]: Thread A writes data to Pipe.SinkChannel, which then sends the data to Pipe.SourceChannel which can be read by Thread B.
-Channel and Buffer [A]: For inbound, data reads from Channel and is put in Buffer; for outbound, Channel gets data from Buffer.
-Channel and Selector [A]: For non-blocking channels, multiple channels can register with a selector for events like connect, accept, read and write. Selector.select(it's blocking) returns the number of channels that have events. Selector.selectedKeys is used to iterate these events. 
-
-Capacity, limit and position of Buffer [A]: Invariant: 0 <= mark <= position <= limit <= capacity 
-Buffer clear [A]: position <- 0; limit <- capacity. (ready for put operations)
-Buffer flip [A]: limit <- position; position <- 0. (ready for get operations)
-Buffer rewind [A]: position <- 0. (for re-reading)
-Buffer mark and reset [A]: mark keeps a position so that later reset can restore to this position.
-Java io vs nio [A]: Stream doesn't provide a built-in buffer, and is blocking but can simplify data processing, while Channel and Buffer need more control over buffered data. Another difference is the possibility of non-blocking operation in nio. Two ways to invoke asynchronous operation: one is Future(though Future.get is blocking), the other is via callback.
+Question | Answer
+--- | ---
+Types of Channel | File, TCP and UDP; normal(blocking) and asynchronous
+Transfer between channels | FileChannel.transferFrom and transerTo are more efficient than read&write since it can rely on file system cache without copy operation.
+Transfer between threads with Pipe | Thread A writes data to Pipe.SinkChannel, which then sends the data to Pipe.SourceChannel which can be read by Thread B.
+Channel and Buffer | For inbound, data reads from Channel and is put in Buffer; for outbound, Channel gets data from Buffer.
+Channel and Selector | For non-blocking channels, multiple channels can register with a selector for events like connect, accept, read and write. Selector.select(it's blocking) returns the number of channels that have events. Selector.selectedKeys is used to iterate these events. 
+Capacity, limit and position of Buffer | Invariant: 0 <= mark <= position <= limit <= capacity 
+Buffer clear | position <- 0; limit <- capacity. (ready for put operations)
+Buffer flip | limit <- position; position <- 0. (ready for get operations)
+Buffer rewind | position <- 0. (for re-reading)
+Buffer mark and reset | mark keeps a position so that later reset can restore to this position.
+Java io vs nio | Stream doesn't provide a built-in buffer, and is blocking but can simplify data processing, while Channel and Buffer need more control over buffered data. Another difference is the possibility of non-blocking operation in nio. Two ways to invoke asynchronous operation: one is Future(though Future.get is blocking), the other is via callback.
 
 # git mergetool kdiff3
 [kdiff3](https://sourceforge.net/projects/kdiff3/) is a cross-platform  3-way merge tool. To configure it with git, run:
@@ -126,3 +138,6 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [14]: https://github.com/lauris/awesome-scala 
 [15]: https://zhuanlan.zhihu.com/p/28674639
 [16]: https://sspai.com/post/40503
+[17]: http://danielwestheide.com/scala/neophytes.html 
+[18]: http://blog.originate.com/blog/2013/10/21/reader-monad-for-dependency-injection/ 
+[19]: http://jonasboner.com/real-world-scala-dependency-injection-di/ 
