@@ -40,7 +40,14 @@ curried and Dependency Injection(DI) | minusCu = minus.curried //Int=>Int=>Int; 
 Explicitly Typed Self References | this: Foo with Bar => // this trait/class/object must extend from Foo and Bar, so that this can use code in Foo and Bar (without explicit dependency of type if this is abstract class or trait). In Cake Pattern (great way for DI), it's used in service that declares dependency to other services.
 Structural typing (AKA Duck typing) | def greet(duck: {def quack(s: String): String}) = duck.quack(s"Hello ${duck.quack("Joe")}") // not only method, also include val. Multiple items can be separated with ; or new line. Also a great way for DI (see [link][19] for other ways of DI in scala).
 Partially applied function | minusBy2 = minus(_:Int,2); minusFunc = minus _ 
-PartialFunction | val int2bool: PartialFunction[Int, Boolean] = {case 0 => false; case 1 => true}; int2bool.isDefinedAt(2) //=> false
+PartialFunction | val int2bool: PartialFunction[Int, Boolean] = {case 0 => false; case 1 => true}; int2bool.isDefinedAt(2) //=> false 
+
+//not included in quizlet
+isInstanceOf | scala.Any::isInstanceOf[T] vs Java's version: static <T> boolean isInstanceOf(Class<T> t, Object obj) {return t.isAssignableFrom(obj.getClass());}
+apply in class and object | In class, it serves as method, while in object it's a smart constructor. For example in List, apply(index: Int):T and apply(xs: T*): List[T]
+Try::toOption | def get(i: Int): Option[T] = Try(lst(i)).toOption // in case i is an illegal index, it's handy to avoid length check. Internally, apply accepts by-name parameter (treated as () -> T, lazy evaluated), and wraps it with try-catch.
+Map(1->"a",2->"b") and get | -> is defined in Predef to return Tuple2. Map's apply accepts multiple Tuple2. Note Map::apply(key) returns Value while Map::get(key) returns Option, which can avoid NoSuchElementException 
+Pattern match vs for comprehension | Suppose fn and ln are both Option, for (f <- fn; l <- ln) yield (f,l) //return Option[Tuple2]; (fn, ln) match {case (Some(f),Some(l)) => ...; case _ => None} // more elegant
 
 # java concurrency 
 Question | Answer
