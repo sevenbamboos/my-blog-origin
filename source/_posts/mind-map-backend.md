@@ -25,12 +25,30 @@ https | [Introduction][10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
 scala | [Comment](#scala-tip), [resources][14], [a blog][17], [reader monad][18]
+playframework | [Comment](#playframework) 
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
 disk clean (for Mac) | [link][16]
 
 <!-- more -->
+
+# playframework
+Configure sbt repositories. maven-central is fallback in case other repositories have invalid-hash-value error. 
+```
+[repositories]
+	local
+	aliyun-ivy: http://maven.aliyun.com/nexus/content/groups/public, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]  
+	aliyun-maven: http://maven.aliyun.com/nexus/content/groups/public 
+	typesafe: http://repo.typesafe.com/typesafe/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext], bootOnly
+	sbt-plugins-repo: http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+	play: http://private-repo.typesafe.com/typesafe/maven-releases/
+	sonatype-snapshots: https://oss.sonatype.org/content/repositories/snapshots
+	typesafe-releases: https://repo.typesafe.com/typesafe/releases
+	typesafe-maven-releases: http://repo.typesafe.com/typesafe/maven-releases/
+	typesafe-ivy-releasez: https://repo.typesafe.com/typesafe/ivy-releases, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+	maven-central
+```
 
 # scala tip
 Question | Answer
@@ -41,8 +59,6 @@ Explicitly Typed Self References | this: Foo with Bar => // this trait/class/obj
 Structural typing (AKA Duck typing) | def greet(duck: {def quack(s: String): String}) = duck.quack(s"Hello ${duck.quack("Joe")}") // not only method, also include val. Multiple items can be separated with ; or new line. Also a great way for DI (see [link][19] for other ways of DI in scala).
 Partially applied function | minusBy2 = minus(_:Int,2); minusFunc = minus _ 
 PartialFunction | val int2bool: PartialFunction[Int, Boolean] = {case 0 => false; case 1 => true}; int2bool.isDefinedAt(2) //=> false 
-
-//not included in quizlet
 isInstanceOf | scala.Any::isInstanceOf[T] vs Java's version: static <T> boolean isInstanceOf(Class<T> t, Object obj) {return t.isAssignableFrom(obj.getClass());}
 apply in class and object | In class, it serves as method, while in object it's a smart constructor. For example in List, apply(index: Int):T and apply(xs: T*): List[T]
 Try::toOption | def get(i: Int): Option[T] = Try(lst(i)).toOption // in case i is an illegal index, it's handy to avoid length check. Internally, apply accepts by-name parameter (treated as () -> T, lazy evaluated), and wraps it with try-catch.
