@@ -25,16 +25,18 @@ https | [Introduction][10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
 scala | [Comment](#scala-tip), [resources][14], [a blog][17], [reader monad][18]
-playframework | [Comment](#playframework) 
+sbt | [Comment](#sbt-repositories) 
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
 disk clean (for Mac) | [link][16]
+e-book site (for IT) | [link][20], [link][21]
 
 <!-- more -->
 
-# playframework
-Configure sbt repositories. maven-central is fallback in case other repositories have invalid-hash-value error. 
+# sbt repositories
+~/.sbt/repositories
+Please note that maven-central is fallback in case other repositories have invalid-hash-value error. aliyun is for fast-access in China.
 ```
 [repositories]
 	local
@@ -164,3 +166,5 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [17]: http://danielwestheide.com/scala/neophytes.html 
 [18]: http://blog.originate.com/blog/2013/10/21/reader-monad-for-dependency-injection/ 
 [19]: http://jonasboner.com/real-world-scala-dependency-injection-di/ 
+[20]: http://www.finelybook.com/
+[21]: http://www.salttiger.com
