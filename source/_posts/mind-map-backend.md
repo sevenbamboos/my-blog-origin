@@ -24,7 +24,7 @@ CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4
 https | [Introduction][10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
-scala | [Comment](#scala-tip), [resources][14], [a blog][17], [reader monad][18]
+scala | [programming scala](#programming-scala), [scala tip](#scala-tip), [][resources][14], [a blog][17], [reader monad][18]
 sbt | [Comment](#sbt-repositories) 
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
@@ -50,6 +50,61 @@ Please note that maven-central is fallback in case other repositories have inval
 	typesafe-maven-releases: http://repo.typesafe.com/typesafe/maven-releases/
 	typesafe-ivy-releasez: https://repo.typesafe.com/typesafe/ivy-releases, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
 	maven-central
+```
+
+# programming scala
+TODO
+How to join other worker threads in the main thread?
+
+Question | Answer
+--- | ---
+Where to find API and source code | scala-lang.org has API documentation and source code link (to Github) on most pages
+How to REPL with SBT | sbt -> console will load the project in classpath. Ctrl-D or :quit to quit REPL mode from SBT
+How to check definitions in a class | javap (no way to see the implementation without source code?)
+How to define detailed messages (for Actor) | Put signals in an object like: object Messages { case object ...; case class ...; } (see source code 01)
+How to put multiple lines of code in one pattern match branch | No need to wrap them in {...} because => and the next `case` defines the boundary
+How to define an `init` message (for Actor) that won't be used in anywhere else | In the file of Actor, `private object Init` 
+When will `Future` start to execute | It starts after `Future.apply()`. No need to worry about when to get the result because it's always there inside the future instance (see source code 02)
+When explicit type annotation is needed | Scala does local type inference, so method parameters, return type of recursive and overloaded methods (which is disallowed for nested function) need type annotation. 
+Given a List[Int], how to call `def foo(is: Int*)` | foo(lst :_*) `:_*` is read as turning whatever (List?) to multiple variables
+How to use Java type whose name is a reverse word in Scala | back quotes e.g. java.util.Scanner.\`match\`
+How to format multi-line String | use """, |, and stripMargin (see source code 03)
+How to exclude a few types when doing import | `import xxxpackage.{ Foo => _, Bar => Foo }`
+How to group class, object and function so that they are available with one import | package object (see source code 04)
+When can't function be called with parentheses | For function having no parameters, if it's defined without parentheses, caller must invoke it WITHOUT parentheses. Otherwise, empty parentheses can be omitted. So a function without side-effects can be defined without parentheses.
+When can functions be called in a chain without => like `List(...) filter isEven foreach println` | Functions take a single argument
+
+```
+// source code 01
+object Messages {
+  object Exit
+  object Start
+  object Stop
+  case class Inbound(message: String)
+}
+
+// source code 02
+val aFuture: Future[Int] = Future {
+	// do the job
+}
+// aFuture starts to run in another thread
+aFuture foreach { res =>
+	// res is available here
+}
+
+// source code 03
+// | is the default leading char
+val s =
+	s"""First line
+	   |Second line
+	""".stripMargin
+
+// source code 04
+package samw.hl7
+package object api {
+	class {...}
+	def ...
+}
 ```
 
 # scala tip
