@@ -68,7 +68,7 @@ When will `Future` start to execute | It starts after `Future.apply()`. No need 
 When explicit type annotation is needed | Scala does local type inference, so method parameters, return type of recursive and overloaded methods (which is disallowed for nested function) need type annotation. 
 Given a List[Int], how to call `def foo(is: Int*)` | foo(lst :_*) `:_*` is read as turning whatever (List?) to multiple variables
 How to use Java type whose name is a reverse word in Scala | back quotes e.g. java.util.Scanner.\`match\`
-How to format multi-line String | use """, |, and stripMargin (see source code 03)
+How to format multi-line String | use """ and stripMargin (see source code 03)
 How to exclude a few types when doing import | `import xxxpackage.{ Foo => _, Bar => Foo }`
 How to group class, object and function so that they are available with one import | package object (see source code 04)
 When can't function be called with parentheses | For function having no parameters, if it's defined without parentheses, caller must invoke it WITHOUT parentheses. Otherwise, empty parentheses can be omitted. So a function without side-effects can be defined without parentheses.
