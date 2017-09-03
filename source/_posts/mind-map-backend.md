@@ -84,6 +84,15 @@ Whether do parentheses need for `if` guard in a case for pattern match | No. `if
 How to match elements from the end | `case rest :+ end => ...` Under the hood, :+ is an infix extractor, acted like :+(rest, end).
 How to deconstruct multiple elements (for sequence) | `case first +: second +: tail => ...` or `case Seq(first, second, _*) => ...`
 Is there any performance penalty for lazy values | Yes. There is a guard for each lazy value to check whether it has been initialized. So after the first time of initialization, the check becomes unnecessary for later use.
+How to bind variable to multiple parameters in pattern match | `case Foo(props @ _*) => ...`
+How to match Seq[T] for different T | Since generic T will be erased at runtime, workaround is to get head and do a nested match (see source code 08)
+How to define an abstract method (no side effects) in super type | `def aMethod: ReturnType` then sub-type has the freedom to use `val aMethod: ReturnType` as implementation, or even `case class SubType(aMethod: ReturnType)` Note there is no parentheses for aMethod in super type.
+Can PartialFunction be passed into map | Yes. `trait PartialFunction[A,B] extends (A) ⇒ B` Note to add default case otherwise there would be match error (at runtime)
+What does Predef.implicitly do | Take a type and make an implicit value, so that to save an implicit parameter. `def implicitly[T](implicit e: T) = e`
+How to class cast (and test cast) | Any::asInstanceOf[T] and Any::isInstanceOf[T]. Note generic type will be erased at runtime so better not involve it
+What is implicit classes | the class' primary constructor is available for implicit conversions when the class is in scope
+What's the difference between with or without val(var) in class constructor | Without val(var), variable is visible in class block but not as a property. case class can omit val(var) and still keep them as properties
+What is <:< | Provide evidence that for A <:< B (or written as <:<[A,B]), B is super type of A. (see TraversableOnce::toMap, evidence is implicit so no extra work but can enforce the type check by compiler) 
 
 ```
 // source code 01
@@ -143,6 +152,14 @@ doWhile(i > 0) {
 object Animal extends Enumeration {
 	type Animal = Value // 1) Value
 	val Dog, Cat, Pig = Value // 2) Value
+}
+
+// source code 08
+case Nil => ... // necessary to cover all cases
+case head +: _ => head match {
+	case type1: Type1 => ...
+	case type2: Type2 => ...
+	case _ => ...
 }
 ```
 
