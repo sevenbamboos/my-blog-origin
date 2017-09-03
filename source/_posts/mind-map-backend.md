@@ -55,6 +55,7 @@ Please note that maven-central is fallback in case other repositories have inval
 # programming scala
 TODO
 How to join other worker threads in the main thread?
+Implement Automatic Resource Manage (ARM) in Java
 
 Question | Answer
 --- | ---
@@ -73,6 +74,16 @@ How to exclude a few types when doing import | `import xxxpackage.{ Foo => _, Ba
 How to group class, object and function so that they are available with one import | package object (see source code 04)
 When can't function be called with parentheses | For function having no parameters, if it's defined without parentheses, caller must invoke it WITHOUT parentheses. Otherwise, empty parentheses can be omitted. So a function without side-effects can be defined without parentheses.
 When can functions be called in a chain without => like `List(...) filter isEven foreach println` | Functions take a single argument
+Overhead of duck typing | It needs reflection to find the method(property), and needs to import language.reflectiveCalls. On the other hand, it can support legacy (external) resource that is out of control of conforming to a trait (see source code 05)
+How to define a do-while block | 1) Use by-name (lazy) parameter for both guard and body to make sure they only get evaluated when being used; 2) If use recursive to achieve loop effect, annotate with tailrec; 3) Separate guard and body into two parameter lists so that it looks like a native loop (see source code 06)
+When to go for `scala.Enumeration` | It's lightweight compared to `case class`. Note it's an object, and needs `type foo=Value` to give it a type. Each value needs to be added via `Value` method (see source code 07)
+Is it possible to extend traits during creating objects | Yes. No need to define a sub-type with the traits in advance
+How to match a case with a variable defined outside match block | case \`variableOutside\` => ...
+Whether do parentheses need for `if` guard in a case for pattern match | No. `if` and `=>` provide the boundary.
+:: vs +: vs :+ | +: is for Seq, which is super type of List. :: is for List. +: is prepend while :+ is append. For List, :+ takes O(n) time to trave to the last element. For Vector which is IndexedSeq, :+ takes O(1)
+How to match elements from the end | `case rest :+ end => ...` Under the hood, :+ is an infix extractor, acted like :+(rest, end).
+How to deconstruct multiple elements (for sequence) | `case first +: second +: tail => ...` or `case Seq(first, second, _*) => ...`
+Is there any performance penalty for lazy values | Yes. There is a guard for each lazy value to check whether it has been initialized. So after the first time of initialization, the check becomes unnecessary for later use.
 
 ```
 // source code 01
@@ -104,6 +115,34 @@ package samw.hl7
 package object api {
 	class {...}
 	def ...
+}
+
+// source code 05
+import scala.language.reflectiveCalls
+def clearAll(ts: {def clear(): Unit}*) = {
+	ts.foreach(_.clear())
+}
+def clear[T <: Clearable] (ts: T*) = {
+	ts.foreach(_.clear())
+}
+
+// source code 06
+@annotation.tailrec
+def doWhile(guard: => Boolean)(body: => Unit): Unit = {
+	if (guard) {
+		body
+		doWhile(guard)(body)
+	}
+}
+
+doWhile(i > 0) {
+	//...
+}
+
+// source code 07
+object Animal extends Enumeration {
+	type Animal = Value // 1) Value
+	val Dog, Cat, Pig = Value // 2) Value
 }
 ```
 
