@@ -93,6 +93,8 @@ How to class cast (and test cast) | Any::asInstanceOf[T] and Any::isInstanceOf[T
 What is implicit classes | the class' primary constructor is available for implicit conversions when the class is in scope
 What's the difference between with or without val(var) in class constructor | Without val(var), variable is visible in class block but not as a property. case class can omit val(var) and still keep them as properties
 What is <:< | Provide evidence that for A <:< B (or written as <:<[A,B]), B is super type of A. (see TraversableOnce::toMap, evidence is implicit so no extra work but can enforce the type check by compiler) 
+What is scala.util.control.TailCalls | Make recursive calls on the heap instead of the stack. (see source code in ScalaDoc for fib with tailcall)
+How to invoke function of argument list with a tuple | Function.tupled[a1,a2,b](f: (a1,a2)=>b): ((a1,a2)) => b // there are more tupled for more parameter (as well as untupled)
 
 ```
 // source code 01
