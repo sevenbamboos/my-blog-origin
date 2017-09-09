@@ -95,6 +95,8 @@ What's the difference between with or without val(var) in class constructor | Wi
 What is <:< | Provide evidence that for A <:< B (or written as <:<[A,B]), B is super type of A. (see TraversableOnce::toMap, evidence is implicit so no extra work but can enforce the type check by compiler) 
 How to overload functions just with different parameter types | Create implicit objects for different types and add an implicit argument list with type object at the end of function (see source code 09).
 What is type class pattern and when to use it | ad hoc polymorphism, that is add capability to existing classes (see source code 10). Use it when only a few of classes need a particular behavior. If a function takes a list of objects in different types, only one implicit class would be passed in. If we therefore implement the behavior for multiple types in one implicit class, it leads to an ugly solution. 
+What is scala.util.control.TailCalls | Make recursive calls on the heap instead of the stack. (see source code in ScalaDoc for fib with tailcall)
+How to invoke function of argument list with a tuple | Function.tupled[a1,a2,b](f: (a1,a2)=>b): ((a1,a2)) => b // there are more tupled for more parameter (as well as untupled)
 
 ```
 // source code 01
