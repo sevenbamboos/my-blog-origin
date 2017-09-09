@@ -97,6 +97,17 @@ How to overload functions just with different parameter types | Create implicit 
 What is type class pattern and when to use it | ad hoc polymorphism, that is add capability to existing classes (see source code 10). Use it when only a few of classes need a particular behavior. If a function takes a list of objects in different types, only one implicit class would be passed in. If we therefore implement the behavior for multiple types in one implicit class, it leads to an ugly solution. 
 What is scala.util.control.TailCalls | Make recursive calls on the heap instead of the stack. (see source code in ScalaDoc for fib with tailcall)
 How to invoke function of argument list with a tuple | Function.tupled[a1,a2,b](f: (a1,a2)=>b): ((a1,a2)) => b // there are more tupled for more parameter (as well as untupled)
+How to turn PartialFunction to a full function | PartialFunction::lift() // MatchError will become Option
+How to overwrite type defined in Predef | Use a type alias and a val as a companion object for its apply (see source code 11)
+How to implement fib with Stream | BigInt(0) #:: BigInt(2) #:: fibs.zip(fibs.tail).map { n => n._1 + n._2 } 
+What's the point to have both reduceRight and reduceLeft | reduceLeft supports tail recursive, while reduceRight can handle infinite lazy stream. reduceLeft => rl(f(head) +: accum, tail) => ((1+2)+3)+4; reduceRight => f(head) +: rR(tail)(f) => 1+(2+(3+4)) 
+What is persistent data structure | It can keep the previous state after being modified. For binary search tree (BST), each change to one node will also change at most log(n) nodes (along the path from the changed node to the topmost)
+How many times of iteration for chained map and filter | Intermediate operations will be combined and evaluated in one iteration until a terminal operation like reduce. 
+What is universal trait | Derive from `Any`, including methods only and the implementation has no initialization of its own. If the trait is used as type parameter(generic) or function signature, the wrapper will be allocated (in heap). (see source code 12) 
+What is value class | Has to be top-level type, only one val argument, no secondary constructors, only methods, can't override equals and hashCode, inherit from universal trait. As a wrapper, it's not necessary to allocate itself in heap. (see source code 12)
+How to define unary method | def unary_X : ... // X is the unary operation and put a space between operation and :
+When to use inheritance | Concrete class should never be subclassed unless for mixing orthogonal behaviors or unit testing; never split logical state (e.g. related to hashcode or equality) across parent-child boundary.
+How to mix traits when creating object | `val foo = new Foo() with BarTrait` // not extends here
 
 ```
 // source code 01
@@ -183,6 +194,26 @@ implicit class Bar2Json(bar: Bar) {
 }
 println(new Foo(...).toJson)
 println(new Bar(...).toJson)
+
+// source code 11
+package util
+package object datastructs {
+  type Seq[+A] = scala.collection.immutable.Seq[A]
+  val Seq = scala.collection.immutable.Seq
+}
+// import util.datastructs._
+
+// source code 12
+trait Formatter extends Any { // universal trait
+	def format(format: String): String = ???
+}
+trait AnotherTrait extends Any {...}
+
+// Through String is not from AnyVal (AnyRef instead), it's still a value class
+class PhoneNumber(val s: String) extends AnyVal
+	with Formatter with AnotherTrait {
+	override def toString = {...}
+}
 ```
 
 # scala tip
