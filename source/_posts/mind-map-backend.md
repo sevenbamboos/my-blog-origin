@@ -93,6 +93,8 @@ How to class cast (and test cast) | Any::asInstanceOf[T] and Any::isInstanceOf[T
 What is implicit classes | the class' primary constructor is available for implicit conversions when the class is in scope
 What's the difference between with or without val(var) in class constructor | Without val(var), variable is visible in class block but not as a property. case class can omit val(var) and still keep them as properties
 What is <:< | Provide evidence that for A <:< B (or written as <:<[A,B]), B is super type of A. (see TraversableOnce::toMap, evidence is implicit so no extra work but can enforce the type check by compiler) 
+How to overload functions just with different parameter types | Create implicit objects for different types and add an implicit argument list with type object at the end of function (see source code 09).
+What is type class pattern and when to use it | ad hoc polymorphism, that is add capability to existing classes (see source code 10). Use it when only a few of classes need a particular behavior. If a function takes a list of objects in different types, only one implicit class would be passed in. If we therefore implement the behavior for multiple types in one implicit class, it leads to an ugly solution. 
 
 ```
 // source code 01
@@ -161,6 +163,24 @@ case head +: _ => head match {
 	case type2: Type2 => ...
 	case _ => ...
 }
+
+// source code 09
+implicit object IntMaker
+implicit object StringMaker
+def m(seq: Seq[Int])(implicit i: IntMaker.type): Unit = println(s"seq[int]: $seq")
+def m(seq: Seq[String])(implicit i: StringMaker.type): Unit = println(s"seq[string]: $seq")
+
+// source code 10
+class Foo ...
+class Bar ...
+implicit class Foo2Json(foo: Foo) {
+	def toJson ...
+}
+implicit class Bar2Json(bar: Bar) {
+	def toJson ...
+}
+println(new Foo(...).toJson)
+println(new Bar(...).toJson)
 ```
 
 # scala tip
