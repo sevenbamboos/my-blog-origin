@@ -108,6 +108,20 @@ What is value class | Has to be top-level type, only one val argument, no second
 How to define unary method | def unary_X : ... // X is the unary operation and put a space between operation and :
 When to use inheritance | Concrete class should never be subclassed unless for mixing orthogonal behaviors or unit testing; never split logical state (e.g. related to hashcode or equality) across parent-child boundary.
 How to mix traits when creating object | `val foo = new Foo() with BarTrait` // not extends here
+When mixing multiple traits, what's the order of type hierarchy | For each type from RIGHT to left, find hierarchy list and append it to the final hierarchy. Then scan from the end of the final list and remove duplicated ones before it.
+When mixing multiple traits, what's the order of initialization | For each type from LEFT to right, execute the type body.
+Class or trait | Mixins are for adjunct behavior. If a trait is used most as a parent of classes, so that child classes behave as the trait, try to turn the trait to a class. Refer to Liskov substitution principle: replace a parent class with a child should not make change to client code.
+Is there variance annotation for paremeterized method | No, it's applied to types only, meaning for methods it's invariant.
+What's the variance of mutable types | Invariance. It can have both getter and setter, which means it appears at method parameter as contravariant and at method return type as covariant. So it must be invariance.
+How to parse arguments of command line with pattern match | `case ("-p" :: param :: tail) => doParse(tail, result.copy(p=param))` (see source code 13)
+When value types (e.g. Int, Boolean) need to be allocated on the heap | They're represented as Java primitives so stay in stack by default. But Rich* types provide more methods for them and if one of these methods are used, it needs to allocate an instance on the heap.
+When to override method | Template pattern is a way to walkaround override and defines fine-tuned abstract methods in super type; if super type provides a simple (mock) implementation for a method, then override is acceptable; another case is to provide separate concerns on top of the basic implementation.
+What is `def foo[T <: Bar](...` | T must be sub-type of Bar (In Java, <? extends Bar>)
+What is `def foo[T :> Bar](...` | T must be super-type of Bar (In Java, <? super Bar>)
+What is Context Bounds `def foo[T : Bar](...` | There must exist Bar[T]. (see source code 14) 
+When to use parameterized types and when to abstract types | In case of constructor needs type parameter in arguments, the former is the only approach.
+What is structural types (ducking type) | For example in observer pattern, `type Observer = {def notify(state: Any): Unit}`. To decouple the method name, it can be simplified as `type Observer = State => Unit`. But it has a limit to can only handle the type with one method.
+What is existential types | Type parameters are erased in JVM byte code. So two functions with same name and same arguments but different type parameters can't co-exist (overloaded). In case of Seq, workaround is observe each item and apply function to it (see source code 15) Also note existential types can have type bounds like `Seq[_ >: Bar <: Foo]`
 
 ```
 // source code 01
@@ -213,6 +227,55 @@ trait AnotherTrait extends Any {...}
 class PhoneNumber(val s: String) extends AnyVal
 	with Formatter with AnotherTrait {
 	override def toString = {...}
+}
+
+// source code 13
+case class Args(p1: String, p2: String)
+
+// exit returns Nothing, which is subtype for everything
+// so any function can call exit without breaking type checking
+def quit(msg: String, status: Int): Nothing = {
+	if (msg.length > 0) println(msg)
+	sys.exit(status)
+}
+
+def parseCommandLine(args: Array[String]): Args = {
+	def doParse(argList: List[String], result: Args): Args = argList match {
+		case Nil => result
+		case ("-h" | "--help") :: Nil => quit("", 0)
+		case ("-p1") :: p1 :: tail => doParse(tail, result.copy(p1 = p1))
+		case ("-p2") :: p2 :: tail => doParse(tail, result.copy(p2 = p2))
+		case _ => quit(s"Unknown argument ${argList.head}", 1)
+	}
+	return doParse(args.toList, Args("", ""))
+}
+
+// source code 14
+import math.Ordering
+case class MyList[A](list: List[A]) {
+	def sortBy1[B](f: A => B)(implicit order: Ordering[B]): List[A] =
+		list.sortBy(f)(order)
+
+	def sortBy2[B: Ordering](f: A => B): List[A] =
+		list.sortBy(f)(implicitly(Ordering[B]))
+}
+
+def main(args: Array[String]): Unit = {
+	val lst = MyList(List(4,3,1,5,2))
+	println(lst.sortBy1(i => -i))
+	println(lst.sortBy2(i => -i))
+}
+
+// source code 15
+def double(seq: Seq[_]): Seq[Int] = seq match {
+	case Nil => Nil
+	case head +: tail => toInt(head)*2 +: double(tail)
+}
+
+private def toInt(x: Any): Int = x match {
+	case i: Int => i
+	case s: String => s.toInt
+	case x => throw new IllegalArgumentException(s"Can't turn $x to Int")
 }
 ```
 
