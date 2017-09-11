@@ -25,6 +25,7 @@ https | [Introduction][10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
 scala | [programming scala](#programming-scala), [scala tip](#scala-tip), [][resources][14], [a blog][17], [reader monad][18]
+Algebraic Data Types | [Comment](#adt), [blog 1,2,3][22]
 sbt | [Comment](#sbt-repositories) 
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
@@ -33,6 +34,26 @@ disk clean (for Mac) | [link][16]
 e-book site (for IT) | [link][20], [link][21]
 
 <!-- more -->
+
+# adt
+Code | Algebra
+--- | ---
+Void | 0
+(), Unit | 1
+a \| b | a + b
+(a,b) | a * b
+a -> b | b ^ a
+
+Examples:
+Linked list: Nil | Cons a (List a)
+Algebra: L(a) = 1 + a * L(a) // Taylor Series
+wolframalpha.com: search with `Series[1/[1-x]]` => 1 + a + a^2 + a^3 ... 
+Meaning: a list is either empty or containing a single a, or a list of two a, or three a...
+
+Binary tree: Nil | Node a (Tree a) (Tree a)
+Algebra: T(a) = 1 + a * (T(a)^2)
+wolframalpha.com: search with `Series[[1-Sqrt[1-4x]]/[2x]]` => 1 + a + 2 * a^2 + 5 * a^3 ... 
+Meaning: a binary tree is either empty or containing a value of type a, or two values of type a in two ways, or three values of type a in five different ways...
 
 # sbt repositories
 ~/.sbt/repositories
@@ -395,3 +416,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [19]: http://jonasboner.com/real-world-scala-dependency-injection-di/ 
 [20]: http://www.finelybook.com/
 [21]: http://www.salttiger.com
+[22]: http://chris-taylor.github.io/blog/2013/02/11/the-algebra-of-algebraic-data-types-part-ii/ 
