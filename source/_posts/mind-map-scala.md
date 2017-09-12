@@ -8,8 +8,9 @@ categories: Mind Map
 
 Keywords | Comment & Reference
 --- | ---
-Programming Scala | [programming scala](#programming-scala),  
-Scala tip | [scala tip](#scala-tip),
+Concurrent programming in Scala | [Q&A](#concurrency-scala)
+Programming Scala | [Q&A](#programming-scala)  
+Scala tip | [Q&A](#scala-tip)
 Algebraic Data Types | [Comment](#adt), [blog 1,2,3][4]
 sbt | [Comment](#sbt-repositories) 
 reader monad | [reader monad][3] 
@@ -17,6 +18,60 @@ resource | [resource][1]
 an introduction blog | [blog][2]
 
 <!-- more -->
+
+# concurrency scala
+Question | Answer
+--- | ---
+1. What's AnyRef::synchronized | A method defined on AnyRef(=Object in Java); Apart from the single-thread executing of the block, it also ensures all writes to memory in the block are visible to other threads later when they execute the block.
+2. How to prevent deadlock due to ask for multiple resources | Give an order for resources so that they can be acquired in a fixed order. (see code 01)
+3. What's a daemon thread | JVM main process will terminate when all threads are daemon.
+4. How to refer to a by-name parameter without executing | `def foo(block: => Unit) = { val aBlock = () => block }`
+5. How to avoid busy-wait via wait/notify | Wrap wait/notify in synchronized block and use while loop with wait (see code 02)
+6. What's graceful shutdown and when not to use it | The thread provides a shutdown flag and the run method stops when it sees the flag is set. (see code 03)
+
+```
+// 01
+def transfer(from: Account, to: Account, amount: Money) = {
+	def doTransfer() = {
+		from.balance -= amount;
+		to.balance += amount;
+	}
+	if (from.uid < to.uid)
+		from.synchronized { to.synchronized { doTransfer() } }
+	else
+		to.synchronized { from.synchronized { doTransfer() } }
+}
+
+// 02
+val lock = new AnyRef
+val worker = new Thread {
+	lock.synchronized {
+		while (...) lock.wait()
+		...
+	}
+}
+
+lock.synchronized {
+	...
+	lock.notify()
+}
+
+// 03
+object Worker extends Thread {
+	var terminated = false
+	def shutdown() = resource.synchronized {
+		terminated = true
+		resource.notify()
+	}
+	def run() = resource.synchronized {
+		while (resource.isNotAvailable && !terminated) resource.wait()
+		if (!terminated) {
+			doSomething(resource)
+			run()
+		}
+	}
+}
+```
 
 # adt
 Code | Algebra
