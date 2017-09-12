@@ -78,7 +78,7 @@ Code | Algebra
 --- | ---
 Void | 0
 (), Unit | 1
-a \| b | a + b
+a \ b | a + b
 (a,b) | a * b
 a -> b | b ^ a
 
@@ -352,86 +352,6 @@ apply in class and object | In class, it serves as method, while in object it's 
 Try::toOption | def get(i: Int): Option[T] = Try(lst(i)).toOption // in case i is an illegal index, it's handy to avoid length check. Internally, apply accepts by-name parameter (treated as () -> T, lazy evaluated), and wraps it with try-catch.
 Map(1->"a",2->"b") and get | -> is defined in Predef to return Tuple2. Map's apply accepts multiple Tuple2. Note Map::apply(key) returns Value while Map::get(key) returns Option, which can avoid NoSuchElementException 
 Pattern match vs for comprehension | Suppose fn and ln are both Option, for (f <- fn; l <- ln) yield (f,l) //return Option[Tuple2]; (fn, ln) match {case (Some(f),Some(l)) => ...; case _ => None} // more elegant
-
-# java concurrency 
-Question | Answer
---- | ---
-Singleton in double-checked locking | 1) synchronized on getInstance is unnecessary for the case of initialized instance and therefore inefficient; 2) a nest synchronized block of the first null check on the singleton class, containing the second null check; 3) add volatile modifier to instance property to prevent other threads from seeing half-initialized instance (also see happen-before guarantee). 
-happen-before guarantee | Without it, CPU won't guarantee changed variable is written to memory (so that other threads can see it) in the order of statement in source code. Thread.start and join have this guarantee so that statements happen before are ensured to be available in main memory.  
-Singleton in Enum | thread-safety guarantee by JVM and working in case of serialization
-CAS | Compare-And-Swap, the fundamental of non-blocking algorithm. Compare the value with the expected one and give up setting to the new value if the compare fails. CPU provides instruction for CAS, resulting better performance over synchronized lock in most cases. Also see Java's atomic types, which are used by many concurrent classes.
-aThread.join | The current thread blocks until 'aThread' terminates.
-Reentrant Synchronization | A thread can acquire a lock that it already owns.
-Java Memory Model | 1) Each thread has its own stack, containing local primitives and object references, while object instances are kept in shared heap. 2) On the other hand, each CPU has its own registers and cache, which keep changed value and sync with the main memory from time to time. 3) Therefore without volatile and synchronized lock, the changed value made by one CPU may be invisible to other CPU.
-BlockingQueue & BlockingDeque | It provides operations in 4 ways: throw runtime exceptions; return special value; blocking; return after timeout.
-ConcurrentMap | It has multiple table buckets, write operation locks only one bucket and read operation doesn't block.
-When volatile is enough | In case only one thread updates the value while other threads are reading the value.
-ExecutorService | Executors as a factory can generate multiple ExecutorService like normal thread pool, scheduled thread pool and ForkJoinPool. It can accept(submit) Runnable or Callable tasks and manage lifecycle of these tasks via shutDown and awaitTermination.   
-ForkJoinPool(FJP) | Threads in the pool try to execute submitted tasks. execute is fire-and-forget style; invoke is blocking; submit returns ForkJoinTask.
-ForkJoinTask | A lightweight form of Future for tasks running within FJP. fork starts execution and join wait for the result. The efficiency comes from the use of pure function and isolated objects as the computation.
-CopyOnWrite(COW) | Copy internal data on mutate operation, and no lock on read-only operation. Suitable for the case that mutate operation happens much less than read. What's more, it's better to support batch mode for mutate operation. 
-CompletableFuture | Promise in Java available from Java 8.
-Lock vs synchronized bloc | lock acquire and release should be put in try-final block, while synchronization has no such an issue.
-
-# java nio
-Question | Answer
---- | ---
-Types of Channel | File, TCP and UDP; normal(blocking) and asynchronous
-Transfer between channels | FileChannel.transferFrom and transerTo are more efficient than read&write since it can rely on file system cache without copy operation.
-Transfer between threads with Pipe | Thread A writes data to Pipe.SinkChannel, which then sends the data to Pipe.SourceChannel which can be read by Thread B.
-Channel and Buffer | For inbound, data reads from Channel and is put in Buffer; for outbound, Channel gets data from Buffer.
-Channel and Selector | For non-blocking channels, multiple channels can register with a selector for events like connect, accept, read and write. Selector.select(it's blocking) returns the number of channels that have events. Selector.selectedKeys is used to iterate these events. 
-Capacity, limit and position of Buffer | Invariant: 0 <= mark <= position <= limit <= capacity 
-Buffer clear | position <- 0; limit <- capacity. (ready for put operations)
-Buffer flip | limit <- position; position <- 0. (ready for get operations)
-Buffer rewind | position <- 0. (for re-reading)
-Buffer mark and reset | mark keeps a position so that later reset can restore to this position.
-Java io vs nio | Stream doesn't provide a built-in buffer, and is blocking but can simplify data processing, while Channel and Buffer need more control over buffered data. Another difference is the possibility of non-blocking operation in nio. Two ways to invoke asynchronous operation: one is Future(though Future.get is blocking), the other is via callback.
-
-# git mergetool kdiff3
-[kdiff3](https://sourceforge.net/projects/kdiff3/) is a cross-platform  3-way merge tool. To configure it with git, run:
-```
-$ git config --global merge.tool kdiff3
-$ git config --global mergetool.kdiff3.path <path-to-kdiff3>
-// it will generate the following contents in ~/.gitconfig
-[merge]
-	tool = kdiff3
-[mergetool "kdiff3"]
-	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
-```
-
-# cap nosql
-In the absence of network failure, both consistency and availability can be satisfied. On the other hand, in the presence of network partition, distributed system has to choose between consistency and availability. 
-
-Note that CAP is not saying of choosing two of three. No trade-off when no network issues, though for large scale distributed systems network partition can't be avoided.
-
-No matter which to choose, reconciliation should be made via Eventual Consistency, which serves the fundamental of many NoSQL databases.
-
-HBase: distributed hashmap
-MongoDB: distributed json
-Redis: distributed hashmap in memory
-
-# log
-Simple log facade for Java(slf4j) defines logger interface for log libraries like java logging, log4j and logback. Check its [manual](https://www.slf4j.org/manual.html) for details. Note to introduce dependency in maven, don't directly use slf4j API (but use their adapted packages with log implementation).
-
-Logback is the next generation of log4j. Use `log.debug("foo {}", bar);` to avoid concat string if logger level is higher than DEBUG. Also check Mapped Diagnostic Context [MDC](https://logback.qos.ch/manual/mdc.html) for the support of multi-thread, remote client request (e.g. servlet filter) and microservice.
-
-Another [article](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) about log-central system from the author of kafka
-
-# js dependency
-Check current dependency with `npm ls --depth=0`
-
-Before introducing a new dependency, check the maturity with `npm view <package-name>`
-
-List outdated dependencies with `npm outdated`
-
-Analyse dependency usage with [depcheck](https://www.npmjs.com/package/depcheck)
-
-Run test on npm package with [Snyk](https://snyk.io/test?utm_source=risingstack_blog)
-
-# dynamic programming
-Regarding gold mine puzzle, the key is the generate function of `F(n, w) = max(F(n-1, w), F(n-1, w-p[n-1]) + g[n-1])`.
-See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 
 [1]: https://github.com/lauris/awesome-scala 
 [2]: http://danielwestheide.com/scala/neophytes.html 
