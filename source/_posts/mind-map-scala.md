@@ -1,37 +1,20 @@
 ---
-title: Mind Map of Backend
-date: 2017-07-05 11:09:56
+title: Mind Map of Scala 
+date: 2017-09-05 21:09:56
 categories: Mind Map
 ---
-
-Backend tends to have a totally different topics than Web (frontend). What's more, before putting too many items into "Mind Map of Web", creating a new mind-map slot for backend is quite reasonable. Additionally, classical topics about algorithm are also appropriate here for the reason of an obvious different focus from frontend. So all these facts bring about a new mind map for backend.  
 
 # Map
 
 Keywords | Comment & Reference
 --- | ---
-distributed system | Nginx (read as "engine X") [Concepts of Distributed System][1]
-dynamic programming | [Comment](#dynamic-programming), [introduction by comic][2]
-compile | [compile introduction][3]
-bitwise operation | [is-power-of-2][4], [find-odd-number][5]
-greatest common divider | [introduction by comic][6]
-max difference within array | [introduction by comic][7]
-circular linked list detect | Given node length known [introduction by comic][8]
-js dependency | [Comment](#js-dependency) [a js project template][9]
-git merge rebase fixup autosquash feature branch | see my post "Feature Branch Workflow", [cheat-sheet][11]
-slf4j logback MDC kafka | [Comment](#log)
-CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4j | [Comment](#cap-nosql)
-https | [Introduction][10]
-git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
-flashcard with Anki and Studies | [Anki][12] [Studies][13]
-scala | [programming scala](#programming-scala), [scala tip](#scala-tip), [][resources][14], [a blog][17], [reader monad][18]
-Algebraic Data Types | [Comment](#adt), [blog 1,2,3][22]
+Programming Scala | [programming scala](#programming-scala),  
+Scala tip | [scala tip](#scala-tip),
+Algebraic Data Types | [Comment](#adt), [blog 1,2,3][4]
 sbt | [Comment](#sbt-repositories) 
-java nio | [Comment](#java-nio)
-java concurrency | [Comment](#java-concurrency)
-linux command | [commands][15]
-disk clean (for Mac) | [link][16]
-e-book site (for IT) | [link][20], [link][21]
+reader monad | [reader monad][3] 
+resource | [resource][1]
+an introduction blog | [blog][2]
 
 <!-- more -->
 
@@ -395,25 +378,7 @@ Run test on npm package with [Snyk](https://snyk.io/test?utm_source=risingstack_
 Regarding gold mine puzzle, the key is the generate function of `F(n, w) = max(F(n-1, w), F(n-1, w-p[n-1]) + g[n-1])`.
 See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 
-[1]: https://mp.weixin.qq.com/s/5wxIHNMN2MbbSQ6WWA65HQ 
-[2]: https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&amp;mid=2655438647&amp;idx=1&amp;sn=4634f712fa4d0236aba60b8e8b7cc2cb&amp;chksm=bd730b408a048256f204695598c0e4f74e75c9582f5b9c740057a69747b306de1a4c308d5388&amp;mpshare=1&amp;scene=1&amp;srcid=0702N84baxNAmMFheg6Ck26Z&amp;key=238113c46368 
-[3]: http://fullstack.blog/2017/06/24/%E5%A4%A7%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%80%85%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E7%9A%84%E5%9F%BA%E7%A1%80%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E5%92%8C%E8%AF%AD%E8%A8%80%E7%9F%A5%E8%AF%86/?nsukey=9G4zvSOVCA0b49Ng4rhqNHkw55dE1OsVGQ3exvS12Nfchm8N38y5eU8Aw2VaHY72/yPT0cyMQK2ewKJjU6F0EqDj3rkpTv/EFl10CW6zk/29dY8DlDLjxh0YRyQFZvmUN4xWwW3e16mpXMDjKu4LVje6cwykadEMWU4klPXFOXWYLBZKqc1ocxBZCnTAH7ZF 
-[4]: http://blog.jobbole.com/107689/ 
-[5]: http://blog.jobbole.com/106521/ 
-[6]: http://blog.jobbole.com/106315/
-[7]: http://blog.jobbole.com/108594/ 
-[8]: http://blog.jobbole.com/106227/
-[9]: https://github.com/wearehive/project-guidelines#readme  
-[10]: https://mp.weixin.qq.com/s/StqqafHePlBkWAPQZg3NrA 
-[11]: https://sentheon.com/blog/git-cheat-sheet.html 
-[12]: https://sspai.com/post/39951 
-[13]: https://sspai.com/post/34411
-[14]: https://github.com/lauris/awesome-scala 
-[15]: https://zhuanlan.zhihu.com/p/28674639
-[16]: https://sspai.com/post/40503
-[17]: http://danielwestheide.com/scala/neophytes.html 
-[18]: http://blog.originate.com/blog/2013/10/21/reader-monad-for-dependency-injection/ 
-[19]: http://jonasboner.com/real-world-scala-dependency-injection-di/ 
-[20]: http://www.finelybook.com/
-[21]: http://www.salttiger.com
-[22]: http://chris-taylor.github.io/blog/2013/02/11/the-algebra-of-algebraic-data-types-part-ii/ 
+[1]: https://github.com/lauris/awesome-scala 
+[2]: http://danielwestheide.com/scala/neophytes.html 
+[3]: http://blog.originate.com/blog/2013/10/21/reader-monad-for-dependency-injection/ 
+[4]: http://chris-taylor.github.io/blog/2013/02/11/the-algebra-of-algebraic-data-types-part-ii/ 

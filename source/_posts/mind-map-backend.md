@@ -24,7 +24,6 @@ CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4
 https | [Introduction][10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
-Algebraic Data Types | [Comment](#adt), [blog 1,2,3][22]
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
@@ -32,26 +31,6 @@ disk clean (for Mac) | [link][16]
 e-book site (for IT) | [link][20], [link][21]
 
 <!-- more -->
-
-# adt
-Code | Algebra
---- | ---
-Void | 0
-(), Unit | 1
-a \| b | a + b
-(a,b) | a * b
-a -> b | b ^ a
-
-Examples:
-Linked list: Nil | Cons a (List a)
-Algebra: L(a) = 1 + a * L(a) // Taylor Series
-wolframalpha.com: search with `Series[1/[1-x]]` => 1 + a + a^2 + a^3 ... 
-Meaning: a list is either empty or containing a single a, or a list of two a, or three a...
-
-Binary tree: Nil | Node a (Tree a) (Tree a)
-Algebra: T(a) = 1 + a * (T(a)^2)
-wolframalpha.com: search with `Series[[1-Sqrt[1-4x]]/[2x]]` => 1 + a + 2 * a^2 + 5 * a^3 ... 
-Meaning: a binary tree is either empty or containing a value of type a, or two values of type a in two ways, or three values of type a in five different ways...
 
 # java concurrency 
 Question | Answer
@@ -146,12 +125,8 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [11]: https://sentheon.com/blog/git-cheat-sheet.html 
 [12]: https://sspai.com/post/39951 
 [13]: https://sspai.com/post/34411
-[14]: https://github.com/lauris/awesome-scala 
 [15]: https://zhuanlan.zhihu.com/p/28674639
 [16]: https://sspai.com/post/40503
-[17]: http://danielwestheide.com/scala/neophytes.html 
-[18]: http://blog.originate.com/blog/2013/10/21/reader-monad-for-dependency-injection/ 
 [19]: http://jonasboner.com/real-world-scala-dependency-injection-di/ 
 [20]: http://www.finelybook.com/
 [21]: http://www.salttiger.com
-[22]: http://chris-taylor.github.io/blog/2013/02/11/the-algebra-of-algebraic-data-types-part-ii/ 
