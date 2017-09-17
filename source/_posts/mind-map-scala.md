@@ -25,9 +25,28 @@ Question | Answer
 1. What's AnyRef::synchronized | A method defined on AnyRef(=Object in Java); Apart from the single-thread executing of the block, it also ensures all writes to memory in the block are visible to other threads later when they execute the block.
 2. How to prevent deadlock due to ask for multiple resources | Give an order for resources so that they can be acquired in a fixed order. (see code 01)
 3. What's a daemon thread | JVM main process will terminate when all threads are daemon.
-4. How to refer to a by-name parameter without executing | `def foo(block: => Unit) = { val aBlock = () => block }`
+4. How to refer to a by-name parameter without executing | `def foo(block: => Unit) = { val aBlock = () => block }` In fact, by-name parameter looks like `def foo(block: ()=>Unit) = { block() }`. The difference is parameter needs () to invoke, while not necessary for by-name. Another difference is by-name param should be invoked with `{}` block, which is not type of `()=>Unit`
 5. How to avoid busy-wait via wait/notify | Wrap wait/notify in synchronized block and use while loop with wait (see code 02)
 6. What's graceful shutdown and when not to use it | The thread provides a shutdown flag and the run method stops when it sees the flag is set. (see code 03)
+7. How to shut down ExecutorService | shutdown() followed by awaitTermination() to wait for completion of submitted tasks.
+8. What is lock-free operation | Given a set of threads, at least one thread always completes after a finite number of steps, regardless of the progress of other threads. CAS-based way is necessary but not sufficient (hard to prove), but synchronized statement is lock-based.
+9. How to apply CAS to state check | AtomicReference[State], which has get and compareAndSet methods. Note, it ALWAYS uses reference equality and never call equals method.
+10. How to assign default values to a variable (although Option is a better choice) | `val foo: AnyRef = _` 0,false or null depends on variable type.
+11. What should be avoid in lazy initialization block (or singleton object constructor) | Blocking operation which could bring about deadlock
+12. How to choose a object for synchronization | Prefer a dedicated private dummy object to this or public fields to reduce the risk of deadlock
+13. When to choose bounded concurrent queue (e.g. producer-consumer problem) | It's for faster producer to control the queue size. For faster consumer, unbounded queue is better (less memory). 
+14. How to convert collection between Java and Scala | `scala.collection.convert`
+15. Is every method in concurrent map atomic | No. Double-check doc. For example, putIfAbsent is, while getOrElseUpdate is not.
+16. How to find a change to a group of things that could be modified by multi-threads | Assign each item a timestamp and update it on each modification. Then for another thread just to sum all timestamp twice (before and after some steps) and compare the results.
+17. How to eliminate while loop with recursion | Put a loop counter as one function parameter.
+18. How to get support of (Unix) shells | `scala.sys.process`
+19. When will callback be invoked by Future | It's NOT always immediately after completion. If Future already completes and then we install a callback, then the callback is invoked at that moment.
+20. How to install callback to Future | foreach(T=>U), onComplete(Try[T]=>U) and failed.foreach. Note onComplete can take a block to do pattern match like `{ case Success... case Failure... }` (see code 04)
+21. How to do exception handling for Future | `f.failed foreach{ case NonFatal(e) =>... }` Don't catch fatal errors. 
+22. What's the relation between Promise and Future | Promise keeps a one-time assignment to a variable either with a value or exception, which makes it suitable to construct Future (see my blog `Promise and Future`)
+23. How to block (main) thread to wait for asynchronous computation | scala.concurrent.Await::ready and result.
+24. How to indicate execution context there is a blocking part inside a Future | blocking { ... }
+25. Why does performance test need warmup | For language with just-in-time compilation like Java, bytecode as the output of compiler will be run first as interpreted mode until JVM decides to turn part of frequent visited into machine code and thereby that part will run in the steady state, which is much faster than before. That's the reason we need warmup (maybe hundreds of times of test code) before doing performance measurement. 
 
 ```
 // 01
@@ -71,6 +90,17 @@ object Worker extends Thread {
 		}
 	}
 }
+
+// 04
+foo.onComplete {
+	case Success(i) => ...
+	case Failure(err) => ...
+}
+// identical
+foo.onComplete { t => t match {
+	case Success(i) => ...
+	case Failure(err) => ...
+}}
 ```
 
 # adt
