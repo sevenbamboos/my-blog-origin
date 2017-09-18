@@ -29,6 +29,7 @@ java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
 disk clean (for Mac) | [link][16]
 e-book site (for IT) | [link][20], [link][21]
+machine learning reference | [scikit][22]
 
 <!-- more -->
 
@@ -130,3 +131,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [19]: http://jonasboner.com/real-world-scala-dependency-injection-di/ 
 [20]: http://www.finelybook.com/
 [21]: http://www.salttiger.com
+[22]: http://scikit-learn.org
