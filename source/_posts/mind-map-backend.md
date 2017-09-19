@@ -24,6 +24,7 @@ CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4
 https | [Introduction][10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
+vim | [Comment](#vim-tips)
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
@@ -43,7 +44,9 @@ Linear algebra
 [video](http://open.163.com/special/opencourse/daishu.html)
 
 Introduction to Statistical Learning
-Prerequisition for R -> Introduction to R, Learning R, R in Action, Art of R programming
+Prerequisition for R -> 
+Introduction to R, Learning R, 
+R in Action, Art of R programming
 
 Machine Learning in action
 
@@ -65,6 +68,11 @@ Hadoop, Spark, ...
 
 ## reference
 [scikit](http://scikit-learn.org)
+
+# vim tips
+Question | Answer
+--- | ---
+1. How to format XML | gg=G
 
 # java concurrency 
 Question | Answer
