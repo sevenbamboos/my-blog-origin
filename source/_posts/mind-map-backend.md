@@ -72,7 +72,7 @@ Hadoop, Spark, ...
 # vim tips
 Question | Answer
 --- | ---
-1. How to format XML | gg=G
+1.How to format XML | gg=G
 
 # java concurrency 
 Question | Answer
