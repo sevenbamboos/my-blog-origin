@@ -29,9 +29,42 @@ java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
 disk clean (for Mac) | [link][16]
 e-book site (for IT) | [link][20], [link][21]
-machine learning reference | [scikit][22]
+machine learning | [Comment](#machine-learning)
 
 <!-- more -->
+
+# machine learning
+
+## road map
+
+Phase 00:
+
+Linear algebra
+[video](http://open.163.com/special/opencourse/daishu.html)
+
+Introduction to Statistical Learning
+TODO: Prerequisition for R?
+
+Machine Learning in action
+
+Andrew Ng's course
+[video](http://open.163.com/special/opencourse/machinelearning.html)
+[materials](http://cs229.stanford.edu/materials.html)
+
+Phase 01:
+
+Patten Recognition and Machine Learning
+
+? Deep Learning
+
+? Elements of Statistical Learning
+
+Phase 02:
+
+Hadoop, Spark, ...
+
+## reference
+[scikit](http://scikit-learn.org)
 
 # java concurrency 
 Question | Answer
@@ -131,4 +164,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [19]: http://jonasboner.com/real-world-scala-dependency-injection-di/ 
 [20]: http://www.finelybook.com/
 [21]: http://www.salttiger.com
-[22]: http://scikit-learn.org
+
