@@ -28,7 +28,7 @@ java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
 disk clean (for Mac) | [link][16]
-e-book site (for IT) | [link][20], [link][21]
+e-book site (for IT) | [finelybook][20] (down since 2017.9, not sure the future), [salttiger][21], [archive.org][22]
 machine learning | [Comment](#machine-learning)
 
 <!-- more -->
@@ -43,7 +43,7 @@ Linear algebra
 [video](http://open.163.com/special/opencourse/daishu.html)
 
 Introduction to Statistical Learning
-TODO: Prerequisition for R?
+Prerequisition for R -> Introduction to R, Learning R, R in Action, Art of R programming
 
 Machine Learning in action
 
@@ -164,4 +164,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [19]: http://jonasboner.com/real-world-scala-dependency-injection-di/ 
 [20]: http://www.finelybook.com/
 [21]: http://www.salttiger.com
-
+[22]: https://archive.org/
