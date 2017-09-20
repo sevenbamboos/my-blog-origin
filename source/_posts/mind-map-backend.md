@@ -43,9 +43,12 @@ Phase 00:
 Linear algebra
 [video](http://open.163.com/special/opencourse/daishu.html)
 
-*Learning R* 
+*Learning R*
+
 Introduction to Statistical Learning
+
 ? R in Action
+
 ? Probability and statistical | All the statistics
 
 Machine Learning in action
