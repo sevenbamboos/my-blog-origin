@@ -43,10 +43,10 @@ Phase 00:
 Linear algebra
 [video](http://open.163.com/special/opencourse/daishu.html)
 
+*Learning R* 
 Introduction to Statistical Learning
-Prerequisition for R -> 
-Introduction to R, Learning R, 
-R in Action, Art of R programming
+? R in Action
+? Probability and statistical | All the statistics
 
 Machine Learning in action
 
@@ -56,11 +56,11 @@ Andrew Ng's course
 
 Phase 01:
 
-Patten Recognition and Machine Learning
-
-? Deep Learning
+? Patten Recognition and Machine Learning
 
 ? Elements of Statistical Learning
+
+? Deep Learning
 
 Phase 02:
 
