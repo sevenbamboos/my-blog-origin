@@ -26,6 +26,10 @@ Question | Answer
 08. How to transform data frame | `transform(data, sum=c1+c2+c3, mean=(c1+c2+c3)/3)`
 09. How to set value to cells of data frame | `performance$insertSort[performance$insertSort == 999] <- NA`
 10. How to modify data frame with `within` | data <- within(data,{insert[insert == 999] <- NA })
+11. How to remove missing data (when it's not too much) | `data <- na.omit(data)`
+12. How to convert date | as.Date, date() and Sys.Date()
+13. How to sort data | `order(gender, -age)`
+14. How to combine data frames | cbind(), rbind(), merge(frame1,frame2,by=c("id"))
 
 # machine learning
 
