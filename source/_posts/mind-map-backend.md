@@ -30,47 +30,8 @@ java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
 disk clean (for Mac) | [link][16]
 e-book site (for IT) | [finelybook][20] (down since 2017.9, not sure the future), [salttiger][21], [archive.org][22]
-machine learning | [Comment](#machine-learning)
 
 <!-- more -->
-
-# machine learning
-
-## road map
-
-Phase 00:
-
-Linear algebra
-[video](http://open.163.com/special/opencourse/daishu.html)
-
-*Learning R*
-
-Introduction to Statistical Learning
-
-? R in Action
-
-? Probability and statistical | All the statistics
-
-Machine Learning in action
-
-Andrew Ng's course
-[video](http://open.163.com/special/opencourse/machinelearning.html)
-[materials](http://cs229.stanford.edu/materials.html)
-
-Phase 01:
-
-? Patten Recognition and Machine Learning
-
-? Elements of Statistical Learning
-
-? Deep Learning
-
-Phase 02:
-
-Hadoop, Spark, ...
-
-## reference
-[scikit](http://scikit-learn.org)
 
 # vim tips
 Question | Answer
