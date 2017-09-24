@@ -47,6 +47,10 @@ Question | Answer
 23. How to block (main) thread to wait for asynchronous computation | scala.concurrent.Await::ready and result.
 24. How to indicate execution context there is a blocking part inside a Future | blocking { ... }
 25. Why does performance test need warmup | For language with just-in-time compilation like Java, bytecode as the output of compiler will be run first as interpreted mode until JVM decides to turn part of frequent visited into machine code and thereby that part will run in the steady state, which is much faster than before. That's the reason we need warmup (maybe hundreds of times of test code) before doing performance measurement. 
+26. In Rx, what is good to define Subject to implement both Observable and Observer | Observer may not be available when creating Observable. So Subject can be a mediator between Observable and final observers.
+27. What is Software Transactional Memory(STM) | Wrap atomic block around shared resources (like what atomic reference does but STM provides an easy way to manage multiple references) and automatically retry the block if any resource has been changed by other threads (like what database transactions do). Resource needs to be wrapped in STM reference (to be known by STM) before atomic block. Inside block, resources need to accessed by the references. And the references should never be used outside the block (not even in afterCommit/afterRollback methods, which perform operations without the danger of executing them multiple times when retrying). Also note to avoid long-running like infinite loop in the block.
+28. In STM, what happens when there is nested atomic block | In ScalaSTM, wrapped block will become the top-level block and rollback retry start from the topmost block.
+29. How to express a method whose return type is the class itself | `def foo(...): this.type`
 
 ```
 // 01
