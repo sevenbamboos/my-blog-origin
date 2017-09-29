@@ -24,7 +24,7 @@ CAP Eventual Consistency nosql kafka RabbitMQ MongoDB HBase Cassandra Redis Neo4
 https | [Introduction][10]
 git mergetool kdiff3 | [Comment](#git-mergetool-kdiff3)
 flashcard with Anki and Studies | [Anki][12] [Studies][13]
-vim | [Comment](#vim-tips)
+IDE vim, intellij | [Comment](#ide-tips)
 java nio | [Comment](#java-nio)
 java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
@@ -91,10 +91,11 @@ What differences are you aware of in New Zealand?
 What does it cost to rent or buy a house in that area?
 500 dollar per week for an apartment with two bedrooms (in north shore)
 
-# vim tips
+# ide tips
 Question | Answer
 --- | ---
-1.How to format XML | gg=G
+01. How to format XML in vim | gg=G
+02. How to import Java8 maven projects into Intellij | project structure->module->source, and change compiler [level][23]  
 
 # java concurrency 
 Question | Answer
@@ -195,3 +196,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [20]: http://www.finelybook.com/
 [21]: http://www.salttiger.com
 [22]: https://archive.org/
+[23]: https://stackoverflow.com/questions/29888592/errorjava-javactask-source-release-8-requires-target-release-1-8
