@@ -94,8 +94,8 @@ What does it cost to rent or buy a house in that area?
 # ide tips
 Question | Answer
 --- | ---
-01. How to format XML in vim | gg=G
-02. How to import Java8 maven projects into Intellij | project structure->module->source, and change compiler level (see reference 23)  
+01.How to format XML in vim | gg=G
+02.How to import Java8 maven projects into Intellij | project structure->module->source, and change compiler level (see reference 23)  
 
 # java concurrency 
 Question | Answer
