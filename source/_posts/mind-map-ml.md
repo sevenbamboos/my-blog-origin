@@ -22,7 +22,7 @@ Question | Answer
 03.Is it accessible for a (loop) variable after the loop (e.g. for ele in elements:) | Sadly, it is (e.g. ele). How to get rid of it? (`del ele`, ugly workaround)
 04.How to turn a range object to a list | `list(range(1,5))` // range() returns a range object (iterable) and passed to list() to become a list
 05.How to slice a list | `aList[-3:]` // obviously here : needs specific syntax support
-06.Find if an element exists in a list | `element in aList` // it returns a boolean, a syntax keyword
+06.Find if an element exists in a list/string | `element in aList` or `sub_string in aString` // it returns a boolean, a syntax keyword
 07.How to check empty string/list | `if aList:` or `if aString:` // empty string/list is false in for and if
 08.Loop through a dictionary | `for k, v in aDict.items()`
 09.Provide a description to a function/class/module | Put `"""..."""` (docstring) below a function/class or at the beginning of a module
@@ -30,6 +30,11 @@ Question | Answer
 11.Flexible number of named parameters | `def foo(**user_info)` // Note the call side doesn't need to create a dictionary to use user_info (see source code 01)
 12.Import a function with another name from a module | `from a_module import function_a as function_b`
 13.Arrange function parameters in multiple lines | use two TAB to make parameters look different from function body (see source code 02) 
+14.Call methods of super class | `super().__init__(...)`
+15.Open a file without closing it explicitly | `with open('file_name') as file_object:`
+16.Loop through file object line by line | `for line in file_object:`
+17.Exception handling | try-except-else block. Use pass in except branch to fail silently. Note else is not final and there is no final branch. 
+18.Is there concept of Option | No. None is same as null.
 
 ```
 //01
