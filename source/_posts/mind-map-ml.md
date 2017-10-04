@@ -11,16 +11,8 @@ Keywords | Comment & Reference
 machine learning | [Comment](#machine-learning)
 R in Action | [Q&A](#R-in-action)
 Python crash course | [Q&A](#Python-Basic)
-Python for Data Analysis| [Q&A](#Python-for-data-analysis)
 
 <!-- more -->
-
-# Python for data analysis
-Question | Answer
---- | ---
-
-```
-```
 
 # Python Basic
 Question | Answer
