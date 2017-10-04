@@ -10,11 +10,19 @@ Keywords | Comment & Reference
 --- | ---
 machine learning | [Comment](#machine-learning)
 R in Action | [Q&A](#R-in-action)
-Python crash course | [Q&A](#Python-crash-course)
+Python crash course | [Q&A](#Python-Basic)
+Python for Data Analysis| [Q&A](#Python-for-data-analysis)
 
 <!-- more -->
 
-# Python crash course
+# Python for data analysis
+Question | Answer
+--- | ---
+
+```
+```
+
+# Python Basic
 Question | Answer
 --- | ---
 01.Access the last element of a list | `aList[-1]` // it can be interpreted as `aList[len(aList)-1]`
@@ -33,8 +41,21 @@ Question | Answer
 14.Call methods of super class | `super().__init__(...)`
 15.Open a file without closing it explicitly | `with open('file_name') as file_object:`
 16.Loop through file object line by line | `for line in file_object:`
-17.Exception handling | try-except-else block. Use pass in except branch to fail silently. Note else is not final and there is no final branch. 
+17.Exception handling | try-except-else-finally block. Use pass in except branch to fail silently.
 18.Is there concept of Option | No. None is same as null.
+19.Check if variable is None | `a is None` // is not is to check the opposite
+20.Unpack sequence | `a,b,*_ = ("foo","bar",1,2)` // _ => [1,2]
+21.Performance of list insert, pop and in | For non-last element, it's O(n) while n is the size of the list
+22.For loop with index | `for i,value in enumerate(seq):`
+23.Convert a list of rows into a list of columns | `zip(*seq)` //see source code 03
+24.Objects can be put in dictionary as key | number, string, tuple (immutable) or anything else has fixed value of `hash(obj)`
+25.Nested for comprehension | `[v2 for v1 in s1 if ... for v2 in v1 if ...]`
+26.Variable scope | There are two scopes: local and global. class, function can create nested scope, but not if/for/while.
+27.Currying | `from functools import partial` and `partial(foo, some_variable)`
+28.Generator in for comprehension | `(x for x in ... if ...)` or use `yield` in generator function
+29.Anonymous function | `lambda x: x[0]`
+30.Generator from itertools | groupby, combinations, product, permutations, etc.
+31.Catch multiple errors | `except (TypeError, ValueError):`
 
 ```
 //01
@@ -56,6 +77,11 @@ def foo(
         param3):
     // function body
 
+//03
+names = [("Tony","Zhang"),("Anri","Liu"),("Charry","Y")]
+fns, lns = zip(*names)
+fns // ("Tony","Anri","Charry")
+lns // ("Zhang","Liu","Y")
 
 ```
 
@@ -90,15 +116,17 @@ Phase 00:
 
 Phase 01:
 
-0. *Python crash course*
+00. Python crash course
 
-1. *R in Action*
+01. *Python for Data Analysis*
 
-2. Introduction to Statistical Learning
+10. *R in Action*
 
-3. Machine Learning in action
+12. Introduction to Statistical Learning
 
-4. Andrew Ng's course
+13. Machine Learning in action
+
+14. Andrew Ng's course
 [video](http://open.163.com/special/opencourse/machinelearning.html)
 [materials](http://cs229.stanford.edu/materials.html)
 

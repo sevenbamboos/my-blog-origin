@@ -44,9 +44,9 @@ Have you considered migrating to these countries?
 
 Have you looked into any voluntary work and/or community activities in New Zealand? (eg. Childcare, school involvement, service organisations)
 
-
 [Background]
 What is your educational background? (degree conferred, name of institution and date obtained)
+
 
 Can you tell me briefly about your current employment, skills and experience?
 
@@ -58,7 +58,7 @@ What is your current living situation?
 Tell me how will you find permanent accommodation?
 Ask for advice from out friends.
 Visit estate agency or estate website for available rooms/houses.
-Make sure the community has access to shcool, hospital (and market).
+Make sure the community has access to school, hospital (and market).
 
 Have you thought about where you might live?
 It depends on where my husband can find a regular job. We'll start from Auckland.
