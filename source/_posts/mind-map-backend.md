@@ -30,6 +30,7 @@ java concurrency | [Comment](#java-concurrency)
 linux command | [commands][15]
 disk clean (for Mac) | [link][16]
 e-book site (for IT) | [finelybook][20] (down since 2017.9, not sure the future), [salttiger][21], [archive.org][22]
+math support for markdown | [codecogs.com][24]
 
 <!-- more -->
 
@@ -139,3 +140,4 @@ See implementation at [my git](https://github.com/sevenbamboos/alg-js)
 [21]: http://www.salttiger.com
 [22]: https://archive.org/
 [23]: https://stackoverflow.com/questions/29888592/errorjava-javactask-source-release-8-requires-target-release-1-8
+[24]: http://www.codecogs.com/latex/eqneditor.php
