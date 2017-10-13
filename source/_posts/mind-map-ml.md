@@ -8,11 +8,39 @@ categories: Mind Map
 
 Keywords | Comment & Reference
 --- | ---
-machine learning | [Comment](#machine-learning)
-R in Action | [Q&A](#R-in-action)
-Python crash course | [Q&A](#Python-Basic)
+machine learning | [road map](#machine-learning)
+R | [r-in-action](#R-in-action)
+Python | [basic](#Python-Basic)
+Statistics | [naked statistics](#naked-statistics)
+Math | [linear algebra intro](#introduction-to-linear-algebra)
 
 <!-- more -->
+
+# naked statistics
+Question | Answer
+--- | ---
+01.Is it a contradiction between gambler's fallacy and reversion to the mean | For each (next) independent event, the probability remains the same, which explains gambler's fallacy. In the long term, however, the reversion of the result to the mean is a trend. So it is not a contradiction.
+02.Shall we hold the stock when the CEO appears on Businessweek | According to the rule of reversion to the mean, we'd better sell it.
+03.1 of 3 boxes has a treasure. Host knows which one it is. After you choose one, host will open another that is empty. Shall we change the mind to choose another | Yes, the probability will become from 1/3 to 2/3.
+04.Central limit theorem | Sample means will be distributed as a normal distribution around the overall mean.
+05.Standard error | Standard deviation of sample data. se = \frac{sd}{\sqrt n} (see quote 01)
+06.Sample size in central limit theorem | Over 30 as a rule of thumb
+06.A common threshold to reject a null hypothesis in regression analysis | 5%. 68% within one standard deviation, 95% within two and 99% within three. Here 95% is where 5% comes from (100%-95%)
+07.Standard error for probability | se = \sqrt {\frac {p(1-p)} {n}} (see quote 02)
+
+```
+// definition
+se = standard error
+n = sample size
+sd = standard deviation
+p = probability
+
+// quote 01
+se = \frac{sd}{\sqrt n}
+
+// quote 02
+se = \sqrt {\frac {p(1-p)} {n}}
+``` 
 
 # Python Basic
 Question | Answer
@@ -98,6 +126,11 @@ Question | Answer
 # machine learning
 
 ## road map
+
+### Read
+01. Python crash course
+02. Naked statistics
+03. *Introduction to linear algebra*
 
 Phase 00:
 
