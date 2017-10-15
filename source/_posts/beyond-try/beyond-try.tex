@@ -1,0 +1,367 @@
+\documentclass{beamer}
+
+\title{BEYOND TRY-CATCH}
+\subtitle{Exception Handling in Java}
+\author{\texttt{sam.wang@agfa.com}} 
+\institute{Shanghai}
+\date{\today}
+
+%\usetheme{Bergen}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}
+	\frametitle{Outline}
+	\tableofcontents[pausesections]
+\end{frame}
+
+\section{Plain Old Try}
+\subsection{Checked Exception}
+\begin{frame}
+  \frametitle{Checked Exception}
+  \begin{definition}
+    Checked at compile time. If the code in a method throws a checked exception, then the method must either \alert{1.handle the exception} or it must specify the exception \alert{2.using throws} keyword.
+  \end{definition}
+  \begin{example}
+    \begin{itemize}
+    \item java.io.FileNotFoundException
+    \item java.lang.InterruptedException
+    \item java.sql.SQLException
+    \end{itemize}
+  \end{example}
+\begin{uncoverenv}<2>
+Not a best practice
+\\Not implemented by modern languages later than Java
+\end{uncoverenv}
+\end{frame}
+
+\subsection{Unchecked Exception}
+\begin{frame}
+  \frametitle{Unchecked Exception}
+  \begin{definition}
+    Not checked at compiled time. Exceptions under \alert{Error} and \alert{RuntimeException} classes are unchecked exceptions, everything else under throwable is checked.
+  \end{definition}
+  \begin{example}
+    \begin{itemize}
+    \item java.lang.NullPointerException
+    \item java.lang.ArrayIndexOutOfBoundsException
+    \item java.lang.OutOfMemoryError
+    \end{itemize}
+  \end{example}
+\end{frame}
+
+\subsection{Try-Catch Sample}
+\begin{frame}[fragile]
+  \frametitle{Try-Catch Sample}
+PatientList find(String strAge, String strCreated)
+\scriptsize{
+\begin{verbatim}
+// Process input age
+int age = -1;
+try {
+  age = Integer.parseInt(strAge);
+} catch (NumberFormatException e) {
+  throw new IllegalArgument("Invalid age...}
+
+// Process input date
+Date created = null;
+try {
+  created = dateFormat.parse(strCreated);
+} catch (ParseException e) {
+  throw new IllegalArgument("Invalid create date...);
+}
+
+// Major logic starts here
+age = age & 0x7F;
+created = created.later(today) ? today : created;
+patientService.search(age, created);
+\end{verbatim}
+} 
+\end{frame}
+
+\section{Functional Programming}
+\subsection{Algebraic Data Type (ADT)}
+\begin{frame}
+  \frametitle{Algebraic Data Type (ADT)}
+  \begin{block}{$\lambda$ Calculus}<1->
+    \begin{enumerate}
+    \item $Void \rightarrow 0$, $Unit, () \rightarrow 1$, $f(\alpha) \rightarrow \beta \rightarrow {\beta_{size}}^{\alpha_{size}}$
+    \item $A | B \rightarrow A_{size} + B_{size}$
+    \\ WorkDay $|$ Weekend $\rightarrow$ Week (5 + 2 = 7)
+    \item $(A, B) \rightarrow A_{size} \cdot B_{size}$
+    \\ $Tuple\left [WorkDay, Weather\right]$ $\rightarrow$ $WorkDay_{days} \cdot Weather_{kinds}$
+    \end{enumerate}
+  \end{block}
+  \begin{example}<2->
+  \alert{LinkedList:}$Nil | \Big(a, \big(List({a}')\big)\Big) \rightarrow \theta(a) = 1 + a \cdot \theta({a}')$ 
+  $\frac{1}{1-x} \rightarrow 1+x+x^2+x^3... \rightarrow$ a list is either empty or containing a single element, or two elements, or three ...
+  \alert{BinaryTree:}$Nil | Node\big(a, Tree(a), Tree(a)\big) \rightarrow \theta(a) = 1 + a \cdot \theta({a}')^2$ 
+  $\frac{1-\sqrt{1-4x}}{2x} \rightarrow 1+a+2\cdot a^2 + 5 \cdot a^3 ... \rightarrow$ a binary tree is either empty or containing a value of type a, or two values of type a in two ways, or three values of type a in five different ways ...
+  \end{example} 
+\end{frame}
+
+\subsection{Design Pattern in Functional Programming}
+\begin{frame}
+  \frametitle{Design Pattern in Functional Programming}
+  \begin{block}{Functor}<1->
+  Apply a function to a wrapped value. m a $\rightarrow$ (a $\rightarrow$ b) $\rightarrow$ m b
+  \\ $Optional \left [T \right]::map(f: T \rightarrow U): Optional \left [U \right ]$
+  \\ $Stream \left [T \right]::map(f: T \rightarrow U): Stream \left [U \right ]$
+  \end{block}
+  \begin{block}{Applicatives}<2->
+  Apply a wrapped function to a wrapped value
+  \\ \textit{m a $\left <* \right >$ n b $\rightarrow$ Just (a.apply b)}
+  \end{block} 
+  \begin{block}{Monad}<3->
+  Apply a function that returns a wrapped value, to a wrapped value. m a $\rightarrow$ (a $\rightarrow$ m b) $\rightarrow$ m b
+  \\ $Optional \left [T \right ] ::flatMap(f: T \rightarrow Optional \left [U \right ]): Optional \left [U \right ]$
+  \\ $Stream \left [T \right ]::flatMap(f: T \rightarrow Stream \left [U \right ]): Stream \left [U \right ]$
+  \end{block}
+\end{frame}
+
+\subsection{Better Way in Java 8}
+\begin{frame}[fragile]
+  \frametitle{Better Way in Java 8}
+  \begin{block}{java.util.Optional}
+  $\verb|tryParseInt(s: String): Optional<Integer>| \in Integer$
+  $\verb|tryParse(s: String): Optional<Date>| \in DateFormat$
+  \verb|find(String age, String created): Optional<PatientList>|
+  \end{block}
+  \begin{block}{Solution}
+  Expression-oriented: one compact expression, no temporary variables and 
+  \alert{composability}\footnote{\scriptsize{
+  $\beta=f(\alpha) , \gamma=g(\beta) \rightarrow \gamma=g\big(f(\alpha)\big)$
+  }}
+  \end{block}
+  \scriptsize{
+  \begin{verbatim}
+  Integer.tryParseInt(age).flatMap(a ->
+    dateFormat.tryParse(created).map(c -> {
+      // Only when both age and created have no problem
+      a = a & 0x7F;
+      c = c.later(today) ? today : c;
+      return patientService.search(a, c); 
+    })
+  );
+  \end{verbatim}
+  }
+\end{frame}
+
+\subsection{Problems with Optional}
+\begin{frame}
+  \frametitle{Problems with Optional}
+    \begin{enumerate}
+    \item<1-> Not adopted by many existing APIs $yet$.
+      \begin{description}
+      \item[-] $Map::get(key: String): Object \rightarrow null $
+      \item[-] $String::indexOf(ch: int): int \rightarrow -1$
+      \end{description}
+    \item<2-> Happy path only. Nowhere to get exception details
+    \item<3-> Ugly when too many nested \alert{$\lambda$}
+        \begin{description}
+        \item[Example] $opt1.flatMap(v1 \rightarrow opt2.flatMap(v2 \rightarrow opt3.flatMap(v3 \rightarrow opt4.map(v4 \rightarrow v1 + v2 + v3 + v4))));$
+        \end{description}
+    \item<4-> Not able to get all validation results.
+    \end{enumerate}
+\end{frame}
+  
+\section{Monad Try in Action}
+\subsection{Try}
+\begin{frame}[fragile]
+  \frametitle{Try}
+  interface $Try \left[R \right]$
+  \scriptsize{
+  \begin{verbatim}
+<T> Try<T> map(Function<R,T> f);
+<T> Try<T> flatMap(Function<R, Try<T>> f);
+
+// Resolve with no carry about error
+void forEach(Consumer<R> callback);
+// Resolve with a success callback and an error handling
+void andThen(Consumer<R> callback, Consumer<Throwable> errorHandling);
+// Resolve separately by two steps
+Try<R> ifSuccess(Consumer<R> callback);
+void orElse(Consumer<Throwable> errorHandling);
+// Miscellaneous methods
+Try<R> filter(Predicate<R> f);
+Optional<R> toOption();
+
+static <T> Try<T> tryWith(Block<T> s) {
+  try { return new Success(s.execute());
+  } catch (Throwable e) {
+    if (isFatal(e)) throw new RuntimeException(e);
+    else return new Failure(e);
+  }
+}
+  \end{verbatim}
+  }
+\end{frame}
+
+\subsection{Failure}
+\begin{frame}[fragile]
+  \frametitle{Failure}
+  final class Failure implements Try
+  \scriptsize{
+  \begin{verbatim}
+private Throwable exception;
+Failure(Throwable exception) { this.exception = exception; }
+
+@Override public Try map(Function f) { return this; }
+@Override public Try flatMap(Function f) { return this; }
+
+@Override public void forEach(Consumer callback) { return; }
+@Override public void andThen(Consumer callback, Consumer errorHandling) {
+  orElse(errorHandling);
+}
+@Override public Try ifSuccess(Consumer callback) { return this; }
+@Override public void orElse(Consumer errorHandling) {
+  errorHandling.accept(exception);
+}
+
+@Override public Try filter(Predicate f) { return this; }
+@Override public Optional toOption() { return Optional.empty(); }   
+  \end{verbatim}
+  }
+\end{frame}
+
+\subsection{Success}
+\begin{frame}[fragile]
+  \frametitle{Success}
+  final class Success$\left<R \right>$ implements Try$\left<R \right>$
+  \scriptsize{
+  \begin{verbatim}
+private R result;
+Success(R result) { this.result = result; }
+@Override public <T> Try<T> map(Function<R, T> f) {
+  return Try.tryWith(() -> f.apply(result));
+}
+@Override public <T> Try<T> flatMap(Function<R, Try<T>> f) {
+  Try<Try<T>> mapped = Try.tryWith(() -> f.apply(result));
+  if (mapped.isSuccessful()) {
+    return mapped.get();
+  } else {
+    return new Failure(mapped.exception());
+  }
+}
+@Override public void forEach(Consumer<R> callback) {
+  Try.tryWith(() -> { callback.accept(result); return null; });
+}
+@Override public Try<R> ifSuccess(Consumer<R> callback) {
+  return Try.tryWith(() -> { callback.accept(result); return result; });
+}
+@Override public void andThen(Consumer<R> callback, 
+    Consumer<Throwable> errorHandling) {
+  ifSuccess(callback);
+}
+  \end{verbatim}
+  }
+\end{frame}
+
+\subsection{Try Application}
+\begin{frame}[fragile]
+  \frametitle{Try Application}
+  \scriptsize{
+  \begin{verbatim}
+Try<Integer> readAge = tryWith(Integer.parseInt(age));
+Try<Date> readDate = tryWith(dateFormat.parse(created));
+
+BiFunction<Integer,Date,PatientList> search = (a,c) -> {
+  a = a & 0x7F;
+  c = c.later(today) ? today : c;
+  return patientService.search(a,c);
+}
+
+Try<PatientList> result = readAge.flatMap(a ->
+  readDate.map(c -> search.apply(a, c)));
+
+result.forEach(patientList -> ... );
+
+result.ifSuccess(patientList -> ... ).orElse(exception -> ... );
+
+result.andThen(
+  patientList -> ... ,
+  exception -> ... 
+);
+  \end{verbatim}
+  }
+\end{frame}
+
+\subsection{Improve Try}
+\begin{frame}[fragile]
+  \frametitle{Improve Try}
+    \begin{enumerate}
+    \item Still ugly when too many $Try$s
+    \item No lazy evaluation (No need to continue readDate when readAge failed)
+    \item It would be nice to have:
+    \end{enumerate}
+  \scriptsize{
+  \begin{verbatim}
+for {a <- Integer.parseInt(age)
+     c <- dateFormat.parse(created)} 
+  yield(patientService.search(
+    a & 0x7F, 
+    c.later(today) ? today : c)
+  )
+  \end{verbatim}
+  }
+\end{frame}
+
+\subsection{TryBuilder}
+\begin{frame}[fragile]
+  \frametitle{TryBuilder}
+  final class TryBuilderN$\left <R1,R2,...RN \right>$
+  \scriptsize{
+  \begin{verbatim}
+private Block<R1> b1;
+private Block<R2> b2;
+...
+private Block<RN> bn;
+
+static TryBuilderN forN(Block<R1> b1, Block<R2> b2, ... Block<RN> bn) {
+  this.b1 = b1;
+  this.b2 = b2;
+  ...
+  this.bn = bn;
+}
+
+public <T> Try<T> yield(MultiFunction<R1, R2, ...RN, T> f) {
+  return
+    Try.tryWith(b1).flatMap(v1 ->
+      Try.tryWith(b2).flatMap(v2 ->
+        ...
+          Try.tryWith(bn).map(vn ->
+            f.apply(v1, v2, ...vn))));
+}
+  \end{verbatim}
+  }
+\end{frame}
+
+\subsection{TryBuilder Application}
+\begin{frame}[fragile]
+  \frametitle{TryBuilder Application}
+  \scriptsize{
+  \begin{verbatim} 
+for2(() -> Integer.parseInt(age), 
+     () -> dateFormat.parse(created))
+     
+  .yield((a,c) -> {
+      a = a & 0x7F;
+      c = c.later(today) ? today : c;
+      return patientService.search(a,c);})
+  
+  .andThen(
+      patientList -> ... ,
+      exception -> ...
+  );
+  \end{verbatim}
+  }
+  \begin{block}{Next Step}
+  \alert{Monad Validation} to support exception accumulation and return them once for all
+  \end{block}
+\end{frame}
+
+\end{document}
