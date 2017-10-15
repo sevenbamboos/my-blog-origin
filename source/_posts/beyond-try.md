@@ -6,5 +6,5 @@ tags:
 - Java
 ---
 
-See the [PDF](beyond-try/beyond-try.pdf) version
-Check [source code](beyond-try/beyond-try.tex)
+See the [PDF](2017/10/15/beyond-try/beyond-try.pdf) version
+Check [source code](2017/10/15/beyond-try/beyond-try.tex)
