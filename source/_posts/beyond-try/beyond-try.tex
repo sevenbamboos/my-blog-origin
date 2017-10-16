@@ -179,7 +179,7 @@ patientService.search(age, created);
 <T> Try<T> map(Function<R,T> f);
 <T> Try<T> flatMap(Function<R, Try<T>> f);
 
-// Resolve with no carry about error
+// Resolve with no worry about error
 void forEach(Consumer<R> callback);
 // Resolve with a success callback and an error handling
 void andThen(Consumer<R> callback, Consumer<Throwable> errorHandling);
