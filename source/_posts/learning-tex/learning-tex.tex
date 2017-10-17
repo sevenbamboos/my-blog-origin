@@ -1,0 +1,59 @@
+\documentclass{article}
+\title{Learning Tex}
+\author{Sam Wang}
+\date{Oct 17, 2017}			
+
+\newcommand{\site}[2][protocol]{\texttt{#1://#2}}
+
+\begin{document}
+
+\section{Concept}
+\begin{description}
+\item[Preamble]Part before \verb|\begin{document}|
+\item[Command]Start from $\backslash$
+\item[Environment]Block to have settings in its own scope
+\item[Font]\emph{serif} has small details at the end of letter strokes and thus is suitable for body
+\\ \emph{sans-serif} for headings and text on low-resolution screens
+\\ \texttt{monospace}(\verb|\texttt|) for source code. 
+\item[Online document (in case no \emph{texdoc})]\site[http]{ctan.org/pkg/<package-name>} to find document
+\end{description}
+
+\section{Basic Style}
+\subsection{Semantic markup}
+
+\verb|\emph| is more flexible than \verb|\textit| in that it represents the \emph{\emph{intention} instead of a detailed style}.
+Also note \emph can be nested and the effect is to flip between normal and italic.
+
+\subsection{New Command}
+Define new command inside preamble (before \verb|\begin{document}|):
+\\ \verb|\newcommand{command-name}[parameter-count][optional-parameters]{definition}|
+\verb|\site[git]{github.com/sevenbamboos}| $\rightarrow$ \site[git]{github.com/sevenbamboos}
+
+\subsection{Item}
+% Numbered list
+\begin{enumerate}
+  \item First action
+  \begin{enumerate}
+    \item Step one
+    \item Step two
+  \end{enumerate}
+  \item Second action
+  % Non-numbered list
+  \begin{itemize}
+    \item Member A
+    % Description items
+    \begin{description}
+      \item[Courage] Average **
+      \item[Intelligence] Poor *
+      \item[Knowledge] Good ***
+    \end{description}
+    \item Member B
+  \end{itemize}
+\end{enumerate}
+
+\section{Advanced Style}
+\subsection{Table}
+\subsection{Image}
+\subsection{Reference}
+\subsection{Source code}
+\end{document}
