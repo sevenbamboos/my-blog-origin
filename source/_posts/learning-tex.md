@@ -23,5 +23,7 @@ Question | Answer
 12.Separate formula | `\[ ... \]`
 13.Numbered formula | `\begin{equation} ... \end{...}`
 14.Multi-line formula | `\begin{align} formula1 &= A formula2 &= B \end{...}` amsmath provides a `align` mode to use `&` to align multi-line formula. 
+15.Subscript in formula | a_{subscript} `\lim_{n=1,2, \ldots} a_n`
+16.Underline and overline in formula | `\overline{} \underline{}_{} \overbrace \underbrace`
 
 See [PDF](2017/10/17/learning-tex/learning-tex.pdf) and [TEX](2017/10/17/learning-tex/learning-tex.tex)
