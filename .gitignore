@@ -28,6 +28,9 @@ db.json
 *.synctex.gz
 *.fls
 *.fdb_latexmk
+*.nav
+*.snm
+*.vrb
 node_modules/
 public/
 .deploy*/

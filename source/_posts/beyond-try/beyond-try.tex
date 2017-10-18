@@ -16,7 +16,7 @@
 
 \begin{frame}
 	\frametitle{Outline}
-	\tableofcontents[pausesections]
+	\tableofcontents %[pausesections]
 \end{frame}
 
 \section{Plain Old Try}
@@ -33,7 +33,7 @@
     \item java.sql.SQLException
     \end{itemize}
   \end{example}
-\begin{uncoverenv}<2>
+\begin{uncoverenv} %<2>
 Not a best practice
 \\Not implemented by modern languages later than Java
 \end{uncoverenv}
@@ -87,7 +87,7 @@ patientService.search(age, created);
 \subsection{Algebraic Data Type (ADT)}
 \begin{frame}
   \frametitle{Algebraic Data Type (ADT)}
-  \begin{block}{$\lambda$ Calculus}<1->
+  \begin{block}{$\lambda$ Calculus} %<1->
     \begin{enumerate}
     \item $Void \rightarrow 0$, $Unit, () \rightarrow 1$, $f(\alpha) \rightarrow \beta \rightarrow {\beta_{size}}^{\alpha_{size}}$
     \item $A | B \rightarrow A_{size} + B_{size}$
@@ -96,7 +96,7 @@ patientService.search(age, created);
     \\ $Tuple\left [WorkDay, Weather\right]$ $\rightarrow$ $WorkDay_{days} \cdot Weather_{kinds}$
     \end{enumerate}
   \end{block}
-  \begin{example}<2->
+  \begin{example} %<2->
   \alert{LinkedList:}$Nil | \Big(a, \big(List({a}')\big)\Big) \rightarrow \theta(a) = 1 + a \cdot \theta({a}')$ 
   $\frac{1}{1-x} \rightarrow 1+x+x^2+x^3... \rightarrow$ a list is either empty or containing a single element, or two elements, or three ...
   \alert{BinaryTree:}$Nil | Node\big(a, Tree(a), Tree(a)\big) \rightarrow \theta(a) = 1 + a \cdot \theta({a}')^2$ 
@@ -107,16 +107,16 @@ patientService.search(age, created);
 \subsection{Design Pattern in Functional Programming}
 \begin{frame}
   \frametitle{Design Pattern in Functional Programming}
-  \begin{block}{Functor}<1->
+  \begin{block}{Functor} %<1->
   Apply a function to a wrapped value. m a $\rightarrow$ (a $\rightarrow$ b) $\rightarrow$ m b
   \\ $Optional \left [T \right]::map(f: T \rightarrow U): Optional \left [U \right ]$
   \\ $Stream \left [T \right]::map(f: T \rightarrow U): Stream \left [U \right ]$
   \end{block}
-  \begin{block}{Applicatives}<2->
+  \begin{block}{Applicatives} %<2->
   Apply a wrapped function to a wrapped value
   \\ \textit{m a $\left <* \right >$ n b $\rightarrow$ Just (a.apply b)}
   \end{block} 
-  \begin{block}{Monad}<3->
+  \begin{block}{Monad} %<3->
   Apply a function that returns a wrapped value, to a wrapped value. m a $\rightarrow$ (a $\rightarrow$ m b) $\rightarrow$ m b
   \\ $Optional \left [T \right ] ::flatMap(f: T \rightarrow Optional \left [U \right ]): Optional \left [U \right ]$
   \\ $Stream \left [T \right ]::flatMap(f: T \rightarrow Stream \left [U \right ]): Stream \left [U \right ]$
@@ -155,17 +155,17 @@ patientService.search(age, created);
 \begin{frame}
   \frametitle{Problems with Optional}
     \begin{enumerate}
-    \item<1-> Not adopted by many existing APIs $yet$.
+    \item Not adopted by many existing APIs $yet$.
       \begin{description}
       \item[-] $Map::get(key: String): Object \rightarrow null $
       \item[-] $String::indexOf(ch: int): int \rightarrow -1$
       \end{description}
-    \item<2-> Happy path only. Nowhere to get exception details
-    \item<3-> Ugly when too many nested \alert{$\lambda$}
+    \item Happy path only. Nowhere to get exception details
+    \item Ugly when too many nested \alert{$\lambda$}
         \begin{description}
         \item[Example] $opt1.flatMap(v1 \rightarrow opt2.flatMap(v2 \rightarrow opt3.flatMap(v3 \rightarrow opt4.map(v4 \rightarrow v1 + v2 + v3 + v4))));$
         \end{description}
-    \item<4-> Not able to get all validation results.
+    \item Not able to get all validation results.
     \end{enumerate}
 \end{frame}
   

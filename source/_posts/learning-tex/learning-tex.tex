@@ -4,9 +4,21 @@
 \date{Oct 17, 2017}			
 
 \usepackage{amsmath}
+\usepackage{listings}
 
 \newcommand{\site}[2][protocol]{\texttt{#1://#2}}
 \newcommand{\fullref}[1]{\ref{#1} on page~\pageref{#1}}
+
+\lstset{
+basicstyle=\scriptsize,
+stringstyle=\textit,
+frame=single,
+numbers=left,
+numbersep=5pt,
+numberstyle=\tiny,
+tabsize=2,
+title=\lstname
+}
 
 \begin{document}
 
@@ -17,13 +29,13 @@
 \section{Installation}
 About Tex Distribution
 
-On Windows, MiKTex is a good choice with not too large size. Note MiKTex has its own package manager (GUI of course, but not as same as that of TexLive) and make sure to use the best repository to fast-download packages. 
+On Windows, MiKTex is a good choice with not too large size. Note MiKTex has its own package manager (GUI of course, but not as same as that of TexLive) and make sure to use the best repository to fast-download packages.
 
 On Mac, I tried a basic installation package of MacTex (the full package is over 3G). Note MacTex uses a basic version of TexLive as package manager. So make sure Tex commands are in user path and have correct user/group and permission to get executed. Also choose the right repository with 
 \\tlmgr option repository \site[http]{<mirror-domain>/systems/texlive/tlnet/} 
 
 About Editor
-MiKTex includes a front end, Texworks\label{texworks} while the basic MacTex does not. A better choice (for my taste) is \emph{Visual Code + Latex Workshop(plugin)}. Latex Workshop uses \emph{latexmk} to compile tex files by default. So make sure it is installed (via package manager). 
+MiKTex includes a front end, Texworks\label{texworks} while the basic MacTex does not. A better choice (for my taste) is \emph{Visual Code + Latex Workshop(plugin)}. Latex Workshop uses \emph{latexmk} to compile tex files by default. So make sure it is installed (via package manager). In case both TexLive and MiKTex are installed, Latex Workshop seems to be looking for TexLive?
 
 About Q\&A \cite{R02}
 
@@ -104,6 +116,14 @@ x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
 \end{align*}
 
 \subsection{Source code}
+\begin{lstlisting}[language=Java]
+class Foo {
+	// hello world :)
+	public static void main(String[] args) {
+		System.out.println("Hello world");
+	}
+}
+\end{lstlisting}
 
 \begin{thebibliography}{widest label}
   \bibitem[symbols]{R01} \site[https]{en.wikibooks.org/wiki/LaTeX/Mathematics}
