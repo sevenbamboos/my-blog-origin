@@ -6,6 +6,19 @@
 \institute{Shanghai}
 \date{\today}
 
+\usepackage{listings}
+\lstset{
+  basicstyle=\scriptsize,
+  stringstyle=\textit,
+  showspaces=false,
+  frame=single,
+  numbers=left,
+  numbersep=5pt,
+  numberstyle=\tiny,
+  tabsize=2,
+  title=\lstname
+  }
+
 %\usetheme{Bergen}
 
 \begin{document}
@@ -58,29 +71,26 @@ Not a best practice
 \begin{frame}[fragile]
   \frametitle{Try-Catch Sample}
 PatientList find(String strAge, String strCreated)
-\scriptsize{
-\begin{verbatim}
+\begin{lstlisting}[language=Java]
 // Process input age
 int age = -1;
 try {
   age = Integer.parseInt(strAge);
 } catch (NumberFormatException e) {
-  throw new IllegalArgument("Invalid age...}
-
+  throw new IllegalArgument("Invalid age...");
+}
 // Process input date
 Date created = null;
 try {
   created = dateFormat.parse(strCreated);
 } catch (ParseException e) {
-  throw new IllegalArgument("Invalid create date...);
+  throw new IllegalArgument("Invalid create date...");
 }
-
 // Major logic starts here
 age = age & 0x7F;
 created = created.later(today) ? today : created;
 patientService.search(age, created);
-\end{verbatim}
-} 
+\end{lstlisting}
 \end{frame}
 
 \section{Functional Programming}
@@ -137,8 +147,7 @@ patientService.search(age, created);
   $\beta=f(\alpha) , \gamma=g(\beta) \rightarrow \gamma=g\big(f(\alpha)\big)$
   }}
   \end{block}
-  \scriptsize{
-  \begin{verbatim}
+  \begin{lstlisting}[language=Java]
   Integer.tryParseInt(age).flatMap(a ->
     dateFormat.tryParse(created).map(c -> {
       // Only when both age and created have no problem
@@ -147,8 +156,7 @@ patientService.search(age, created);
       return patientService.search(a, c); 
     })
   );
-  \end{verbatim}
-  }
+  \end{lstlisting}
 \end{frame}
 
 \subsection{Problems with Optional}
@@ -172,24 +180,23 @@ patientService.search(age, created);
 \section{Monad Try in Action}
 \subsection{Try}
 \begin{frame}[fragile]
-  \frametitle{Try}
-  interface $Try \left[R \right]$
-  \scriptsize{
-  \begin{verbatim}
+  \frametitle{interface Try$\left[R \right]$}
+\begin{lstlisting}[language=Java]
 <T> Try<T> map(Function<R,T> f);
 <T> Try<T> flatMap(Function<R, Try<T>> f);
 
 // Resolve with no worry about error
 void forEach(Consumer<R> callback);
 // Resolve with a success callback and an error handling
-void andThen(Consumer<R> callback, Consumer<Throwable> errorHandling);
+void andThen(Consumer<R> callback, 
+    Consumer<Throwable> errorHandling);
+
 // Resolve separately by two steps
 Try<R> ifSuccess(Consumer<R> callback);
 void orElse(Consumer<Throwable> errorHandling);
 // Miscellaneous methods
 Try<R> filter(Predicate<R> f);
 Optional<R> toOption();
-
 static <T> Try<T> tryWith(Block<T> s) {
   try { return new Success(s.execute());
   } catch (Throwable e) {
@@ -197,49 +204,44 @@ static <T> Try<T> tryWith(Block<T> s) {
     else return new Failure(e);
   }
 }
-  \end{verbatim}
-  }
+\end{lstlisting}
 \end{frame}
 
 \subsection{Failure}
 \begin{frame}[fragile]
-  \frametitle{Failure}
-  final class Failure implements Try
-  \scriptsize{
-  \begin{verbatim}
+  \frametitle{final class Failure implements Try}
+\begin{lstlisting}[language=Java]
 private Throwable exception;
 Failure(Throwable exception) { this.exception = exception; }
 
-@Override public Try map(Function f) { return this; }
-@Override public Try flatMap(Function f) { return this; }
+public Try map(Function f) { return this; }
+public Try flatMap(Function f) { return this; }
 
-@Override public void forEach(Consumer callback) { return; }
-@Override public void andThen(Consumer callback, Consumer errorHandling) {
+public void forEach(Consumer callback) { return; }
+public void andThen(Consumer callback, 
+    Consumer errorHandling) {
   orElse(errorHandling);
 }
-@Override public Try ifSuccess(Consumer callback) { return this; }
-@Override public void orElse(Consumer errorHandling) {
+public Try ifSuccess(Consumer callback) { return this; }
+public void orElse(Consumer errorHandling) {
   errorHandling.accept(exception);
 }
 
-@Override public Try filter(Predicate f) { return this; }
-@Override public Optional toOption() { return Optional.empty(); }   
-  \end{verbatim}
-  }
+public Try filter(Predicate f) { return this; }
+public Optional toOption() { return Optional.empty(); }   
+\end{lstlisting}
 \end{frame}
 
 \subsection{Success}
 \begin{frame}[fragile]
-  \frametitle{Success}
-  final class Success$\left<R \right>$ implements Try$\left<R \right>$
-  \scriptsize{
-  \begin{verbatim}
+  \frametitle{final class Success$\left[R \right]$ implements Try$\left[R \right]$}
+\begin{lstlisting}[language=Java]
 private R result;
 Success(R result) { this.result = result; }
-@Override public <T> Try<T> map(Function<R, T> f) {
+public <T> Try<T> map(Function<R, T> f) {
   return Try.tryWith(() -> f.apply(result));
 }
-@Override public <T> Try<T> flatMap(Function<R, Try<T>> f) {
+public <T> Try<T> flatMap(Function<R, Try<T>> f) {
   Try<Try<T>> mapped = Try.tryWith(() -> f.apply(result));
   if (mapped.isSuccessful()) {
     return mapped.get();
@@ -247,25 +249,23 @@ Success(R result) { this.result = result; }
     return new Failure(mapped.exception());
   }
 }
-@Override public void forEach(Consumer<R> callback) {
-  Try.tryWith(() -> { callback.accept(result); return null; });
+public void forEach(Consumer<R> callback) {
+  Try.tryWith(() -> { callback.accept(result); ... });
 }
-@Override public Try<R> ifSuccess(Consumer<R> callback) {
-  return Try.tryWith(() -> { callback.accept(result); return result; });
+public Try<R> ifSuccess(Consumer<R> callback) {
+  return Try.tryWith(() -> { callback.accept(result); ... });
 }
-@Override public void andThen(Consumer<R> callback, 
+public void andThen(Consumer<R> callback, 
     Consumer<Throwable> errorHandling) {
   ifSuccess(callback);
 }
-  \end{verbatim}
-  }
+\end{lstlisting}
 \end{frame}
 
 \subsection{Try Application}
 \begin{frame}[fragile]
   \frametitle{Try Application}
-  \scriptsize{
-  \begin{verbatim}
+\begin{lstlisting}[language=Java]
 Try<Integer> readAge = tryWith(Integer.parseInt(age));
 Try<Date> readDate = tryWith(dateFormat.parse(created));
 
@@ -286,8 +286,7 @@ result.andThen(
   patientList -> ... ,
   exception -> ... 
 );
-  \end{verbatim}
-  }
+\end{lstlisting}
 \end{frame}
 
 \subsection{Improve Try}
@@ -298,30 +297,27 @@ result.andThen(
     \item No lazy evaluation (No need to continue readDate when readAge failed)
     \item It would be nice to have:
     \end{enumerate}
-  \scriptsize{
-  \begin{verbatim}
+\begin{lstlisting}[language=Java]
 for {a <- Integer.parseInt(age)
      c <- dateFormat.parse(created)} 
   yield(patientService.search(
     a & 0x7F, 
     c.later(today) ? today : c)
   )
-  \end{verbatim}
-  }
+\end{lstlisting}
 \end{frame}
 
 \subsection{TryBuilder}
 \begin{frame}[fragile]
   \frametitle{TryBuilder}
   final class TryBuilderN$\left <R1,R2,...RN \right>$
-  \scriptsize{
-  \begin{verbatim}
+\begin{lstlisting}[language=Java]
 private Block<R1> b1;
 private Block<R2> b2;
 ...
 private Block<RN> bn;
 
-static TryBuilderN forN(Block<R1> b1, Block<R2> b2, ... Block<RN> bn) {
+static TryBuilderN tryN(Block<R1> b1, Block<R2> b2, ... Block<RN> bn) {
   this.b1 = b1;
   this.b2 = b2;
   ...
@@ -336,16 +332,14 @@ public <T> Try<T> yield(MultiFunction<R1, R2, ...RN, T> f) {
           Try.tryWith(bn).map(vn ->
             f.apply(v1, v2, ...vn))));
 }
-  \end{verbatim}
-  }
+\end{lstlisting}
 \end{frame}
 
 \subsection{TryBuilder Application}
 \begin{frame}[fragile]
   \frametitle{TryBuilder Application}
-  \scriptsize{
-  \begin{verbatim} 
-for2(() -> Integer.parseInt(age), 
+\begin{lstlisting}[language=Java]
+try2(() -> Integer.parseInt(age), 
      () -> dateFormat.parse(created))
      
   .yield((a,c) -> {
@@ -357,8 +351,7 @@ for2(() -> Integer.parseInt(age),
       patientList -> ... ,
       exception -> ...
   );
-  \end{verbatim}
-  }
+\end{lstlisting}
   \begin{block}{Next Step}
   \alert{Monad Validation} to support exception accumulation and return them once for all
   \end{block}
