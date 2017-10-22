@@ -1,75 +1,79 @@
 \documentclass{article}
 
+\title{Introduction to Linear Algebra}
+\author{Sam Wang}
+\date{Oct 22, 2017}			
+  
+\usepackage{amsmath}
+
+\newcommand{\site}[2][protocol]{\texttt{#1://#2}}
+\newcommand{\fullref}[1]{\ref{#1} on page~\pageref{#1}}
+
 \begin{document}
 
-\begin{section}{Vector}
-  Definition
-  \begin{equation}
-  v = \begin{bmatrix}v1\\ v2\\ v3\end{bmatrix} 
-  \\ w = \begin{bmatrix}w1\\ w2\\ w3\end{bmatrix}
-  \end{equation}
+\maketitle
+\tableofcontents
 
-  01
-  \begin{equation}
-  cv + dw = \begin{bmatrix}
-    c\cdot v1+d\cdot w1\\ 
-    c\cdot v2+d\cdot w2\\ 
-    c\cdot v3+d\cdot w3
-  \end{bmatrix}
-  \end{equation}
+\section{Vector}
 
-  02
-  \begin{equation}
-  v\cdot w = v1\cdot w1 + v2\cdot w2 + v3\cdot w3
-  \end{equation}
+Definition
+\begin{align}
+  v &= \begin{bmatrix}v1\\ v2\\ v3\end{bmatrix}\\
+  w &= \begin{bmatrix}w1\\ w2\\ w3\end{bmatrix}
+\end{align}
 
-  03
-  \begin{equation}
-  \left \| v \right \| = \sqrt {v\cdot v} = \sqrt { {v_{1}}^{2} + {v_{2}}^{2} + {v_{3}}^{2} }
-  \\ u = \frac {v}{\left \| v \right \|}
-  \end{equation}
+Linear combination
+\(cv + dw = \begin{bmatrix}
+  c\cdot v1+d\cdot w1\\ 
+  c\cdot v2+d\cdot w2\\ 
+  c\cdot v3+d\cdot w3
+  \end{bmatrix} \)
 
-  04
-  \begin{equation}
-  {\left \| v \right \|}^{2} + {\left \| w \right \|}^{2} = {\left \| v - w \right \|}^{2}
-  \\\rightarrow (v_{1}^{2} + v_{2}^{2}) + ( w_{1}^{2} + w_{2}^{2}) = {(v_{1} - w_{1})}^{2} + {(v_{2} - w_{2})}^{2}
-  \\\rightarrow v_{1}w_{1} + v_{2}w_{2} = 0
-  \end{equation}
+Dot(inner) product:
+\( v\cdot w = v1\cdot w1 + v2\cdot w2 + v3\cdot w3 \)
 
-  05
-  \begin{equation}
-  u=\begin{bmatrix}
-  \cos \beta \\ 
-  \sin \beta
-  \end{bmatrix}
+Length:
+\( \left \| v \right \| = \sqrt {v\cdot v} = \sqrt { {v_{1}}^{2} + {v_{2}}^{2} + {v_{3}}^{2} } \)
 
-  \\ U=\begin{bmatrix}
-  \cos \alpha  \\ 
-  \sin \alpha
-  \end{bmatrix}
+Unit vector:
+\( u = \frac {v}{\left \| v \right \|} \)
 
-  \\ u\cdot U = \cos \alpha \cos \beta + \sin \alpha \sin \beta = \cos {\beta - \alpha} = \cos \theta = \frac {v\cdot w}{\left \| v \right \|\left \| w \right \|}
-  \\ \because \cos \theta \leq 1
-  \\ \therefore \left | v \cdot w \right | \leq \left \| v \right \| \left \| w \right \|
-  \\ \therefore \left \| v+w \right \| \leq \left \| v \right \| + \left \| w \right \|
-  \end{equation}
+Perpendicular vectors
+\begin{align}
+{\left \| v \right \|}^{2} + {\left \| w \right \|}^{2} &= {\left \| v - w \right \|}^{2}\\
+(v_{1}^{2} + v_{2}^{2}) + ( w_{1}^{2} + w_{2}^{2}) &= {(v_{1} - w_{1})}^{2} + {(v_{2} - w_{2})}^{2}\\
+v_{1}w_{1} + v_{2}w_{2} &= 0
+\end{align}
 
-  06
-  \begin{equation}
-  v=\begin{bmatrix}
-  a\\ 
-  b
-  \end{bmatrix}
-
-  \\ w=\begin{bmatrix}
-  b\\ 
-  a
-  \end{bmatrix}
-
-  \\ v\cdot w = 2ab \leq \left \| v \right \| \left \| w \right \| = a^2 + b^2
-  \\ x = a^2, y = b^2
-  \\ \sqrt {xy} \leq \frac {x+y}2
-  \\ \therefore geometric.mean \leq arithmetic.mean
-  \end{equation}
+Angle between vectors
+\begin{equation}
+u=\begin{bmatrix}
+\cos \beta \\ 
+\sin \beta
+\end{bmatrix}
+\\ U=\begin{bmatrix}
+\cos \alpha  \\ 
+\sin \alpha
+\end{bmatrix}
+\\ u\cdot U = \cos \alpha \cos \beta + \sin \alpha \sin \beta = \cos {\beta - \alpha} = \cos \theta = \frac {v\cdot w}{\left \| v \right \|\left \| w \right \|}
+\\ because \cos \theta \leq 1
+\\ therefore \left | v \cdot w \right | \leq \left \| v \right \| \left \| w \right \|
+\\ therefore \left \| v+w \right \| \leq \left \| v \right \| + \left \| w \right \|
+\end{equation}
+06
+\begin{equation}
+v=\begin{bmatrix}
+a\\ 
+b
+\end{bmatrix}
+w=\begin{bmatrix}
+b\\ 
+a
+\end{bmatrix}
+\\ v\cdot w = 2ab \leq \left \| v \right \| \left \| w \right \| = a^2 + b^2
+\\ x = a^2, y = b^2
+\\ \sqrt {xy} \leq \frac {x+y}2
+\\ therefore geometric.mean \leq arithmetic.mean
+\end{equation}
 
 \end{document}
