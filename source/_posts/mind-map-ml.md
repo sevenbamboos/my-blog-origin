@@ -10,68 +10,11 @@ Keywords | Comment & Reference
 --- | ---
 machine learning | [road map](#machine-learning)
 R | [r-in-action](#R-in-action)
-Python | [basic](#Python-Basic)
+Python | [basic](#Python-Basic), [tips](#Python-Tips)
 Statistics | [naked statistics](#naked-statistics)
 Math | [linear algebra intro](#introduction-to-linear-algebra)
 
 <!-- more -->
-
-```
-\\ definition
-\\ v = \begin{bmatrix}v1\\ v2\\ v3\end{bmatrix} 
-\\ w = \begin{bmatrix}w1\\ w2\\ w3\end{bmatrix}
-
-\\ 01
-\\ cv + dw = \begin{bmatrix}
-c\cdot v1+d\cdot w1\\ 
-c\cdot v2+d\cdot w2\\ 
-c\cdot v3+d\cdot w3
-\end{bmatrix}
-
-\\ 02
-\\ v\cdot w = v1\cdot w1 + v2\cdot w2 + v3\cdot w3
-
-\\ 03
-\\ \left \| v \right \| = \sqrt {v\cdot v} = \sqrt { {v_{1}}^{2} + {v_{2}}^{2} + {v_{3}}^{2} }
-\\ u = \frac {v}{\left \| v \right \|}
-
-\\ 04
-\\ {\left \| v \right \|}^{2} + {\left \| w \right \|}^{2} = {\left \| v - w \right \|}^{2}
-\\\rightarrow (v_{1}^{2} + v_{2}^{2}) + ( w_{1}^{2} + w_{2}^{2}) = {(v_{1} - w_{1})}^{2} + {(v_{2} - w_{2})}^{2}
-\\\rightarrow v_{1}w_{1} + v_{2}w_{2} = 0
-
-\\ 05
-\\ u=\begin{bmatrix}
-\cos \beta \\ 
-\sin \beta
-\end{bmatrix}
-
-\\ U=\begin{bmatrix}
-\cos \alpha  \\ 
-\sin \alpha
-\end{bmatrix}
-
-\\ u\cdot U = \cos \alpha \cos \beta + \sin \alpha \sin \beta = \cos {\beta - \alpha} = \cos \theta = \frac {v\cdot w}{\left \| v \right \|\left \| w \right \|}
-\\ \because \cos \theta \leq 1
-\\ \therefore \left | v \cdot w \right | \leq \left \| v \right \| \left \| w \right \|
-\\ \therefore \left \| v+w \right \| \leq \left \| v \right \| + \left \| w \right \|
-
-\\ 06
-\\ v=\begin{bmatrix}
-a\\ 
-b
-\end{bmatrix}
-
-\\ w=\begin{bmatrix}
-b\\ 
-a
-\end{bmatrix}
-
-\\ v\cdot w = 2ab \leq \left \| v \right \| \left \| w \right \| = a^2 + b^2
-\\ x = a^2, y = b^2
-\\ \sqrt {xy} \leq \frac {x+y}2
-\\ \therefore geometric.mean \leq arithmetic.mean
-```
 
 # naked statistics
 Question | Answer
@@ -98,6 +41,11 @@ se = \frac{sd}{\sqrt n}
 // quote 02
 se = \sqrt {\frac {p(1-p)} {n}}
 ``` 
+
+# Python Tips
+For Anaconda distribution, this (mirror)[https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/] could be faster than the official.
+(numpy tutorial)[https://docs.scipy.org/doc/numpy-dev/user/quickstart.html]
+
 
 # Python Basic
 Question | Answer
