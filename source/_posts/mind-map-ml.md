@@ -46,6 +46,18 @@ se = \sqrt {\frac {p(1-p)} {n}}
 For Anaconda distribution, this (mirror)[https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/] could be faster than the official.
 (numpy tutorial)[https://docs.scipy.org/doc/numpy-dev/user/quickstart.html]
 
+matrix with Jupyter
+```
+%matplotlib inline
+import sympy as sympy
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sbn
+from scipy import *
+
+A = np.array(([.8,.3],[.2,.7]))
+A.dot(x1)
+```
 
 # Python Basic
 Question | Answer
