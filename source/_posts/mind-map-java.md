@@ -25,8 +25,9 @@ Question | Answer
 08.Override for static(class) method | No way as inheritance doesn't apply to class.
 09.Overloading VS overriding | Overloading happens at compile time, while overriding at runtime.
 10.Covariant return type | It's allowed to return a sub-type in method of sub-class. (see code)
+11.Marker interface VS annotation | Interface provides static check during compiling, while annotation has to be checked at runtime. (see code)
 
-Continue at Question 65 (P129)
+Continue at P163
 
 ```
 //10
@@ -36,4 +37,13 @@ class Animal {
 class Cat extends Animal {
     @Override public Cat giveBirth() { return this; }
 }
+
+//11
+@SomeAnnotation
+class Foo { ... }
+
+  if (!obj.getClass().isAnnotationPresent(SomeAnnotation.class)) {        
+    // do something       
+  }   
+  
 ```
