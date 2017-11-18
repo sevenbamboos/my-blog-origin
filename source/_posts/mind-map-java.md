@@ -62,7 +62,9 @@ Question | Answer
 08.What's the use of bean name alias | On maintenance to replace existing dependencies with a new name.
 
 TODO:
+
 What's the use of java.lang.annotation.Target,Retention? In other words, give a practical view of Java Annotation.
+
 In which case, @Autowired needs to used together with @Qualifier
 
 ```
