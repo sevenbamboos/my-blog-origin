@@ -26,8 +26,10 @@ Question | Answer
 09.Overloading VS overriding | Overloading happens at compile time, while overriding at runtime.
 10.Covariant return type | It's allowed to return a sub-type in method of sub-class. (see code)
 11.Marker interface VS annotation | Interface provides static check during compiling, while annotation has to be checked at runtime. (see code)
+12.Pass-by-value or pass-by-reference | Java is always pass-by-value. (see code)
+13."foo" VS new String("foo") | The former is in string constant pool, while the latter is a normal string object. (see [this](http://www.thejavageek.com/2013/06/19/the-string-constant-pool/)) 
 
-Continue at P163
+Continue at P225
 
 ```
 //10
@@ -45,5 +47,15 @@ class Foo { ... }
   if (!obj.getClass().isAnnotationPresent(SomeAnnotation.class)) {        
     // do something       
   }   
-  
+
+//12
+Dog a = new Dog("A");
+void foo(Dog dog) {
+  dog = new Dog("foo");
+}
+foo(a);
+//a's name is A, not foo. a is a reference in stack (instead of heap), that points to a Dog instance.
+//Inside method foo, dog is a different reference that points to the same Dog instance.
+//So after foo, a's name is still A and the reference of dog has been discarded after foo.
+//That's the reason of pass-by-value. In this case, it's pass-a-reference-by-value.
 ```
