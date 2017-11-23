@@ -29,8 +29,11 @@ Question | Answer
 11.Marker interface VS annotation | Interface provides static check during compiling, while annotation has to be checked at runtime. (see code)
 12.Pass-by-value or pass-by-reference | Java is always pass-by-value. (see code)
 13."foo" VS new String("foo") | The former is in string constant pool, while the latter is a normal string object. (see [this](http://www.thejavageek.com/2013/06/19/the-string-constant-pool/)) 
+14.Comparator VS comparable | The former is a util interface comparing two objects, while the latter compares another object with itself, which means it is implemented by compared types while comparator is used by sorting functions.
+15.Why Object::hashCode() is native | Performance concern because it looks for an integer representation of an object reference on the heap. 
+16.What's the benefit of Collections::copy() over collection constructor or addAll | It doesn't involve reallocation but instead trigger out-of-index error if happened.
 
-Continue at P225
+Continue at P250
 
 ```
 //10
