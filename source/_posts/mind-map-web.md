@@ -19,6 +19,7 @@ put post | [Comment](#put-post), [RESTful cookbook][8]
 event bubbling | [Comment](#event-bubbling), [Event Propagation Explained][9]
 console.log | [Comment](#console-log), [Javascript console][10]
 partial curry high order Lodash | [Comment](#high-order-lodash), [Higher order in Lodash][11]
+Angular | [observable-async-share][12]
 
 <!-- more -->
 
@@ -144,3 +145,5 @@ For iOS, UIViewController is actually a presenter, a supervising controller and 
 [9]: https://www.sitepoint.com/event-bubbling-javascript/ 
 [10]: https://medium.freecodecamp.org/how-to-get-the-most-out-of-the-javascript-console-b57ca9db3e6d 
 [11]: https://blog.pragmatists.com/higher-order-functions-in-lodash-3283b7625175 
+[12]: https://stackoverflow.com/questions/40742181/performance-of-using-same-observable-in-multiple-places-in-template-with-async-p
+
