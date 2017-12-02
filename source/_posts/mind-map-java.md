@@ -96,6 +96,7 @@ Question | Answer
 20.How to support strongly typed criteria API query | Hibernate metamodel generator can generate @StaticMetamodel (JPA 2)
 21.How to make transaction cross multiple resources | Use Java Transaction API (JTA) which relies on XA resources to provide distributed transaction implementation.
 22.When to use @AssertTrue and when to custom validation | @AssertTrue is inside model to provide inner validation, while custom validation can be reused and injected with external services to do complicated check.
+23.Why not to keep JPA EntityManager open for rendering view (on server side) | Not scalable if multiple requests on the page load big data from DB connection. Prefer to use Ajax requests.
 
 TODO:
 
