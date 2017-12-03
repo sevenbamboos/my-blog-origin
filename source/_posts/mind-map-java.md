@@ -23,6 +23,7 @@ Question | Answer
 04.If closure has reference to non-local variable which is not final, how to make function free of side effects | Turn implicit variables to explicit arguments of the function (see code)
 05.There are Function and BiFunction. How about TriFunction | Using curring is another way to avoid TriFunction (see code
 06.Partially bind the first/second parameter | Deduct from types to create curried function (see code)
+07.What's the size of a thread | 1064 KB for 64-bit JVM (size of stack)
 
 ```
 // 02
