@@ -8,10 +8,58 @@ categories: Mind Map
 
 Section | Contents
 --- | ---
-Basic | [Basic](#Basic)
-Spring | [Spring](#Spring)
+Basic | [Tips](#Basic)
+Spring | [Tips](#Spring)
+Functional Programming | [Tips](#Functional-Programming)
 
 <!-- more -->
+
+# Functional Programming
+Question | Answer
+--- | ---
+01.groupBy(value -> key) | `Stream::collect(Collectors::groupingBy(value -> key))` See also partitioningBy
+02.type alias in Java | Use interface (see code)
+03.final variable for closure | Final requirement applies to local variable only (see code)
+04.If closure has reference to non-local variable which is not final, how to make function free of side effects | Turn implicit variables to explicit arguments of the function (see code)
+05.There are Function and BiFunction. How about TriFunction | Using curring is another way to avoid TriFunction (see code
+06.Partially bind the first/second parameter | Deduct from types to create curried function (see code)
+
+```
+// 02
+interface BinaryOperator extends Function<Integer, Function<Integer,Integer>> {}
+BinaryOperator add = x -> y -> x + y;
+
+// 03
+void aMethod() {
+  int foo = 1; // final can be omitted as long as no change afterwards
+  Predicate<Integer> greatThanFoo = x -> x > foo;
+  foo = 2; // compile error
+}
+
+int bar = 1; // bar is not a local variable so it has its own lifecycle with method call 
+void bMethod() {
+  Predicate<Integer> greatThanBar = x -> x > bar;
+  bar = 2; // no error but bMethod gives different results which is no good 
+}
+
+// 04
+Predicate<Tuple<Integer,Integer>> greatThanBar = tpl -> tpl._1 > tpl._2;
+greatThanBar.test(new Tuple<>(x, bar))
+// That's the reason to introduce BiPredicate to avoid ugly Tuple syntax
+
+// 05
+<A,B,C> Function<Function<A,B>, Function<Function<B,C>,Function<A,C>>> compose() {
+  return a2b -> b2c -> a -> b2c.apply(a2b.apply(a));
+}
+
+// 06
+public static <A,B,C> Function<B,C> partialA(A a, Function<A,Function<B,C>> f) {
+  return f.apply(a);
+}
+public static <A,B,C> Function<A,C> partialB(B b, Function<A,Function<B,C>> f) {
+  return a -> f.apply(a).apply(b);
+}
+```
 
 # Basic
 Question | Answer
