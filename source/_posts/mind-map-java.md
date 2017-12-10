@@ -9,7 +9,6 @@ categories: Mind Map
 Section | Contents
 --- | ---
 Basic | [Tips](#Basic)
-Spring | [Tips](#Spring)
 Functional Programming | [Tips](#Functional-Programming)
 
 <!-- more -->
@@ -23,8 +22,22 @@ Question | Answer
 04.If closure has reference to non-local variable which is not final, how to make function free of side effects | Turn implicit variables to explicit arguments of the function (see code)
 05.There are Function and BiFunction. How about TriFunction | Using curring is another way to avoid TriFunction (see code
 06.Partially bind the first/second parameter | Deduct from types to create curried function (see code)
-07.What's the size of a thread | 1064 KB for 64-bit JVM (size of stack)
-
+07.The size of a thread | 1064 KB for 64-bit JVM (size of stack)
+08.Give meaningful name for built-in functional interface | Define new functional interfaces (with same function signature as built-in functional interfaces) and use the new interfaces in class/method definition. Then use anonymous lambda in the application.
+09.Pattern matching in Java | Define a Case class extended from `Tuple<Supplier<Boolean>, Supplier<Result<T>>>`. See com.samwang.common.EmailValidation (alg-java in my git)
+10.Handle effects in a loop | One way is to fold effects into one and execute them afterwards (in a batch mode or delay the execution until necessarily).
+11.Why classes shouldn't have several properties of the same type (in modeling) | No compiling error when using an incorrect property. Solution is to use value types like Money, Weight, Age (rather than double, int).
+12.Make recursion function stack-safe | 1) Turn to tail-recursion 2) Use heap-based TailCall, which has two sub-classes: Return and Suspend. See com.samwang.common.TailCall (alg-java in my git)
+13.Turn to tail-recursion | Define a helper function with an accumulator.
+14.Another way to look at Fibonacci series 0,1,1,2,3,5,8,13 | A series of pairs (tuples): (0,1),(1,1),(1,2),(2,3),(3,5),(5,8),(8,13) And the generation method is `x -> new Tuple<>(x._2, x._1 + x._2)`
+15.Function memorization | Wrap function in com.samwang.common.Memoizer (alg-java in my git). For functions with more than one parameter, one way is to use Tuple2, Tuple3 (and use these tuples as the key in Memorizer). Another (better) way is to memorize the curried function (see code). In case there are huge different results to be kept in cache, use soft or weak references (and WeakHashMap) in Memorizer.
+16.java.util.Objects | Helper functions for comparison, equal, hash-code, null-check, etc.
+17.Functional list in Java | Define abstract class List with two sub-classes Nil and Cons. See com.samwang.common.List (alg-java in my git).
+18.What's good for StringBuilder::append to return this | In case StringBuilder is used as an accumulator, it saves one line of code to explicitly return the builder (see code).
+19.Implement foldRight with foldLeft for the purpose of stack safety | `list.reverse().foldLeft(identity, x -> y -> f.apply(y).apply(x));`
+20.Given concat(head, tail), what's good to implement List::flatMap with foldRight instead of foldLeft | foldLeft: (((1,2),3),4); foldRight: (1,(2,(3,4))). So foldRight works well with `concat(f.apply(element), list_for_accumulation)`
+21.Implement variance (with mean) | (see code)
+22.
 ```
 // 02
 interface BinaryOperator extends Function<Integer, Function<Integer,Integer>> {}
@@ -60,6 +73,23 @@ public static <A,B,C> Function<B,C> partialA(A a, Function<A,Function<B,C>> f) {
 public static <A,B,C> Function<A,C> partialB(B b, Function<A,Function<B,C>> f) {
   return a -> f.apply(a).apply(b);
 }
+
+// 15
+Function<Integer, Function<Integer, Integer>> addWithCurry = x -> y -> x + y;
+Function<Integer, Function<Integer, Integer>> addWithCurryWithMemo = memorize(x -> memorize(y -> x + y));
+
+// 18
+TailCall<StringBuilder> toString(StringBuilder acc, List<A> list) {
+  return list.isEmpty()
+    ? ret(acc)
+    : sus(() -> toString(acc.append(list.head()).append(","), list.tail()));
+}
+
+// 21
+val sum = list -> list.foldLeft(0, a->b->a+b);
+val mean = list -> list.isEmpty ? Optional.empty() : Optional.of(sum.apply(list) / list.length);
+val variance = list -> mean.apply(list).flatMap(m -> mean.apply(list.map(x -> Math.pow(x-m, 2))); 
+
 ```
 
 # Basic
@@ -83,6 +113,7 @@ Question | Answer
 16.What's the benefit of Collections::copy() over collection constructor or addAll | It doesn't involve reallocation but instead trigger out-of-index error if happened.
 17.Return value for high-order function | For functional interface, return a lambda (instead of an anonymous class).
 18.java.time package since Java 8 | LocalDate, Year, MonthDay, DayOfWeek. Also refer to TemporalAccessor for use suggestion (see code)
+19.@SafeVarargs | For methods with variable number of arguments, JVM uses array under the hood. When the type of arguments is type parameter, JVM uses Object[] which could lead ClassCastException. That's the reason JVM gives warning during compiling. The annotation is used to by-pass the warning.
 
 Continue at P250
 
@@ -118,54 +149,4 @@ foo(a);
 ChronoUnit.DAYS.between(d1,d2)
 d1.with(TemporalAdjuster.firstDayOfMonth());
 d2.with(TemporalAdjuster.next(DayOfWeek.MONDAY));
-```
-
-# Spring 
-Question | Answer
---- | ---
-01.JDK dynamic proxy VS CGlib (, javassist, etc.) | Dynamic proxy applies to interface, while CGlib to sub-class. (see code)
-02.Whether to put configuration option in business interface | It depends on whether it makes sense to all implementations. If not, define a separate interface for configuration.
-03.Dependency lookup VS injection | lookup is active and tends to have more code but (personally) easier to take full control (for test mock and run in standalone mode), while injection is passive and less code.
-04.What's the bad side of field injection | Hard to inject dependency manually (for test) because of the private field; Rely on container's injection.
-05.When to use @Resource instead of @Autowired | If the dependency is in a collection`<type>` (array,list,set,map), @Autowired will look for all beans of the contained type instead of the bean of the collection itself.
-06.In case for lookup method injection, what's the difference between annotation and XML | Annotation needs a non-abstract empty method implementation, while XML configuration can use an abstract method.
-07.Lookup and replaced method | Lookup is used when the dependency has a different lifecycle (e.g. non-singleton) than the host (e.g. globally singleton). So the dependency can be different instances on every time it's invoked. Replaced method is a class implements MethodReplacer to replace a method implementation of a delegated object.
-08.What's the use of bean name alias | On maintenance to replace existing dependencies with a new name.
-09.How to register shutdown hook | Runtime::addShutdownHook(Thread) Hooks are invoked when the last non-daemon thread exit.
-10.How to notify a non-critical business logic in Spring | ApplicationEvent works synchronously. For long-running process, JMS is more suitable.
-11.How to switch different environments for build tools (e.g. Maven) | @Profile and @ActiveProfiles
-12.What's the use of afterThrowing in Spring AOP | Adjust exception hierarchy, centralize exception logging and help debugging live application without modify application code. 
-13.How to limit AOP point-cut to the situation when it is called by a specific object | ControlFlowPointcut Be careful about performance impact.
-14.How to do object modification detection | AOP on set* methods and compare new value with old value (from corresponding get* methods).
-15.What is hibernate.max_fetch_depth | Person.address.city.country, if the depth is 2 then getCountry() will trigger another query.
-16.How to get nice sql generated by hibernate | hibernate.format_sql
-17.How to map java.util.Date to java.sql.Date/Time/DateTime in hibernate | @Temporal(TemporalType.DATE)
-18.Optimistic lock in hibernate | @Version Don't call setVersion otherwise version check will be disabled. That's one reason to use annotation on field and make get/set private.
-19.How to ask hibernate to fetch association eagerly for a query | `left join fetch person.address` 
-20.How to support strongly typed criteria API query | Hibernate metamodel generator can generate @StaticMetamodel (JPA 2)
-21.How to make transaction cross multiple resources | Use Java Transaction API (JTA) which relies on XA resources to provide distributed transaction implementation.
-22.When to use @AssertTrue and when to custom validation | @AssertTrue is inside model to provide inner validation, while custom validation can be reused and injected with external services to do complicated check.
-23.Why not to keep JPA EntityManager open for rendering view (on server side) | Not scalable if multiple requests on the page load big data from DB connection. Prefer to use Ajax requests.
-
-TODO:
-
-What's the use of java.lang.annotation.Target,Retention? In other words, give a practical view of Java Annotation.
-
-In which case, @Autowired needs to used together with @Qualifier
-
-```
-// 01
-interface Foo ...
-class FooImpl implements Foo ...
-class DynamicProxy implements InvocationHandler {
-  public Object createDynamicProxy() {  
-    return Proxy.newProxyInstance(...);  
-  }
-  @Override public Object invoke(...) throws Throwable {
-    // before ...
-    Object result = method.invoke(this.target, args); 
-    // after ...
-    return result;  
-  }  
-}
 ```
