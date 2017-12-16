@@ -1,7 +1,7 @@
 ---
-title: Mind Map of Scala 
+title: Scala and Functional Programming
 date: 2017-09-05 21:09:56
-categories: Mind Map
+categories: Programming
 ---
 
 # Map
