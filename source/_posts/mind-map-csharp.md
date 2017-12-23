@@ -35,6 +35,14 @@ Question | Answer
 16.is operator | Useful to have a casted variable even in an outer scope (see code)
 17.Hiding inherited members instead of override | `public new void Foo() {...}` (see code)
 18.Initialization order | 1.Fields in subclass, 2.Arguments to base class constructor, 3.Fields in base class, 4.base class constructor, 5.subclass constructor.
+19.virtual, override and sealed | virtual and override make the method in subclass override the one in base class (see code) 
+20.reimplement (new) | reimplemented method visible in subclass ONLY, also note without visual subclass can't override (see code)
+21.explicit implement | It solves method conflict from multiple interfaces by asking caller to cast instance to interface to be able to call the method. Otherwise the implementation is INVISIBLE in the class itself (see code)
+22.class VS interface | Use (sub)classes when they naturally share an implementation; use interface when they have independent implementations.
+23.Covariance VS contravariance | Covariance (out) is generic type used in return value, means `IPopable<Animal> obj = instance; // instance is IPopable<Cat>` because Cat is instance of Animal. Contravariance (in) is generic type used in parameters, means `IPushable<Cat> obj = instance; // instance is IPushable<Animal>` because Cat can always be used as method argument when parameter type is Animal (see code)
+24.delegate as Func and Action in System namespace | delegate is a type, used like `public delegate void Foo(); Foo aDelegate = methodName, aDelegate += anotherMethodName` Note Foo can be delcared by System.Action, which is `delegate void Action();`. Also note delegate can be multicast.
+25.Standard event pattern | 1.MyEventArgs : System.EventArgs, which is marker class. 2.Use generic delegate System.EventHandler and method to fire event (see code)
+
 
 ```
 // 03
@@ -79,5 +87,126 @@ Subclass sub = new Subclass();
 sub.Foo(); // Foo from subclass
 Superclass superClass = sub;
 superClass.Foo(); // Foo from super class
+
+// 19
+interface ICanFly {
+	void FlyAndCry();
+}
+
+class Bird : ICanFly {
+	public virtual void FlyAndCry() { WriteLine("Bird's cry"); }
+}
+
+class Falcon : Bird {
+	public sealed override void FlyAndCry() { WriteLine("Falcon !!!"); }
+}
+
+class SonOfFalcon : Falcon {
+	// compile error because of sealed attribute in Falcon::FlyAndCry
+	public override void FlyAndCry() { WriteLine("Son of Falcon"); } 
+}
+
+Falcon f = new Falcon();
+f.FlyAndCry(); // Falcon !!!
+(f as Bird).FlyAndCry(); // Falcon !!!
+(f as ICanFly).FlyAndCry(); // Falcon !!!
+
+// 20
+interface ICanFly {
+	void FlyAndCry();
+}
+
+class Bird : ICanFly {
+	// virtual doesn't matter in this case
+	// but if omitted, it acts like sealed and override is NOT allowed in subclass
+	public virtual void FlyAndCry() { WriteLine("Bird's cry"); }
+}
+
+class Falcon : Bird {
+	// compiler warning if new is omitted
+	public new void FlyAndCry() { WriteLine("Falcon !!!"); }
+}
+
+Falcon f = new Falcon();
+f.FlyAndCry(); // Falcon !!!
+(f as Bird).FlyAndCry(); // Bird's cry
+(f as ICanFly).FlyAndCry(); // Bird's cry
+
+// 21
+interface ICanFly {
+	void FlyAndCry();
+}
+
+class Bird : ICanFly {
+	public void FlyAndCry() { WriteLine("Bird's cry"); }
+}
+
+class Falcon : Bird, ICanFly { // the interface also needs to be delcared explicitly
+	// attributes like public, new or override not allowed for explicit implement
+	void ICanFly.FlyAndCry() { WriteLine("Falcon !!!"); }
+}
+
+Falcon f = new Falcon();
+f.FlyAndCry(); // Bird's cry
+(f as Bird).FlyAndCry(); // Bird's cry
+(f as ICanFly).FlyAndCry(); // Falcon !!!
+
+// 22
+class Animal { }
+class Cat : Animal { }
+
+interface IPopable<out R> { R Pop(); }
+interface IPushable<in T> { void Push(T t);  }
+
+class MyStack<T> : IPushable<T>, IPopable<T> {
+	public T Pop() { WriteLine("Pop " + typeof(T)); return default(T); }
+	public void Push(T t) { WriteLine("Push " + typeof(T)); }
+}
+
+IPushable<Cat> stack = new MyStack<Animal>();
+stack.Push(new Cat());
+
+IPopable<Animal> stack2 = new MyStack<Cat>();
+WriteLine(stack2.Pop());
+
+// 25
+public class PriceChangedEventArgs : EventArgs {
+	public readonly decimal OldPrice;
+	public readonly decimal NewPrice;
+	public PriceChangedEventArgs(decimal oldValue, decimal newValue) {
+		OldPrice = oldValue;
+		NewPrice = newValue;
+	}
+}
+
+public class Stock {
+	decimal price;
+	public event EventHandler<PriceChangedEventArgs> PriceChagned;
+
+	// Note null-conditional operator, which is thread-safe.
+	protected virtual void OnPriceChanged(PriceChangedEventArgs e) { PriceChagned?.Invoke(this, e); }
+
+	public decimal Price {
+		get { return price; }
+		set {
+			if (price == value) return;
+			decimal oldValue = price;
+			price = value;
+			OnPriceChanged(new PriceChangedEventArgs(oldValue, price));
+		}
+	}
+}
+
+Stock stock = new Stock();
+stock.Price = 20m;
+// Note local lambda is better than the following EventHandler, in that putting name into lambda type makes code more readable
+// EventHandler<PriceChangedEventArgs> printPrice = (o, e) => WriteLine($"old price = {e.OldPrice}, new price = {e.NewPrice}"); 
+void printPrice(object o, PriceChangedEventArgs e) => WriteLine($"old price = {e.OldPrice}, new price = {e.NewPrice}");
+stock.PriceChagned += printPrice;
+stock.Price = 25m; // printPrice works
+stock.Price = 30m; // printPrice works
+stock.PriceChagned -= printPrice;
+stock.Price = 10m; // printPrice doesn't work anymore
+
 ```
 
