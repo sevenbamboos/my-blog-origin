@@ -10,7 +10,7 @@ tags:
 # What is the problem
 
 Suppose we have models like this:
-![img](2017/12/24/safe-property-accessor/property_accessor.png)
+![img](property_accessor.png)
 ```
 class Student {
   private Teacher teacher;
