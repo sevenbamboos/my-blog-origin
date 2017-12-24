@@ -30,9 +30,11 @@ class Email {
   public void setAddress(String address) { this.address = address; }
 }
 ```
-(Not domain model actually, just data container)
+(Not domain model actually, just poor data container. I'll come back to this topic later.)
 
 Now given a student instance, I need to do some change to the teacher's email. How can I do? Firstly I need a way to retrieve the mail address.
+
+<!-- more -->
 
 # First try
 
@@ -137,4 +139,5 @@ Note:
 1. continue with more get functions until T16 is sufficient in most scenarios.
 2. it's strong-typed so that compiler is able to find the problem if a property accessor is incompatible with its previous or its successor.
 
-That's it. 以上.
+That's it. 
+以上.
