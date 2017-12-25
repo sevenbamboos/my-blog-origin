@@ -5,7 +5,6 @@ categories: Programming
 tags:
 - Clean Code
 ---
----
 
 # What is the problem
 
