@@ -138,5 +138,4 @@ Note:
 1. continue with more get functions until T16 is sufficient in most scenarios.
 2. it's strong-typed so that compiler is able to find the problem if a property accessor is incompatible with its previous or its successor.
 
-That's it. 
 以上.
