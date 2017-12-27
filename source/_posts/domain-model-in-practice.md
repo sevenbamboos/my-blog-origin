@@ -174,4 +174,3 @@ It doesn't matter whether we need to cover it with unit test since there is almo
 
 To sum up, domain model is everywhere. It's invisible to the eyes only with CRUD and get/set.
 
-以上.

@@ -148,4 +148,3 @@ Second, for computational property, the currying solution provides the flexibili
 
 In conclusion, introducing currying functions breaks the strong coupling between domain model and application code. 
 
-以上.

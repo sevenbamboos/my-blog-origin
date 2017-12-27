@@ -42,24 +42,24 @@ It's tempted to introduce a cache (groupName -> List<Person>) for the domain mod
 ```
 public class Memoizer<T, U> {
 
-    private final Map<T, U> cache = new ConcurrentHashMap<>();
+	private final Map<T, U> cache = new ConcurrentHashMap<>();
 
-    private Memoizer() {}
+	private Memoizer() {}
 
-    public Function<T, U> doMemoize(Function<T, U> function) {
-        return input -> cache.computeIfAbsent(input, function::apply);
-    }
+	public Function<T, U> memoize(Function<T, U> function) {
+			return input -> cache.computeIfAbsent(input, function::apply);
+	}
     
-	public Supplier<U> doMemoize(T key, Supplier<U> supplier) {
-	  	return toSupplier(key, doMemoize(toFunc(supplier)));
+	public Supplier<U> memoize(T key, Supplier<U> supplier) {
+	  	return toSupplier(key, memoize(toFunc(supplier)));
 	}
 	    
 	private Function<T, U> toFunc(Supplier<U> supplier) {
 	   	return _ignored -> supplier.get();
 	}
 	    
-    private Supplier<U> toSupplier(T t, Function<T, U> func) {
-	    return () -> func.apply(t);
+	private Supplier<U> toSupplier(T t, Function<T, U> func) {
+		return () -> func.apply(t);
 	}    
 }
 ```
@@ -67,11 +67,11 @@ public class Memoizer<T, U> {
 It supports both `java.util.function.Function` and `java.util.function.Supplier`. To help test the result, I also introduce a helper counter and doMemorize has been adapted:
 ```
 	private int executedCount = 0;
-	private int performedCount = 0;  
+	private int count = 0;  
 
-	public Function<T, U> doMemoize(Function<T, U> function) {
+	public Function<T, U> memoize(Function<T, U> function) {
 		return input -> {
-			++performedCount;
+			++count;
 			return cache.computeIfAbsent(input, k -> {
 				++executedCount;
 				return function.apply(k);
@@ -81,8 +81,8 @@ It supports both `java.util.function.Function` and `java.util.function.Supplier`
 
     public MemoizerCounter counter() {
 	    return new MemoizerCounter() {
-			@Override public int executed() { return executedCount; }
-			@Override public int performed() { return performedCount; }
+				@Override public int executed() { return executedCount; }
+				@Override public int total() { return count; }
 	    };
     } 
 
@@ -100,7 +100,7 @@ Note the type of memorizer indicates how the cache is organized (from group name
 ```
   public Supplier<List<Person>> femaleMembers() {
 
-    return memoizer.doMemoize(groupName, () -> {
+    return memoizer.memoize(groupName, () -> {
 
       List<ID> idOfAdmins = loadGroup.apply(groupName).admin.stream()
         .map(admin -> admin.id);
@@ -121,4 +121,3 @@ Note the type of memorizer indicates how the cache is organized (from group name
 
 It's almost the same as before, just being wrapped in memoizer's doMemoize method. The advantage of the memorizer pattern is that different memorizer instances have no correlation and therefore no need to worry about memory leak or stale objects in cache. On the other hand, the memorizer stays close with each model and is test-friendly.
 
-以上.
