@@ -1,20 +1,13 @@
 ---
-title: C# For Java Programmer
+title: C# For Java Programmer (Language Basic)
 date: 2017-12-17 09:38:14
 categories: Programming
 ---
 
 It's based on C# 7.0, which is the latest version with VS 2017. I list the feature unfamiliar to Java programmer.
 
-# Sections
-
-Title | Reference
---- | ---
-Language Basic | [Language Basic](#Language-basic)
-
 <!-- more -->
 
-# Language basic
 Question | Answer
 --- | ---
 01.Losing precision:convert int to float and again back to int | floating-point has less precision than integer. Double has NO such issue.
@@ -285,7 +278,5 @@ int hash = 17;
 hash = hash*31 + field1.GetHashCode();
 hash = hash*31 + field2.GetHashCode();
 hash = hash*31 + field3.GetHashCode();
-
-
 ```
 
