@@ -51,6 +51,8 @@ Question | Answer
 39.string's == and Equals | immutable string's == operator has been overloaded to behave like its Equals method.
 40.GetHashCode for more than two fields | (see code)
 41.CompareTo and Equals for case-insensitive string | Begin with `if (Equals(other)) return 0;` for CompareTo so that equal strings always return early.
+42.Functional Construction | Build structural objects (see code)
+43.Disposable pattern | (see code)
 
 ```
 // 03
@@ -278,5 +280,38 @@ int hash = 17;
 hash = hash*31 + field1.GetHashCode();
 hash = hash*31 + field2.GetHashCode();
 hash = hash*31 + field3.GetHashCode();
-```
 
+// 42
+XElement customer = 
+	new XElement("customer", new XAttribute("id", 123),
+		new XElement("firstname", "joe"),
+		new XElement("lastname", "doe",
+			new XComment("a common name")
+		)
+	);
+
+/*
+<customer id=123>
+	<firstname>joe</firstname>
+	<lastname>doe<!--a common name--></lastname>
+</customer>
+*/
+
+// 43
+class Test : IDisposable {
+	public void Dispose() { // NOT virtual
+		Dispose(true);
+		GC.SuppressFinalize(this); // prevent finalizer from running
+	}
+	protected virtual void Dispose(bool disposing) {
+		if (disposing) {
+			// call Dispose on other objects owned by this instance
+		}
+		// release unmanaged resources owned by (just) this instance
+	}
+	~Test() {
+		Dispose(false); // false because other objects could have been finalized
+	}
+}
+
+```
