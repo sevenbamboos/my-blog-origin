@@ -53,6 +53,7 @@ Question | Answer
 41.CompareTo and Equals for case-insensitive string | Begin with `if (Equals(other)) return 0;` for CompareTo so that equal strings always return early.
 42.Functional Construction | Build structural objects (see code)
 43.Disposable pattern | (see code)
+44.Null conditional operator and index operator | `ICouldBeNull?[0] == 'S'` Apart from `.`, index operator can come after null conditional operator.
 
 ```
 // 03
