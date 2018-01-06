@@ -1,4 +1,3 @@
----
 title: Curriculum Vitae
 date: 2018-01-06 14:56:20
 tags:
@@ -7,25 +6,20 @@ tags:
 # PROFILE
 
 > 15 years of detailed-oriented software programming; 6 years of Scrum master practices (TeamForge and Jira).
-
 > Strong understanding of object-oriented design and functional programming. Extensive experience in large-scale software trouble-shooting.
-
 > Solid knowledge and broad interests in JavaEE: JBoss, Hibernate, Spring; WEB development: Angular, React; and a wide range of technical stacks: C#, ASP.NET MVC, Entity framework, TPL DataFlow, Scala, Akka, R, NumPy, SciPy, Git, Subversion, Oracle, Jenkins.
 
 <!-- more -->
 
 # EXPERIENCE
 
-TEAM LEADER | AGFA HEALTHCARE (SHANGHAI) CO., LTD. | 2010-2017
---- | --- | ---
+__TEAM LEADER | AGFA HEALTHCARE (SHANGHAI) CO., LTD. | 2010-2018__
 Contributor and maintainer of connectivity module of Enterprise Imaging information system (JavaEE, Angular, Jenkins). Scrum master of development team with 5-6 software engineers. Workload: coding (60%); component design (20%); source code review (20%)
 
-SENIOR SOFTWARE ENGINEER | KODAK SHANGHAI PRODUCT DEVELOPMENT CENTER | 2006-2010
---- | --- | ---
+__SENIOR SOFTWARE ENGINEER | KODAK SHANGHAI PRODUCT DEVELOPMENT CENTER | 2006-2010__
 Developer of Advertisement player module (Java); Web developer of Kodak Digital Cinema System (JSP, Servlet, Javascript)
 
-SOFTWARE ENGINEER | SHANGHAI INTERNATIONAL COMMODITY AUCTION CO., LTD. | 2002-2006
---- | --- | ---
+__SOFTWARE ENGINEER | SHANGHAI INTERNATIONAL COMMODITY AUCTION CO., LTD. | 2002-2006__
 Developer of information system (JavaEE); Developer of online auction platform for private car license of Shanghai (JSP, Servlet)
 
 # EDUCATION & QUALIFICATIONS
@@ -55,5 +49,4 @@ LINK | DATE
 # CONTACT ME
 
 Mail1: sevenbamboos@gmail.com
-
 Mail2: 13472650881@163.com
