@@ -10,7 +10,7 @@ It's based on ASP.NET Core, which is the latest version with VS 2017. I list the
 
 Title | Link
 --- | ---
-ASP.NET Core MVC 2| [Goto](#ASP-NET-Core-MVC-2) |
+ASP.NET Core MVC 2 | [Goto](#ASP-NET-Core-MVC-2)
 
 <!-- more -->
 
