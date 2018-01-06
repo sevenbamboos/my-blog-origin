@@ -5,22 +5,22 @@ tags:
 
 # PROFILE
 
-> 15 years of detailed-oriented software programming; 6 years of Scrum master practices (TeamForge and Jira).
-> Strong understanding of object-oriented design and functional programming. Extensive experience in large-scale software trouble-shooting.
-> Solid knowledge and broad interests in JavaEE: JBoss, Hibernate, Spring; WEB development: Angular, React; and a wide range of technical stacks: C#, ASP.NET MVC, Entity framework, TPL DataFlow, Scala, Akka, R, NumPy, SciPy, Git, Subversion, Oracle, Jenkins.
+1. 15 years of detailed-oriented software programming; 6 years of Scrum master practices (TeamForge and Jira).
+2. Strong understanding of object-oriented design and functional programming. Extensive experience in large-scale software trouble-shooting.
+3. Solid knowledge and broad interests in JavaEE: JBoss, Hibernate, Spring; WEB development: Angular, React; and a wide range of technical stacks: C#, ASP.NET MVC, Entity framework, TPL DataFlow, Scala, Akka, R, NumPy, SciPy, Git, Subversion, Oracle, Jenkins.
 
 <!-- more -->
 
 # EXPERIENCE
 
 __TEAM LEADER | AGFA HEALTHCARE (SHANGHAI) CO., LTD. | 2010-2018__
-Contributor and maintainer of connectivity module of Enterprise Imaging information system (JavaEE, Angular, Jenkins). Scrum master of development team with 5-6 software engineers. Workload: coding (60%); component design (20%); source code review (20%)
+> Contributor and maintainer of connectivity module of Enterprise Imaging information system (JavaEE, Angular, Jenkins). Scrum master of development team with 5-6 software engineers. Workload: coding (60%); component design (20%); source code review (20%)
 
 __SENIOR SOFTWARE ENGINEER | KODAK SHANGHAI PRODUCT DEVELOPMENT CENTER | 2006-2010__
-Developer of Advertisement player module (Java); Web developer of Kodak Digital Cinema System (JSP, Servlet, Javascript)
+> Developer of Advertisement player module (Java); Web developer of Kodak Digital Cinema System (JSP, Servlet, Javascript)
 
 __SOFTWARE ENGINEER | SHANGHAI INTERNATIONAL COMMODITY AUCTION CO., LTD. | 2002-2006__
-Developer of information system (JavaEE); Developer of online auction platform for private car license of Shanghai (JSP, Servlet)
+> Developer of information system (JavaEE); Developer of online auction platform for private car license of Shanghai (JSP, Servlet)
 
 # EDUCATION & QUALIFICATIONS
 
