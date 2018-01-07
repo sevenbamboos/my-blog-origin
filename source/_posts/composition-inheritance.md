@@ -3,7 +3,7 @@ title: Composition over inheritance
 date: 2017-12-31 13:15:33
 categories: Programming
 tags:
-- Clean Code
+- Design Pattern
 ---
 
 For many programmers of younger generation, career started with object-oriented programming. And modern languages provide easy ways to create objects (and destroy them after the use). As a result, programs are pushed to the limit to make use of encapsulation and polymorphism and therefore sometimes tend to be unnecessarily complicated and hard to maintain. Let's use an example to illustrate when and when not to (over)use object-oriented programming. 

@@ -3,7 +3,7 @@ title: Domain Model in Practice
 date: 2017-12-26 15:42:00
 categories: Programming
 tags:
-- Clean Code
+- Design Pattern
 ---
 
 # What is the problem

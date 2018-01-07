@@ -3,7 +3,7 @@ title: Memorizer
 date: 2017-12-27 16:44:00
 categories: Programming
 tags:
-- Clean Code
+- Design Pattern
 ---
 
 # What is the problem

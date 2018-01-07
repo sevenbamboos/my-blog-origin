@@ -3,7 +3,7 @@ title: Safer Property Accessor
 date: 2017-12-24 09:28:22
 categories: Programming
 tags:
-- Clean Code
+- Design Pattern
 ---
 
 # What is the problem

@@ -3,7 +3,7 @@ title: Data Provider with Currying
 date: 2017-12-25 11:28:22
 categories: Programming
 tags:
-- Clean Code
+- Design Pattern
 ---
 
 # What is the problem
