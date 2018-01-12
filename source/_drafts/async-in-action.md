@@ -93,6 +93,20 @@ doTasks();
 
 (see Promise and Future)
 
+# Async in Java
+
+## Java 5
+
+`interface java.util.concurrent.Future<T>::get()` is a blocking method.
+
+## Java 8
+
+`interface java.util.concurrent.CompletionStage<T>` is Promise
+
+`class java.util.concurrent.CompletableFuture<T> implements Future<T>, CompletionStage<T>`
+
+That's all.
+
 # Async and Reactive
 
 ```
