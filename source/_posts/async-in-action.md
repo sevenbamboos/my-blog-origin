@@ -1,8 +1,10 @@
 ---
 title: Async in action
-date: 2018-01-07 10:13:33
 categories: Programming
+date: 2018-01-07 10:13:33
+tags:
 ---
+
 
 # Multithreading, Parallel and Async
 
@@ -18,6 +20,8 @@ Maximize the use of multiple processors of CPU. In most cases, work against buil
 
 Async
 > Use futures or callbacks to avoid unnecessary threads.
+
+<!-- more -->
 
 # Async with callback
 
