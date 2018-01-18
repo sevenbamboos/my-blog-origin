@@ -19,7 +19,7 @@ sevenbamboos@gmail.com
 
 Category | Technology
 --- | ---
-Programming languages | Java, Javascript, C#, Scala, Swift, Python
+Programming languages | Java, C#, Javascript, Python, Scala, Swift
 Front end technologies | HTML, CSS, Angular, React, Java Swing 
 Back end technologies | JavaEE (EJB, JPA, JMX, JAX-RS, JSP), Spring, Hibernate, ASP.NET MVC, Akka, NodeJS, SQL, XML
 Database | Oracle, MySQL, MongoDB
@@ -108,7 +108,7 @@ __References__
 INSTITUTION | QUALIFICATION | YEAR
 --- | --- | ---
 FREE CODE CAMP | FRONT END DEVELOPMENT PROGRAM | 2016
-EAST CHINA NORMAL UNIVERSITY | SHANGHAI MASTER OF SOFTWARE ENGINEERING | 2003-2006
+EAST CHINA NORMAL UNIVERSITY | MASTER OF SOFTWARE ENGINEERING | 2003-2006
 SUN | CERTIFICATED JAVA PROGRAMMER | 2001
 SHANGHAI UNIVERSITY OF ELECTRIC POWER | BACHELOR OF COMPUTER SCIENCE | 1997-2001
 
