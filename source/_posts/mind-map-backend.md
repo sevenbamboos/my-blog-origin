@@ -31,8 +31,12 @@ linux command | [commands][15]
 disk clean (for Mac) | [link][16]
 e-book site (for IT) | [finelybook][20] (down since 2017.9, not sure the future), [salttiger][21], [archive.org][22]
 math support for markdown | [codecogs.com][24]
+unicode | [unicode][#unicode]
 
 <!-- more -->
+
+# unicode
+For UTF-16, each code point is encoded in two bytes so that a special char U+FEFF (invisible) at the beginning of text can help to decide whether it is little-enndian. UTF-8 doesn't need this but could have that special char for whatever reason.
 
 # ide tips
 Question | Answer
