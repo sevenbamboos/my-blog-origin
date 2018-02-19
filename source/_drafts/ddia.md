@@ -125,4 +125,44 @@ Term-partitioned: global indexes. The pros and cons are the opposite way of docu
  
 # Chapter 7. Transaction
 
+## Basic level - read committed
+1. No dirty reads (only see committed data)
+No lock for read. Database keeps two values for every object being written. Read sees the old value until write commits a new value.
 
+2. No dirty writes (only overwrite committed data)
+Use an exclusive lock on row or document.
+
+## Second level - Snapshot isolation (AKA repeatable read)
+Design for long-running, read-only queries like backup and analytics, providing a consistent snapshot at a point in time. Each transaction is given an increasing ID, which is used in created_by, deleted_by fields (update is translated into a delete and a create) of a row in a table. At the beginning of a transaction, all ongoing transactions are listed. Writes from aborted transactions or later transactions are ignored. Other writes are visible to the query of the current transaction.
+
+## Scenarios outside second level - Read-update-write
+1. Select query for several rows of data
+2. Depending on the result of the first query, application code decides whether the invariant meets.
+3. If so, application code makes a write to the database and commits the transaction.
+The data from Step 1 can be modified by a concurrent transaction, which makes the invariant in Step 2 actually not be satisfied. So Step 3 was based on an incorrect fact.
+
+Solution includes: 
+1. atomic write operation
+
+2. `FOR UPDATE` clause 
+```
+begin transaction; 
+select * from ... where ... FOR UPDATE;
+update ... set ... where ...;
+commit;
+```
+If there is no rows for `FOR UPDATE` to lock, a virtual table could be created to contain slots for the purpose of lock (materializing conflicts).
+
+3. Compare-and-set
+```
+update ... set content = 'new_content' where ... and content = 'old_content';
+```
+
+## Most serious level - serializability
+When all data a transaction needs can be access in memory, encapsulate a transaction in a fast store procedures. Some databases have abandoned PL/SQL but use Java/Groovy/Lua to create store procedures.
+
+Another algorithm is Two-phase locking, which not only blocks other writes, but also readers. On the contrary, in snapshot isolation, readers never block writers and writers never block readers. Reader asks for a shared lock while writers needs an exclusive lock. Database can detect deadlocks and abort one of the transactions. But when application retries the aborted transaction, the overall performance is not OK.
+
+A new implementation of serializability is serializable snapshot isolation, which uses a pessimistic concurrency control not to abort a transaction until it commits a change (so if it's read-only it won't abort).
+
+# Chapter 8. Trouble with distributed systems
