@@ -14,7 +14,7 @@ RE: Position of *Software Engineer*
 
 I came to know about the requirements of this job in your organization, and I am certain that I have the necessary skills and experience to successfully do the job adeptly.
  
-Ten years’ experience as a software engineer, responsible for system analysis, software design, development and maintenance. A significant part of my working history has involved delivering software products and technical solutions radiology departments and helped them to make accurate diagnoses effectively.
+Ten years’ experience as a software engineer, responsible for system analysis, software design, development and maintenance. A significant part of my working history has involved delivering software products and technical solutions for radiology departments and helped them to make accurate diagnoses effectively.
 
 Technical skills. I am experienced in system analyzing, database designing, coding, maintaining and troubleshooting. And I am familiar with JavaEE, SpringMVC, ASP.NET, Web(Angular and React), SQL, Python, Swift and Scala. I have great skills of object-oriented design and functional programming paradigm.
 
