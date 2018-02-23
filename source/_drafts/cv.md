@@ -11,6 +11,8 @@ Pakuranga
 
 Auckland
 
+Zip: 2010
+
 +86 18616956116
 
 sevenbamboos@gmail.com
