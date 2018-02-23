@@ -17,11 +17,11 @@ RE: Position of *Software Engineer*
 
 I came to know about the requirements of this job in your organization, and I am certain that I have the necessary skills and experience to successfully do the job adeptly.
  
-Proven ability of programming and problem solving. Ten years’ experience as a software engineer, responsible for system analysis, software design, development and maintenance. A significant part of my working history has involved delivering software products and technical solutions for radiology departments and helped them to make accurate diagnoses effectively.
+Recognized qualification. Graduated with a bachelor degree in computer science and a master degree in software engineering. Solid knowledge in software programming and development methodology. Certificated Java Programmer and Front End Development Programmer. Good understanding of object-oriented design, functional programming and successfully demonstrated these skills in real projects.
 
-Recognized qualification. I have a bachelor degree of computer science and a master degree of software engineering. I have a good understanding of object-oriented design, functional programming and have successfully demonstrated these skills in real projects. 
+Proven ability of programming and problem solving. Ten years¿ experience as a software engineer, responsible for system analysis, software design, development and maintenance. A significant part of my working history has involved delivering software products and technical solutions for radiology departments and helped them to make accurate diagnoses effectively. 
 
-Technical skills. I am experienced in system analyzing, software designing, coding, maintaining and troubleshooting. I am familiar with JavaEE, SpringMVC, ASP.NET, Web (Angular and React), SQL, Python, Swift and Scala. I also have solid knowledge of Agile Methodologies and had taken the role of Scrum Master for several years.
+Technical skills. Professional experience in programming languages Java, C#, SQL, Python, Swift and Scala and broad interest in technical stacks JavaEE, SpringMVC, ASP.NET, NodeJS, iOS. Maintaining an open-source parser of Health Level Seven International, running a technical blog and willing to do knowledge sharing with colleagues. Solid knowledge of Agile Methodologies and had taken the role of Scrum Master for five years.
 
 Good communication skills. I am accustomed to working with international teams on diverse projects and interacting closely with local service teams and customers, many of whom are from hospitals and clinics worldwide. These tasks have required a high degree of team coordination and interaction to be completed on time.
 
