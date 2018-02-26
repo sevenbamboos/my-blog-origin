@@ -13,7 +13,7 @@ Auckland
 
 Zip: 2010
 
-+86 18616956116
+0272576301
 
 sevenbamboos@gmail.com
 

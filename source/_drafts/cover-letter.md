@@ -7,7 +7,7 @@ Yuping Wang
 
 75 Archmillen Ave, Pakuranga, Auckland
 
-*+86 18616956116*
+0272576301
 
 sevenbamboos@gmail.com
 
