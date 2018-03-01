@@ -23,13 +23,13 @@ Category | Technology
 --- | ---
 Programming languages | Java, C#, Javascript, Python, Scala, Swift
 Front end technologies | HTML, CSS, Angular, React, Java Swing 
-Back end technologies | JavaEE (EJB, JPA, JMX, JAX-RS, JSP), Spring, Hibernate, ASP.NET MVC, Akka, NodeJS, SQL, XML
+Back end technologies | JavaEE, Spring, Hibernate, ASP.NET MVC, Akka, NodeJS, SQL, XML
 Database | Oracle, MySQL, MongoDB
-Application servers | JBoss, WildFly, Tomcat
+Application servers | JBoss, Tomcat
 Version control | Subversion, Git
 Build tool | Maven, Ant, npm, Gradle
 Continuous Integration | Jenkins
-Methodologies | Scrum
+Methodologies | Scrum, Domain-Driven Design (DDD), Test-Driven Design (TDD)
 Defect tracking | TeamForge, Jira
 IDE | Eclipse, IntelliJ IDEA, Visual Studio 2015/2017, Visual Studio Code, XCode
 OS | Linux, Windows, macOS
@@ -40,7 +40,7 @@ OS | Linux, Windows, macOS
 
 2. Participated in the development of enterprise applications for ten years. Learned from the work experience the practical skills of Object-oriented design and functional programming paradigm. I work as a Full Stack Java developer and since 2010, join in a development team running Scrum methodology together with practice (e.g. Test-driven development and continuous integration) for a leading global provider of diagnostic imaging and health-care IT solutions.
 
-3. Broad interest in a wide range of technical stacks (JavaEE, .NET, NodeJS, iOS), and maintaining an open-source [parser(2)][2] of Health Level Seven International (HL7). I also run a technical [blog(3)][3] and willing to do knowledge sharing with colleagues.
+3. Broad interest in a wide range of technical stacks (JavaEE, .NET, NodeJS, iOS), distributed systems and server-less architecture, and maintaining an open-source [parser(2)][2] of Health Level Seven International (HL7). Also run a technical [blog(3)][3] and willing to do knowledge sharing with colleagues.
 
 ### EXPERIENCE
 
@@ -152,3 +152,5 @@ SHANGHAI UNIVERSITY OF ELECTRIC POWER | BACHELOR OF COMPUTER SCIENCE | 1997-2001
 [10]: https://sevenbamboos.github.io/my-blog/tags/Java/
 [11]: https://sevenbamboos.github.io/my-blog/tags/javascript/
 [12]: https://sevenbamboos.github.io/my-blog/tags/Git/
+
+Edited at 3/1/2018
