@@ -23,24 +23,28 @@ Category | Technology
 --- | ---
 Programming languages | Java, C#, Javascript, Python, Scala, Swift
 Front end technologies | HTML, CSS, Angular, React, Java Swing 
-Back end technologies | JavaEE, Spring, Hibernate, ASP.NET MVC, Akka, NodeJS, SQL, XML
+Back end technologies | JavaEE (JPA, EJB, JAX-RS, Java API for RESTful Web Services), Spring, Hibernate, ASP.NET MVC, Akka, Node.JS, SQL, XML
 Database | Oracle, MySQL, MongoDB
 Application servers | JBoss, Tomcat
 Version control | Subversion, Git
 Build tool | Maven, Ant, npm, Gradle
 Continuous Integration | Jenkins
-Methodologies | Scrum, Domain-Driven Design (DDD), Test-Driven Design (TDD)
+Methodologies | Scrum, Domain-Driven Design, Test-Driven Design
 Defect tracking | TeamForge, Jira
-IDE | Eclipse, IntelliJ IDEA, Visual Studio 2015/2017, Visual Studio Code, XCode
+IDE | Eclipse, IntelliJ IDEA, Visual Studio Code, Visual Studio, XCode
 OS | Linux, Windows, macOS
 
 ### PROFILE
 
-1. Graduated with a bachelor degree in computer science and a master degree in software engineering. Solid knowledge in software programming and development methodology. Certificated Java Programmer, passed [Front End Development Program(1)][1] at Free Code Camp through self-study.
+1. Bachelor degree in computer science and Master degree in software engineering.
 
-2. Participated in the development of enterprise applications for ten years. Learned from the work experience the practical skills of Object-oriented design and functional programming paradigm. I work as a Full Stack Java developer and since 2010, join in a development team running Scrum methodology together with practice (e.g. Test-driven development and continuous integration) for a leading global provider of diagnostic imaging and health-care IT solutions.
+2. Certificated Java Programmer and Front End Development Program (see ref 1).
 
-3. Broad interest in a wide range of technical stacks (JavaEE, .NET, NodeJS, iOS), distributed systems and server-less architecture, and maintaining an open-source [parser(2)][2] of Health Level Seven International (HL7). Also run a technical [blog(3)][3] and willing to do knowledge sharing with colleagues.
+3. Currently working as a Full Stack developer for a global health-care software provider, running Agile practices including Scrum methodology, Domain-Driven Design (DDD), Test-driven development (TDD) and Continuous Integration (Jenkins). Good understanding of Object-Oriented Design, Functional Programming paradigm, SOLID principle and design patterns. 
+
+4. Solid knowledge in distributed systems (Spring Cloud, Kafka, ZooKeeper), server-less architecture (AWS),   and technical stacks like JavaEE, .NET, Node.JS, iOS.
+
+5. Open-source contributor of a message parser of Health Level Seven International (HL7, see ref 2), Enterprise Image Manager/ Image Archive (dcm4chee, see ref 4), running a technical blog (see ref 3), and willing to do knowledge sharing with team members.
 
 ### EXPERIENCE
 
@@ -51,19 +55,19 @@ __Achievements__
 
 - Design and implement the connectivity middle-ware (EJB,JMS,JPA) that provides high throughput of message exchange between clinic departments. Based on my research and prototyping in Java parser generator (JavaCC), the middle-ware provides a proprietary scripting to customize message contents in high speed via pre-parsed expression trees in a cluster-aware cache (Infinispan). I am the major contributor and maintainer of this scripting language, as well as its configuration and development environment (Java Swing, JMX, Angular). I am also the sole creator of a language bridge, which extends the support of Javascript syntax in sandbox.
 
-- Trouble-shooting software deficiency and refactoring source code (JavaEE, Java Swing, AngularJS) with legacy code base and 3rd party libraries. Introduce Domain-Driven Design to clarify code intention and to improve maintainability in the long term. Do knowledge sharing with team members to explain technical details (see [articles(6)][6] adapted for publication) in Scrum retrospection meeting.  
+- Trouble-shooting software deficiency and refactoring source code (JavaEE, Java Swing, AngularJS) with legacy code base and 3rd party libraries. Introduce Domain-Driven Design to clarify code intention and to improve maintainability in the long term. Do knowledge sharing with team members to explain technical details (see articles in ref 6) in Scrum retrospection meeting.  
 
-- Build up quickly and practice knowledge of Angular and other modern Javascript frameworks in projects and prototyping. (see examples [1(7)][7], [2(8)][8], and [3(9)][9]) 
+- Build up quickly and practice knowledge of Angular and other modern Javascript frameworks in projects and prototyping. (see examples in ref 7, ref 8, and ref 9) 
 
 - Introduce Actor System to enhance the load test framework of connectivity module. I use the knowledge of Scala programming language and Akka to implement a simplified version of actor system to solve the problem how to create performance test that could be run in a distributed environment.
 
-- Solid knowledge in the domain of health-care. Inspired by 3rd party libraries Hibernate and Entity Framework, I make extended use of a HL7 [library(5)][5] with the capability of message transformation and persistence and work closely with a large open-source community [DICOM(4)][4] to upgrade a large source code base. 
+- Solid knowledge in the domain of health-care. Inspired by 3rd party libraries Hibernate and Entity Framework, I make extended use of a HL7 library (see ref 5) with the capability of message transformation and persistence and work closely with a large open-source community, dcm4chee (see ref 4) to upgrade a large source code base. 
 
 - Follow Agile methodology and take a role as Scrum Master (from 2012 to 2015) in a development team (5 developers). Host daily stand-up meetings, planning and review meetings, and work with product owner to scope and deliver working product timely.
 
 - Efficient cross-site communication with other R&D sites (Belgium, Austria and Canada). Participate in architecture and requirement discussion. In 2014 and 2016, I worked face-to-face with another development team in Belgium and did knowledge transfer successfully at Shanghai office afterwards. I help keep both team good relation and good progress for Shanghai team.   
 
-- Coach new members in Java programming language and other Information Technologies (for example [1(10)][10], [2(11)][11], and [3(12)][12]).
+- Coach new members in Java programming language and other Information Technologies (see examples in ref 10, ref 11, and ref 12).
 
 __Responsibilities__
 
