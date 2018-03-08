@@ -17,39 +17,45 @@ Zip: 2010
 
 sevenbamboos@gmail.com
 
+### PROFILE
+
+Bachelor degree in Computer Science and Master degree in Software Engineering. 
+
+Certificated Java Programmer and Front-End Development Program (see ref 1).
+
+Full Stack developer for a global health-care IT solution provider, experienced in programming practices including:
+* Agile methodologies (Scrum)
+* Domain-Driven Design (DDD)
+* Test-driven development (TDD)
+* Continuous Integration (Jenkins)
+
+Open-Source contributor of Health Level Seven International (HL7 v2.x, see ref 2) message parsing, Enterprise Image Manager/ Image Archive (dcm4chee, see ref 4). Host of a technical blog (see ref 3)
+
+Good understanding of Object-Oriented Design, Functional Programming paradigm, SOLID principle and design patterns. 
+
+Solid knowledge in distributed systems (Spring Cloud, Kafka, ZooKeeper), server-less architecture (AWS),   and technical stacks like JavaEE, .NET, Node.JS, iOS.
+
 ### SKILL SET
 
 Category | Technology
 --- | ---
-Programming languages | Java, C#, Javascript, Python, Scala, Swift
-Front end technologies | HTML, CSS, Angular, React, Java Swing 
+Programming languages | Java, C#, Javascript, Typescript, Python, Scala, Swift
+Front end technologies | HTML, CSS (Sass), Angular, React, Java Swing 
 Back end technologies | JavaEE (JPA, EJB, JAX-RS, Java API for RESTful Web Services), Spring, Hibernate, ASP.NET MVC, Akka, Node.JS, SQL, XML
 Database | Oracle, MySQL, MongoDB
 Application servers | JBoss, Tomcat
 Version control | Subversion, Git
-Build tool | Maven, Ant, npm, Gradle
-Continuous Integration | Jenkins
-Methodologies | Scrum, Domain-Driven Design, Test-Driven Design
-Defect tracking | TeamForge, Jira
-IDE | Eclipse, IntelliJ IDEA, Visual Studio Code, Visual Studio, XCode
-OS | Linux, Windows, macOS
-
-### PROFILE
-
-1. Bachelor degree in computer science and Master degree in software engineering.
-
-2. Certificated Java Programmer and Front End Development Program (see ref 1).
-
-3. Currently working as a Full Stack developer for a global health-care software provider, running Agile practices including Scrum methodology, Domain-Driven Design (DDD), Test-driven development (TDD) and Continuous Integration (Jenkins). Good understanding of Object-Oriented Design, Functional Programming paradigm, SOLID principle and design patterns. 
-
-4. Solid knowledge in distributed systems (Spring Cloud, Kafka, ZooKeeper), server-less architecture (AWS),   and technical stacks like JavaEE, .NET, Node.JS, iOS.
-
-5. Open-source contributor of a message parser of Health Level Seven International (HL7, see ref 2), Enterprise Image Manager/ Image Archive (dcm4chee, see ref 4), running a technical blog (see ref 3), and willing to do knowledge sharing with team members.
+Build tool | Maven, Ant, NPM, Webpack, Gradle
+Continuous Integration | Jenkins, Travis CI
+Defect tracking | Jira, TeamForge
+OS | Linux (CentOS and Debian), Windows, macOS
 
 ### EXPERIENCE
 
 AGFA HEALTHCARE (SHANGHAI) CO., LTD. | Senior Software Engineer | Mar. 2010 - 2018
 --- | --- | ---
+
+Agfa Healthcare CO., LTD. is a leading provider of Digital Imaging solutions. It is based in Belgium and has R&D sites worldwide with over 200 software developers.
 
 __Achievements__
 
@@ -87,6 +93,8 @@ __References__
 
 KODAK SHANGHAI PRODUCT DEVELOPMENT CENTER | Software Engineer | Jan. 2007 - Feb. 2010
 --- | --- | ---
+
+The Eastman Kodak Company is an American technology company that produces imaging products with over six thousand employees. Product Development Center is based in Shanghai, the largest software development center within Kodak, responsible for digital publishing and printing, consumer imaging, commercial imaging, and mobile imaging.
 
 __Achievements__
 
