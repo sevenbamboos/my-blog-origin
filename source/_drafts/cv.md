@@ -71,7 +71,7 @@ __Achievements__
 
 - Follow Agile methodology and take a role as Scrum Master (from 2012 to 2015) in a development team (5 developers). Host daily stand-up meetings, planning and review meetings, and work with product owner to scope and deliver working product timely.
 
-- Efficient cross-site communication with other R&D sites (Belgium, Austria and Canada). Participate in architecture and requirement discussion. In 2014 and 2016, I worked face-to-face with another development team in Belgium and did knowledge transfer successfully at Shanghai office afterwards. I help keep both team good relation and good progress for Shanghai team.   
+- Efficient cross-site communication with R&D sites worldwide. Participate in architecture and requirement discussion. Since 2014, I work with an international development team and do knowledge transfer at Shanghai office. I help build good relation for both teams and sync with progress for each other.
 
 - Coach new members in Java programming language and other Information Technologies (see examples in ref 10, ref 11, and ref 12).
 
