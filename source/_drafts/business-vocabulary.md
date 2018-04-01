@@ -9,7 +9,6 @@ Based on "Business Vocabulary in Practice 3rd"
 <!-- more -->
 
 # General Conversation
-
 Question | Answer
 --- | ---
 01.Ask the name | Can I have your name, please?
@@ -20,6 +19,11 @@ Question | Answer
 06.How to reply to "I'm sorry ..." | That's fine. Don't worry. No problem.
 07.Ask sb. to use your first name | Please, call me Sam!
 08.How to reply to "How do you do?" | How do you do? (It's not a real question)
+09.How are you (today)? | I am great.
+10.Thanks | thank you very much. That's really kind of you! No worries.
+11.Have a problem and apology | Is there a problem? Yes, I'm afraid there is. ... I truly apologize but ... I'd love to ... but unfortunately I have to ... I'm really sorry!
+12.What can I do for you? | Shall I ... ? Would you like me to ... ? Can I do anything else for you? let me know if you need anything.
+13.Goodbye | It was nice seeing you again. So, see you again soon, I hope. Take care.
 
 # Mail & Letter
 Question | Answer
@@ -37,8 +41,18 @@ Question | Answer
 11.End of answers | I hope these suggestions help. Let me know if you need anything else.
 12.How to reply to an invitation | Thanks for the invitation to ... We wish you success with your ... (or "I hope everything goes well" after declining to it)
 
-# IT
+# Telephone Call
+Question | Answer
+--- | ---
+01.When picking up a phone | XXX Company, Sam Wang speaking. Can I help you?
+02.Look for sb. | Hello, this is Sam from YYY Company. I'd like to speak to somebody in your ZZZ Department, please.
+03.Ask for waiting | Please hold. I'll put you through to ... I'm sorry but his line's busy at the moment. Can you hold?
+04.Can you give me his extension number, please? | 分机号
+05.Give reasons | This is Sam calling from XXX Company ... I'm calling about ... Well, many thanks for your help!
+06.How to (ask to) confirm | All right, (would you mind repeating that back to me?) let me repeat that ... I'll read that back to you ... 
+07.Available? | Would it be possible for you to do sth. at some time? Do you have time on ...? Would Monday morning be convenient for you? Does that work for you?
 
+# IT
 Question | Answer
 --- | ---
 01.peripheral | devices attached to computers
@@ -50,7 +64,6 @@ Question | Answer
 07.phishing | 网络钓鱼
 
 # Employee
-
 Question | Answer
 --- | ---
 01.workforce | total number of employees
