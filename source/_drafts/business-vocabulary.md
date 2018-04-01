@@ -88,3 +88,13 @@ Question | Answer
 20.grievance procedure | guidelines by companies to explain how to make complaints against them
 21.age or sexual discrimination | 年龄性别歧视
 22.equal opportunities | 平等机会
+
+# R & D
+Question | Answer
+--- | ---
+01.qualitative vs quantitative | small groups (focus group) via interviews vs large groups via questionnaires
+02.primary data vs secondary data | firsthand via field research vs collected via desk research
+03.product-led vs customer-led | product first and aim to develop new market vs develop products based on customers' need
+04.reverse engineering | 逆向工程
+05.software piracy | 软件盗版
+
