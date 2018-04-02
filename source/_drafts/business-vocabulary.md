@@ -98,3 +98,14 @@ Question | Answer
 04.reverse engineering | 逆向工程
 05.software piracy | 软件盗版
 
+# Production
+Question | Answer
+--- | ---
+01.one-off production vs batch production vs mass production | 特殊生产 vs 批量生产 vs 规模生产
+02.lean manufacturing|production | methods aim to reduce wastage
+03.tender | 投标(书)
+04.futures | 期货
+05.benchmarking | 基准流程
+06.routine check | 常规检查
+07.subcontract | 转包
+08.job rotation | 轮岗
