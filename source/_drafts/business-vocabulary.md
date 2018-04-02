@@ -109,3 +109,22 @@ Question | Answer
 06.routine check | 常规检查
 07.subcontract | 转包
 08.job rotation | 轮岗
+
+# Marketing
+Question | Answer
+--- | ---
+01.distribution channel | 销售渠道
+02.advertising agency | 广告公司
+03.billboard | 大广告牌
+04.list price | 公开价
+05.market price | 市场价
+06.price-sensitive | 价格敏感
+07.recyclable | 可回收的
+08.packaging | 包装
+09.own brand | 自有品牌
+10.brand loyalty | 品牌忠诚度
+11.cost-based pricing vs value-based pricing | 成本价 vs 价值
+12.penetration pricing | 低价策略
+13.competition-based pricing | 竞争价
+14.SWOT | system to help companies make plans, strengths, weaknesses, opportunities and threats
+
