@@ -127,4 +127,12 @@ Question | Answer
 12.penetration pricing | 低价策略
 13.competition-based pricing | 竞争价
 14.SWOT | system to help companies make plans, strengths, weaknesses, opportunities and threats
+15.word of mouth | 口碑
 
+# Sales
+Question | Answer
+--- | ---
+01.on order | 尚未供应
+02.purchasing department | 采购部门
+03.code call | 推销不熟悉的人并且没有预约
+04.loyalty card | 积分卡
