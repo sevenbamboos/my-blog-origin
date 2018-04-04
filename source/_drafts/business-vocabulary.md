@@ -136,3 +136,15 @@ Question | Answer
 02.purchasing department | 采购部门
 03.code call | 推销不熟悉的人并且没有预约
 04.loyalty card | 积分卡
+
+# Customer Service
+Question | Answer
+--- | ---
+01.repeat customer | 回头客
+02.customer retention | the number of customers that continue to use a product
+03.courteous | polite and respectful to others
+04.prospective | 未来的预期的
+05.subjective | 主观的
+06.laissez-faire | 放任主义
+07.self-regulation | (市场)自我调节
+
