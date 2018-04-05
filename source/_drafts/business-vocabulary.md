@@ -148,3 +148,10 @@ Question | Answer
 06.laissez-faire | 放任主义
 07.self-regulation | (市场)自我调节
 
+# Management
+Question | Answer
+--- | ---
+01.autocratic style vs democratic | 独裁
+02.hands-on approach vs hands-off | 亲自动手 vs 各自动手
+03.hierarchical structure vs flat structure | 层级结构 vs 扁平
+04.staff have been reassured that their jobs are safe | 使安心
