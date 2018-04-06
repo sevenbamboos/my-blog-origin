@@ -155,3 +155,17 @@ Question | Answer
 02.hands-on approach vs hands-off | 亲自动手 vs 各自动手
 03.hierarchical structure vs flat structure | 层级结构 vs 扁平
 04.staff have been reassured that their jobs are safe | 使安心
+
+# Career
+Question | Answer
+--- | ---
+01.someone has drive | 驱动力
+02.make a sideways move | a different job but at the same level
+03.persuade sb. to sponsor sb. else | 赞助
+04.distance learning | 远程教育
+05.apprenticeship | 学徒系统
+06.appraisal | 评估
+07.in-house training | 内部培训
+08.facilitate personal development | 促进个人发展
+09.turnover | 离职率
+10.parental level | 父母亲假(一般无薪)
