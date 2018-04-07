@@ -169,3 +169,17 @@ Question | Answer
 08.facilitate personal development | 促进个人发展
 09.turnover | 离职率
 10.parental level | 父母亲假(一般无薪)
+
+# Business Performance
+Question | Answer
+--- | ---
+01.bull/bear market | 牛/熊市
+02.dotcom bubble burst | 互联网泡沫破裂
+03.a slump in the economy | 经济暴跌
+04.bond | 债券
+05.dividend | 红利
+06.level off | stop increasing/decreasing at a fast speed
+07.economy/company/market continues to power ahead | stronger and successful
+08.upturn/downturn | improve/less successful
+09.rally | improve after having been weak
+10.liquidation | 清算偿还
