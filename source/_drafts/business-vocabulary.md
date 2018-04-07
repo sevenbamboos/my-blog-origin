@@ -183,3 +183,25 @@ Question | Answer
 08.upturn/downturn | improve/less successful
 09.rally | improve after having been weak
 10.liquidation | 清算偿还
+
+# Profit
+Question | Answer
+--- | ---
+01.profit margin vs gross margin vs gross profit vs net profit | 利润 vs 毛利润 vs 净利润
+02.break even | 收支持平
+03.market share | 市场占有率
+04.turnover | 营业额
+05.price discrimination | 价格歧视
+06.price war | 价格战
+07.predatory pricing | charge a much lower price than its competitors to force them out of the market
+08.undercut sb. or their prices | sell a product more cheaply than they do
+09.greenfield/brownfield site | 未开发过的/开发过后来没有在用的地区
+10.relocation | 重新安置
+11.synergy between two or more orgs | 协同作用
+12.flagship brand | 旗舰品牌
+13.upmarket vs downmarket | 高端市场 vs 低端市场
+
+# Finance
+Question | Answer
+--- | ---
+01.
