@@ -204,4 +204,12 @@ Question | Answer
 # Finance
 Question | Answer
 --- | ---
-01.
+01.accounts payable and accounts receivable | 应付款 应收款
+02.overheads | 常规支出,比如工资租金水电费
+03.interim results | 年中结果
+04.liability | 负债
+05.flotation | 上市
+
+# Business
+Question | Answer
+--- | ---
