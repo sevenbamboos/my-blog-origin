@@ -213,3 +213,10 @@ Question | Answer
 # Business
 Question | Answer
 --- | ---
+01.primary sector | industries which produce raw materials
+02.secondary sector | produce things from raw materials (e.g. manufacturing, construction)
+03.tertiary sector | provide service (e.g. transport, finance)
+04.private sector vs public sector | 私有经济 vs 国有经济
+05.business angel | give financial support but not involved in management
+06.sister company vs subsidiary | 同集团其他公司 vs 子公司
+07.consortium | 合伙公司 
