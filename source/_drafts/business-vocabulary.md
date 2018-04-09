@@ -220,3 +220,17 @@ Question | Answer
 05.business angel | give financial support but not involved in management
 06.sister company vs subsidiary | 同集团其他公司 vs 子公司
 07.consortium | 合伙公司 
+
+# Global Trading
+Question | Answer
+--- | ---
+01.impose tariffs on imports | 加关税
+02.free trade, not protectionism, lays the foundation for better jobs | 自由贸易比保护主义好
+03.quota | 限额
+04.deregulate | 解除对...的管制
+05.subsidy | 政府给的津贴
+06.austerity measure | 紧缩措施
+07.competitive edge/advantage | 竞争优势
+08.has a monopoly on sth. | 垄断
+09.sweatshop | 血汗工厂
+10.flexitime | 灵活工作时间
