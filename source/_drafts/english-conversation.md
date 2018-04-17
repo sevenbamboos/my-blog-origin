@@ -39,6 +39,17 @@ Phrase | Explanation
 11.You could/might say | indicate a suggested conclusion. e.g. ~ the cafeteria food is gross.
 12.Plus | I like him. He's really nice. ~, he's good-looking.
 
+# Description
+Phrase | Explanation
+--- | ---
+01.quite the character | 有个性
+02.hardly ever | You ~ call me anymore. Are you mad at me?
+03.The truth is | actually, as a matter of fact
+04.In the first (second) place ... Plus ... Not to mention | 第一点,第二点,...
+05.No wonder | obvious e.g. He's energetic, well educated, and charming. ~ you like him!
+06.be like | thinking or telling your reaction e.g. She comes home late, and I'm like, "Where have you been?" The teacher told me I failed the math test, and I was like, "Oh man, my mon's going to be upset."
+07.I mean /In other words /That is | further explanation e.g. He studies twenty-four-seven. ~, he's a serious student.
+
 # [Section]
 Phrase | Explanation
 --- | ---
