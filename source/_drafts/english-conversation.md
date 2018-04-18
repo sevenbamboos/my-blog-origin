@@ -50,6 +50,22 @@ Phrase | Explanation
 06.be like | thinking or telling your reaction e.g. She comes home late, and I'm like, "Where have you been?" The teacher told me I failed the math test, and I was like, "Oh man, my mon's going to be upset."
 07.I mean /In other words /That is | further explanation e.g. He studies twenty-four-seven. ~, he's a serious student.
 
-# [Section]
+# Running into a friend
 Phrase | Explanation
 --- | ---
+01.What's up? I haven't seen you for ages. | 最近怎么样?
+02.Fancy running into you here. /Fancy meeting you here. / What a coincidence | 很高兴遇到你,这么巧
+03.for the time being | now e.g. I'm a configuration analyst ~.
+04.run of the mill | ordinary e.g. The shoes are so trendy and different from the ~.
+05.I try | modesty after receiving a compliment e.g. You are a good developer! Thank you; ~.
+06.The thing is | introduce an explanation e.g. Why aren't you ready for school? ~, I can't find my backpack.
+07.A step in the right direction | I'm so glad you move to NZ. That's definitely ~.
+08.Which reminds me | speaking of which
+09.have my fingers crossed | strong desire or hope that sth happens e.g. I ~ that we'll win the game tonight.
+10.get ahead of oneself | What? You just met him and you're already planning what to name your children? Aren't you getting ahead of yourself? You should never count your chickens before they hatch!
+11.get together | Let's make sure we ~ more often.
+12.fulfilling | I like creating beautiful code, which makes me ~.
+13.Bye for now | 先告辞
+14.Before you know it | I'm so tired of school. Calm down. ~, you'll be finished and wishing you were back in school again.
+15.No way | Definitely no or that's good news
+16.bank on | Do you think the candidate is good enough? You can bank on it. All the tests show he's great. 
