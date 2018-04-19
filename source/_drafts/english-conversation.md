@@ -69,3 +69,14 @@ Phrase | Explanation
 14.Before you know it | I'm so tired of school. Calm down. ~, you'll be finished and wishing you were back in school again.
 15.No way | Definitely no or that's good news
 16.bank on | Do you think the candidate is good enough? You can bank on it. All the tests show he's great. 
+
+# Making appointments
+Phrase | Explanation
+--- | ---
+01.How can I help you? | What can I do for you?
+02.What is it ... | Ask for the reason e.g. ~ you want to see Dr. Manning?
+03.at vs on vs in | The movie is at the theater on State Street. The meeting is in the boss's office (not at because the location of the event is already understood).
+04.would like | say what you want politely e.g. We ~ three ice-creams. Or we can say may I have an ice-cream?
+05.Let's say | make a forceful suggestion e.g. I want to go shopping. ~ you do your homework first.
+06.have too much on my plate | Look, I'd like to help you out, but I just moved to a new country, I'm learning a new job, and I just ~ right now.
+
