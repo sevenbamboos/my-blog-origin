@@ -80,3 +80,17 @@ Phrase | Explanation
 05.Let's say | make a forceful suggestion e.g. I want to go shopping. ~ you do your homework first.
 06.have too much on my plate | Look, I'd like to help you out, but I just moved to a new country, I'm learning a new job, and I just ~ right now.
 
+# Wants and needs
+Phrase | Explanation
+--- | ---
+01.I'd like to ... and wonder if you can help me | 就是显得比较有礼貌
+02.go-to | dependable e.g. the ~ guy in the team
+03.have in mind | have a (good) idea of the kind of thing you want e.g. Sure, I'll help you decorate your room. What kind of look do you ~?
+04.mind doing sth. | not be happy about sth. e.g. I don't ~ going to the store. I'm happy to do it.
+05.Don't mind sb. | not to pay attention to e.g. ~ her - she doesn't know what she's talking about.
+06.preferably | I'd like to buy a new car, ~ one that doesn't use much gas.
+07.all the bells and whistles | modern, up-to-date - usually expensive - features of buildings e.g. The apartment has ~.
+08.worthwhile | The course is intensive, but it is really ~.
+09.out there | refer to the real world, at the present time e.g. You never know what dangers are ~. Go out and have fun! There are a lot of nice people ~.
+10.a heads-up | inform sb. so that the person will be ready e.g. I'm bringing a friend home for dinner and wanted to give you ~.
+11.say | What editor do you like, ~, vi or emacs?
