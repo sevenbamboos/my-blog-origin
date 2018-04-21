@@ -7,6 +7,11 @@ Based on the book of the same title
 <!-- more -->
 
 # Introduction
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
 Phrase | Explanation
 --- | ---
 01.got in and get there | arrived and will arrive, e.g. What time did you get in? I ~1 late last night. I hope we ~2 on time.
@@ -24,6 +29,11 @@ Phrase | Explanation
 13.have in store for | unknown situation (good or bad) presented to sb. e.g. I have no idea what my family will ~ me. We're going shopping tomorrow to see what the designers ~ us this season. He's been working there for years, but he never knows what's in store for him until he gets there.
 
 # Opinions, likes and dislikes
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
 Phrase | Explanation
 --- | ---
 01.in person | I'm so glad to meet you ~.
@@ -40,6 +50,11 @@ Phrase | Explanation
 12.Plus | I like him. He's really nice. ~, he's good-looking.
 
 # Description
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
 Phrase | Explanation
 --- | ---
 01.quite the character | 有个性
@@ -51,6 +66,11 @@ Phrase | Explanation
 07.I mean /In other words /That is | further explanation e.g. He studies twenty-four-seven. ~, he's a serious student.
 
 # Running into a friend
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
 Phrase | Explanation
 --- | ---
 01.What's up? I haven't seen you for ages. | 最近怎么样?
@@ -71,6 +91,11 @@ Phrase | Explanation
 16.bank on | Do you think the candidate is good enough? You can bank on it. All the tests show he's great. 
 
 # Making appointments
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
 Phrase | Explanation
 --- | ---
 01.How can I help you? | What can I do for you?
@@ -81,6 +106,11 @@ Phrase | Explanation
 06.have too much on my plate | Look, I'd like to help you out, but I just moved to a new country, I'm learning a new job, and I just ~ right now.
 
 # Wants and needs
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
 Phrase | Explanation
 --- | ---
 01.I'd like to ... and wonder if you can help me | 就是显得比较有礼貌
@@ -94,3 +124,28 @@ Phrase | Explanation
 09.out there | refer to the real world, at the present time e.g. You never know what dangers are ~. Go out and have fun! There are a lot of nice people ~.
 10.a heads-up | inform sb. so that the person will be ready e.g. I'm bringing a friend home for dinner and wanted to give you ~.
 11.say | What editor do you like, ~, vi or emacs?
+12.zero/no/any/none | plural noun after them when indicating nothing exists e.g. We have exactly zero applications for the position. There are no heart specialists in this area. She doesn't have any brothers or sisters. None (of them) are available.
+
+# Requests and offers
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Phrase | Explanation
+--- | ---
+01.Can I ask you a favor? | I have a favor to ask of you.
+02.back on track | Living in a new country was hard, but Phil is now getting his life ~.
+03.a load off my shoulders (mind) | Oh, man, that will be ~. I can't thank you enough. Glad to help.
+04.It's (just) that ... | The thing is ... e.g. Why didn't you turn your paper in on time? I'm sorry, professor. ~ I had two exams and three papers due last week.
+05.Any chance ... | Is it possible ... e.g. ~ we could get together for a cup of coffee?
+06.get back to you ASAP | Let me see what he thinks about it, and I'll ~.
+07.on top of it | fully understand or able to handle sth. e.g. There was a lot to learn in my new job, but now I'm ~.
+08.Don't hesitate to do sth. | If you have any questions about this contract, ~ to call me.
+09.Making requests | Can you < Will you please < Could/Would you (please) < Would you mind doing sth. < Would you mind if I borrowed you car (notice borrowed)? They are in the order of politeness.
+10.Assistance: take action in an emergency | I'll take you to the hospital. I'm calling the police.
+11.Assistance: obvious but not urgent | I see you need a ride. Would you like me to take you home?
+12.Assistance: in workplace | Let me know if I can help you. Feel free to ..., and if you see anything you like or have any questions, I'll be glad to help you.
+13.Assistance: to stranger | Can I help you? You took quite a fall. Let me help you get up.
+14.Assistance: if sb. wants sth. | How can I help you? What can I do for you?
+15.Assistance: sincere offer of help to sb. you know well | Is there any way I can help you? Is there any way I can do to help?
