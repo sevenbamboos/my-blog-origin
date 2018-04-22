@@ -149,3 +149,28 @@ Phrase | Explanation
 13.Assistance: to stranger | Can I help you? You took quite a fall. Let me help you get up.
 14.Assistance: if sb. wants sth. | How can I help you? What can I do for you?
 15.Assistance: sincere offer of help to sb. you know well | Is there any way I can help you? Is there any way I can do to help?
+16.go over /come (on) over | from one place to another in a short time e.g. ~1 to your neighbor's house and see if she is at home. Her friends ~2 yesterday and stayed all afternoon. I hear a lot of noise coming from your house! Come on over and join the party!
+
+# Doubts and uncertainty
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Phrase | Explanation
+--- | ---
+01.cry on your shoulder | I just got fired from my job. Will you let me ~ tonight?
+02.take it all out on sb. | I know you're disappointed that you didn't get better grades at school, but don't ~ your litter sister!
+03.on sb's case | constantly criticize or scold sb. e.g. My dad's always on my case about my long hair. He really wants me to cut it.
+04.just the opposite | You must be really excited about your promotion! It's ~! They're transferring me to another city, and I don't want to go.
+05.(not) have a clue | To be honest with you, I don't think he ~ about what he's supposed to be doing.
+06.(not) lift a finger | She's so spoiled. She doesn't lift a finger to help her parents with the housework.
+07.pig out on sth. | eat too much e.g. Oh, I really pigged out on that cake. It was so delicious.
+08.sick and tired | no longer tolerate sth. e.g. He's been here pigging out all week. I'm ~ of his behavior.
+09.out of the blue | appear or happen without warning e.g. I'm driving down the turnpike when ~ I get a call from Freddie!
+10.throw in the towel | give up e.g. How is your tennis lessons? Oh, I ~ a couple of weeks ago. I just didn't have enough time to practice.
+11.cheer sb. up | make sb. feel happier e.g. She was feeling lonely, so we went over and ~.
+12.count on and be there for | I count on Ann. She is always there for me (reliable).
+13.not exactly | She's ~ shy. (She's aggressive.) He's ~ a stranger. (We know him well.)
+14.From the get-go | from the beginning e.g. He has been enthusiastic about this project ~.
+15.from time to time | sometimes, (every) once in a while, now and then, every so often
