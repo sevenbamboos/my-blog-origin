@@ -174,3 +174,29 @@ Phrase | Explanation
 13.not exactly | She's ~ shy. (She's aggressive.) He's ~ a stranger. (We know him well.)
 14.From the get-go | from the beginning e.g. He has been enthusiastic about this project ~.
 15.from time to time | sometimes, (every) once in a while, now and then, every so often
+
+# Future events
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Phrase | Explanation
+--- | ---
+01.present tense | for a near future event (99%) with scheduled time e.g. The flight leaves at four o'clock this afternoon. The movie starts at five o'clock, so don't be late.
+02.I'll bet | I'm pretty sure e.g. ~ she wins the election.
+03.going to | for a near future event (95%) with scheduled date e.g. They're ~ get married in June.
+04.gonna | going to pronounced as "gonna" e.g. I'm ~ go see my grandmother this afternoon.
+05.verb + ing | alternative to going to (95%) e.g. We're moving to our house next month.
+06.will /won't probably | 75% /25% e.g. She'll probably be late. He probably won't come with me (note probably is before won't).
+07.may /might | 50% e.g. He may be late, because he has to work until 6. She might be late too.
+08.Maybe | 50% but placed before the subject e.g. ~ they'll be late. ~ I'll come over tomorrow.
+09.will + verb | either 99% or 10% e.g. We'll call you as soon as we arrive (99%). My baby will be a doctor when she grows up (10%).
+10.hit the sack | go to bed e.g. Man, I was exhausted last night. I ~ as soon as I got home.
+11.pack light | prepare a very small suitcase or carry-on e.g. Be sure to ~, because we'll have to carry our bags part of the day.
+12.reach a happy medium | compromise e.g. They ~ by buying an old house and putting in modern furniture.
+13.a (whole) bunch of | quite a few, a number of
+14.The same old thing | What are you up to these days? Oh, you know, ~ - working, taking care of the kids, learning at free time.
+15.Just think | introduce a fantasy or real plan e.g. ~! This time tomorrow we'll be in Rome!
+16.Good luck with that. | speaker doesn't think it is very likely to happen e.g. They told me I'd win 500 dollars. ~ They told the same thing to everyone they meet.
+ 
