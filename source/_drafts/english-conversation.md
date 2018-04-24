@@ -200,3 +200,21 @@ Phrase | Explanation
 15.Just think | introduce a fantasy or real plan e.g. ~! This time tomorrow we'll be in Rome!
 16.Good luck with that. | speaker doesn't think it is very likely to happen e.g. They told me I'd win 500 dollars. ~ They told the same thing to everyone they meet.
  
+# Arguing a point
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Phrase | Explanation
+--- | ---
+01.pros and cons | This issue has both ~. On the pro side, he's a hard worker. On the con side, he often comes to work late.
+02.inside out | You have your shirt on ~. Get Pierre to help you with your French. He knows the grammar ~.
+03.think outside the box | When she solved the school's traffic problem, she was really thinking outside the box.
+04.just sayin' | There's a good movie on tonight, and I have a big flat-screen TV. ~
+05.put one's two cents in | Everybody is arguing about this. OK, I'll put my two cents in: we should discuss it calmly tomorrow.
+06.go along with | I'll ~ your decision in this case.
+07.Good grief | indicate mild displeasure e.g. More homework? ~, Miss Thompson, you've already given us a paper to write!
+08.friction | You guys have got to learn to get along. There is too much ~ in this office.
+09.a bit uppity | be a snob e.g. Maybe she's just not used to the job, but the new secretary seems to be ~.
+10.As if that weren't enough /To top it all off | in the first place ... in the second place /in addition /furthermore /what's more /plus ... ~1 /~2
