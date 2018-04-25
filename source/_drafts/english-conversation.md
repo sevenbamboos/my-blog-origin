@@ -218,3 +218,20 @@ Phrase | Explanation
 08.friction | You guys have got to learn to get along. There is too much ~ in this office.
 09.a bit uppity | be a snob e.g. Maybe she's just not used to the job, but the new secretary seems to be ~.
 10.As if that weren't enough /To top it all off | in the first place ... in the second place /in addition /furthermore /what's more /plus ... ~1 /~2
+
+# Narrating a story
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Phrase | Explanation
+--- | ---
+01.To express surprise | Hey, buddy, what happened to you? Don't tell me you ...!
+02.pain in the neck | annoying e.g. I lost my internet connection again. What a ~!
+03.What a bummer! | bad news or bad luck e.g. Snow again! ~. For serious occasions, What a shame is better e.g. I'm so sorry to hear about your illness. What a shame!
+04.pouring down rain | The kids can't plan outside; it's ~.
+05.chill out | relax or calm down e.g. Oooh! I'm so mad I could scream! ~, babe. It's not worth getting upset over.
+06.The upshot | result or outcome e.g. I'm not going to give you all the details. ~ is that Caitlyn has left town and won't be back.
+07.be stressed out | nervous or worried e.g. She has two sick children at home and is trying to work at the same time. No wonder she is ~. Having two sick children at home really stresses me out.
+08.freak out /be freaked out | extremely scared, angry or excited e.g. He ~1 when he saw his brother driving his new car. She ~2 because she has three exams tomorrow. That car speeding towards us really freaked me out.
