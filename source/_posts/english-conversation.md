@@ -235,3 +235,18 @@ Phrase | Explanation
 06.The upshot | result or outcome e.g. I'm not going to give you all the details. ~ is that Caitlyn has left town and won't be back.
 07.be stressed out | nervous or worried e.g. She has two sick children at home and is trying to work at the same time. No wonder she is ~. Having two sick children at home really stresses me out.
 08.freak out /be freaked out | extremely scared, angry or excited e.g. He ~1 when he saw his brother driving his new car. She ~2 because she has three exams tomorrow. That car speeding towards us really freaked me out.
+
+# The last
+
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Phrase | Explanation
+--- | ---
+01.How's it going? | informal greeting e.g. Hey, dude. ~ /What's up? Pretty well, thanks. How are you?
+02.pressure | It's hard to ever relax. I have so much ~ at work - and with two small children, there's ~ at home, too.
+03.learn the ropes | get acquainted with a new job e.g. There's a lot of pressure at first, but once you ~, you'll be fine.
+04.at a loose end | temporarily not have anything to do e.g. Would you like me to paint your room? I'm at a bit of a loose end.
+04.end up | doing sth. unplanned e.g. I fell asleep on the train and ended up in New Jersey.
+05.give sb. a ride | I see you missed the bus. If you like, I'll give you a ride home.
