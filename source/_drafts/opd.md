@@ -24,6 +24,24 @@ Weather | freezing; heat wave; smoggy; humid (a hot and ~ day); thunderstorm; li
 The Telephone | pick up the receiver/handset; cord; phone jack; key pad; star key; pound key; antenna; strong/weak signal; (wireless) headset; internet phone call; pay phone; local call; international call; Hang up (because cordless phone needs to be hung up after the use, see also hang on); Dial 911 -> Give your name -> State the emergency -> Stay on the line
 Measurements | one whole (1.00); decimal point (小数点); length/width/height (长/宽/高); depth;
 Time | sunrise; sunset; daylight saving time; standard time;
+Calendar Events | parent-teacher conference; religious holiday; legal holiday; 
+Describing Things | hard chair; soft chair; 
+Colors | violet (紫罗兰,又紫又蓝); turquoise (青绿); dark blue > (navy) blue > bright blue > light blue; cream/ivory; beige/tan;
+Ways to Pay | gift card; price tag; regular price; sale price; total = price + sales tax; 
+Small and Different | two matching green sweaters
+
+# People
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Topic | Words
+--- | ---
+Adults and Children | senior citizen (老年人); toddler (toddle是蹒跚走的意思);
+Describing People | middle-aged; elderly; average height; heavy; average weight; physically challenged; sight/hearing impaired; attractive; mole; pierced ear (带耳环的耳朵);
+Describing Hair | shoulder-length hair; part (分头); sideburns; bangs (fringe 刘海); straight/wavy/curly hair; corn rows (编的小辫固定在头的部分); blow dryer (吹风机); perm/set hair (her hair was permed and then set);
+Families | cousin (同辈,父母辈是兄妹); niece/nephew (兄妹的下一辈); single mother; half sister (同母异父); stepsister (同父异母);
+Childcare and Parenting | nurse (nursing mothers 哺乳的妈妈们); feed (喂); rock (摇 she rocked the baby in her arms); undress; change a diaper; comfort (动词); discipline (动词 many parents have been afraid to discipline their children); buckle up (扣好安全带 不带宾语 it's advisable to buckle up as bla bla); sing a lullaby; kiss goodnight;
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
