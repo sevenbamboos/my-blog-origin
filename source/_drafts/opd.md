@@ -41,7 +41,19 @@ Adults and Children | senior citizen (老年人); toddler (toddle是蹒跚走的
 Describing People | middle-aged; elderly; average height; heavy; average weight; physically challenged; sight/hearing impaired; attractive; mole; pierced ear (带耳环的耳朵);
 Describing Hair | shoulder-length hair; part (分头); sideburns; bangs (fringe 刘海); straight/wavy/curly hair; corn rows (编的小辫固定在头的部分); blow dryer (吹风机); perm/set hair (her hair was permed and then set);
 Families | cousin (同辈,父母辈是兄妹); niece/nephew (兄妹的下一辈); single mother; half sister (同母异父); stepsister (同父异母);
-Childcare and Parenting | nurse (nursing mothers 哺乳的妈妈们); feed (喂); rock (摇 she rocked the baby in her arms); undress; change a diaper; comfort (动词); discipline (动词 many parents have been afraid to discipline their children); buckle up (扣好安全带 不带宾语 it's advisable to buckle up as bla bla); sing a lullaby; kiss goodnight;
+Childcare and Parenting | nurse (nursing mothers 哺乳的妈妈们); feed (喂); rock (摇 she rocked the baby in her arms); undress; change a diaper; comfort (动词); discipline (动词 many parents have been afraid to discipline their children); buckle up (扣好安全带 不带宾语 it's advisable to buckle up as bla bla); sing a lullaby; kiss goodnight; formula (配方奶); bib; high chair (婴儿椅); cloth diaper; safety pins; disposable diaper; training pants; potty seat; baby lotion; baby powder; wipes (湿巾纸); baby carrier (抱小孩的包); stroller (婴儿车); rocking chair (摇椅); pacifier; rattle (拨浪鼓);
+Daily Routines | get dressed; drop off /pick up kids (送接小孩上学放学); leave work; make lunch and cook dinner;
+Life Events and Documents | diploma; become a citizen -> Certificate of Naturalization; marriage license; land deed (地契);
+Feelings | full/satisfied; disgusted; in pain (疼); relieved; scared/afraid; upset (unhappy, worried, disappointed); exhausted > tired; furious > angry; humiliated > embarrassed; terrified > scared; overjoyed > happy; starving > hungry;
+Family Reunion | relatives; the children are misbehaving; 
+
+# Housing 
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Topic | Words
+--- | ---
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
