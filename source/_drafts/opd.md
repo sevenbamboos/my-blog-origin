@@ -54,6 +54,9 @@ Family Reunion | relatives; the children are misbehaving;
 
 Topic | Words
 --- | ---
+The Home | roof; dining area; attic;
+Finding a Home | unfurnished (unfurn) apartment; utilities include (gas, water, electricity, phone, cable, DSL); Renting an Apartment: Submit an application -> Sign the rental agreement -> Pay the first and the last month's rent; Buying a House: Meet with a realtor -> Make an offer -> Get a loan -> Take ownership -> Make a mortgage payment; Moving In: Pack/Unpack -> Put the utilities in your name -> Arrange the furniture;
+Apartments | fire escape; roof garden; intercom/speaker; tenant; vacancy sign; superintendent (大楼管理员); laundry room: washer, dryer; recreation room; security gate; storage locker; parking space; apartment complex; balcony; courtyard (庭院,被建筑全或半包围); trash bin; alley (胡同); hallway (过道,走廊); trash chute (在楼道里给楼上扔垃圾的通道口); lease/rental agreement; apartment entryway; buzzer (门口的对讲机,和门外用intercom的访客通话); peephole (门上的猫眼); door chain; dead-bolt lock (可以死锁的锁);
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
