@@ -57,6 +57,9 @@ Topic | Words
 The Home | roof; dining area; attic;
 Finding a Home | unfurnished (unfurn) apartment; utilities include (gas, water, electricity, phone, cable, DSL); Renting an Apartment: Submit an application -> Sign the rental agreement -> Pay the first and the last month's rent; Buying a House: Meet with a realtor -> Make an offer -> Get a loan -> Take ownership -> Make a mortgage payment; Moving In: Pack/Unpack -> Put the utilities in your name -> Arrange the furniture;
 Apartments | fire escape; roof garden; intercom/speaker; tenant; vacancy sign; superintendent (大楼管理员); laundry room: washer, dryer; recreation room; security gate; storage locker; parking space; apartment complex; balcony; courtyard (庭院,被建筑全或半包围); trash bin; alley (胡同); hallway (过道,走廊); trash chute (在楼道里给楼上扔垃圾的通道口); lease/rental agreement; apartment entryway; buzzer (门口的对讲机,和门外用intercom的访客通话); peephole (门上的猫眼); door chain; dead-bolt lock (可以死锁的锁);
+Different Places to Live | an urban area (the city); life is much better in the suburbs; a rural area (the country); condominium; townhouse (城镇里的联排,通常有好几层高); college dormitory (学校宿舍); ranch (牧场); senior housing (老年公寓); nursing home (养老院);
+A House and Yard | front walk (前门经过草坪到马路的路); driveway (车库到马路的路); gutter; storm door (front door外面的挡风雨的门); screen door (纱窗门); patio (门外地上铺了地砖的一块区域); grill; sliding glass door (移动玻璃门); flower bed; hose; sprinkler; hammock; garbage can; compost pile (肥料堆); lawn; vegetable garden; take a nap;
+A Kitchen | cabinet; shelf; paper towels; sink; dish rack; toaster; garbage disposal; dishwasher; freezer (冷冻室,refrigerator是0-4度); coffeemaker; blender (搅拌器); pot (锅); teakettle (烧水壶); stove; burner; oven and broiler (烤箱和里面的烤架); counter (灶台); electric mixer; food processor; cutting board (砧板); mixing bowl (搅拌用的铁的深的碗);
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
