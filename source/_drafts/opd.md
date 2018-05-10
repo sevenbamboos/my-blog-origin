@@ -60,6 +60,9 @@ Apartments | fire escape; roof garden; intercom/speaker; tenant; vacancy sign; s
 Different Places to Live | an urban area (the city); life is much better in the suburbs; a rural area (the country); condominium; townhouse (城镇里的联排,通常有好几层高); college dormitory (学校宿舍); ranch (牧场); senior housing (老年公寓); nursing home (养老院);
 A House and Yard | front walk (前门经过草坪到马路的路); driveway (车库到马路的路); gutter; storm door (front door外面的挡风雨的门); screen door (纱窗门); patio (门外地上铺了地砖的一块区域); grill; sliding glass door (移动玻璃门); flower bed; hose; sprinkler; hammock; garbage can; compost pile (肥料堆); lawn; vegetable garden; take a nap;
 A Kitchen | cabinet; shelf; paper towels; sink; dish rack; toaster; garbage disposal; dishwasher; freezer (冷冻室,refrigerator是0-4度); coffeemaker; blender (搅拌器); pot (锅); teakettle (烧水壶); stove; burner; oven and broiler (烤箱和里面的烤架); counter (灶台); electric mixer; food processor; cutting board (砧板); mixing bowl (搅拌用的铁的深的碗);
+A Dining Area | napkin; place mat (餐垫); tablecloth; salt and pepper shakers; sugar bowl (装白砂糖的罐); creamer (装牛奶的罐); tray (托盘); light fixture (吊灯); platter (大的浅的盘); hutch and buffet (都是储藏箱的意思, sideboard);
+A Living Room | love seat (双人沙发); throw pillow; houseplant; fireplace (壁炉); end table (沙发旁边的小桌子茶几); coffee table; floor lamp (落地灯); drapes (落地窗帘); armchair/easy chair (单人沙发);
+A Bathroom | hamper (浴室里放换洗衣服的大篮子); bathtub; washcloth (洗脸巾); drain (浴缸的下水道); faucet (tap,水龙头); tile (瓷砖); showerhead (淋浴头); towel rack (毛巾架); toilet paper (草纸); toilet brush (马桶刷); medicine cabinet; bath mat;
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
