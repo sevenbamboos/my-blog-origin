@@ -63,6 +63,20 @@ A Kitchen | cabinet; shelf; paper towels; sink; dish rack; toaster; garbage disp
 A Dining Area | napkin; place mat (餐垫); tablecloth; salt and pepper shakers; sugar bowl (装白砂糖的罐); creamer (装牛奶的罐); tray (托盘); light fixture (吊灯); platter (大的浅的盘); hutch and buffet (都是储藏箱的意思, sideboard);
 A Living Room | love seat (双人沙发); throw pillow; houseplant; fireplace (壁炉); end table (沙发旁边的小桌子茶几); coffee table; floor lamp (落地灯); drapes (落地窗帘); armchair/easy chair (单人沙发);
 A Bathroom | hamper (浴室里放换洗衣服的大篮子); bathtub; washcloth (洗脸巾); drain (浴缸的下水道); faucet (tap,水龙头); tile (瓷砖); showerhead (淋浴头); towel rack (毛巾架); toilet paper (草纸); toilet brush (马桶刷); medicine cabinet; bath mat;
+A Bedroom | dresser (衣橱); drawer; closet (衣柜 比衣橱高); blinds (百叶窗 复数); headboard (床头板); fitted sheet and flat sheet (睡在两者之间, fitted sheet在下); pillowcase; quilt; wood floor; rug; night table (床头柜); alarm clock; light switch; outlet (插头);
+The Kids' Bedroom | changing table (换尿布台); cot; bunk beds (双层床 所以是复数); safety rail (床边的栏杆); bedspread (床罩); crayons; stuffed animals; puzzle (拼图); dollhouse (模型房子);
+Housework | dust the furniture; recycle the newspaper; mop the floor; polish the furnish; make the bed; put away the toys; vacuum the carpet; sweep the floor; scrub the sink; empty the trash; wash/dry the dishes; wipe the counter (擦厨房的工作台); change the sheets; take out the garbage;
+Cleaning Supplies | feather duster (鸡毛掸); rubber gloves; sponge mop; bucket; rags (抹布); stepladder; glass/oven cleaner; squeegee (橡皮擦 擦玻璃); dishwashing liquid; dish towel (洗碗巾); trash bags;
+Household Problems and Repairs | The water heater (热水器) is not working -> gas meter (煤气表); The power is out -> electrician -> fuse box (保险丝盒); The roof is leaking -> roofer; The tile is cracked; The lock is broken -> locksmith; The steps are broken -> carpenter; furnace; The pipes are frozen; The faucet is dripping; The sink is overflowing -> plumber; The toilet is stopped up; exterminator; termites; bedbugs; fleas; cockroaches;
+The Tenant Meeting | There was a mess in the hallway. irritated (slight anger); rec room (娱乐室); 
+
+# Food 
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Topic | Words
+--- | ---
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
