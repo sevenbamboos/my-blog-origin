@@ -80,6 +80,9 @@ Topic | Words
 Back from the Market | pasta (意大利面); grocery bag; coupons
 Fruit | grapefruit (葡萄柚); lime (青柠); tangerine (桔子); apricot (杏子); raspberries (山莓); papayas (木瓜); raisins (葡萄干); prunes (梅干); fig (无花果); a bunch of bananas; ripe/unripe/rotten bananas;
 Vegetables | lettuce; radishes (小的红的萝卜); beet (甜菜 比radish大一圈); bell pepper (青椒菜椒); string beans (刀豆?); celery (芹菜); spinach (菠菜); broccoli; bok choy (小白菜小青菜); turnip (萝卜); sweet potato (红薯); green onion /scallion (葱); pea (豌豆); squash (小南瓜?); zucchini (西葫芦); asparagus; parsley (叶子比celery更多的芹菜); chili pepper; a head of lettuce (一颗生菜);
+Meat and Poultry | roast (用来烤的牛肉 很大块); stewing beef (用来炖的牛肉 块状); ground beef (碎牛肉 ground是碾碎的形容词意思); veal cutlets (小牛肉块); tripe (牛肚); bacon (cured meat 熏过的); lamb shanks (羊棒); thighs (of poultry 腿肉); drumstick (腿 只包含一截骨头 leg包含两截); raw chicken;
+Seafood and Deli (熟食) | trout; catfish; whole salmon; salmon steak; tuna; shrimp; scallop; oyster; clam; fresh/frozen fish; white/wheat/rye bread (白/全麦/黑面包); corned beef (腌的); pastrami (熏的); salami (蒜味腊肠); smoked turkey; boneless; skinless;
+A Grocery Store | produce section (超市的蔬菜水果区); aisle (超市货柜间的过道); self-checkout; line (等候结账的队); checkstand (结账台); cashier (收银员); cash register (收银机); canned food; margarine; sour cream (vs yogurt); aluminum foil; plastic wrap (保鲜膜); plastic storage bags (保鲜袋); frozen vegetables; soda/pop (汽水); nuts; candy bar; bagel (硬面包圈); 
 
 
 # 
