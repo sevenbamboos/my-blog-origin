@@ -77,6 +77,10 @@ The Tenant Meeting | There was a mess in the hallway. irritated (slight anger); 
 
 Topic | Words
 --- | ---
+Back from the Market | pasta (意大利面); grocery bag; coupons
+Fruit | grapefruit (葡萄柚); lime (青柠); tangerine (桔子); apricot (杏子); raspberries (山莓); papayas (木瓜); raisins (葡萄干); prunes (梅干); fig (无花果); a bunch of bananas; ripe/unripe/rotten bananas;
+Vegetables | lettuce; radishes (小的红的萝卜); beet (甜菜 比radish大一圈); bell pepper (青椒菜椒); string beans (刀豆?); celery (芹菜); spinach (菠菜); broccoli; bok choy (小白菜小青菜); turnip (萝卜); sweet potato (红薯); green onion /scallion (葱); pea (豌豆); squash (小南瓜?); zucchini (西葫芦); asparagus; parsley (叶子比celery更多的芹菜); chili pepper; a head of lettuce (一颗生菜);
+
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
