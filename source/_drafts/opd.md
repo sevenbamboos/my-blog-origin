@@ -89,6 +89,19 @@ Food Preparation and Safety | cook to the right temperature; refrigerate leftove
 Kitchen Utensils | grater; steamer; ladle (长柄勺); casserole dish (长方形的炖锅); garlic press; roasting pan/rack; vegetable peeler; colander (滤锅); spatula (锅铲); whisk (搅拌器); strainer (滤水的皿 带柄); tongs (钳子); saucepan (其实属于pot 因为比较深); cake/pie pan (pan比较浅); pot holder (锅的垫子); mixing bowl;
 Fast Food Restaurant | french fries; cheeseburger (当中有cheese 厚一点); onion rings; chicken sandwich (看起来像burger burger用牛肉); ice tea; ice-cream cone (冰激凌蛋筒); milkshake (奶昔); donut; muffin; counterperson (售货员); straw (吸管); plastic utensils (塑料刀叉); sugar substitute (代糖); ketchup (番茄酱); mayonnaise (蛋黄酱 美乃滋); mustard (芥末); salad bar;
 A Coffee Shop Menu | hash browns (土豆煎饼); grilled cheese sandwich; pickle (泡菜); club sandwich (插牙签的那种); spinach salad; chef's salad (有白煮蛋和肉); rolls; coleslaw (拌卷心菜); potato salad; pasta salad; fruit salad (后四种是side salad); salad dressings: thousand island, ranch, Italian and blue cheese; mashed potatoes (土豆泥); meatloaf (烘肉卷); steamed vegetables; decaf coffee; herbal tea; low-fat milk;
+A Restaurant | hostess (餐厅的女服务员 安排座位 不是waitress); high chair (高脚儿童椅); booth (餐厅里围成半圈的沙发椅); to-go box (外带盒); patron (餐厅的老客户); busser (收盘子的服务员); dishwasher; set the table (布置餐具); seat the customer; pour the water; clear/bus the dishes; leave a tip; eat out; dinner plate > salad plate > bread-and-butter plate; soup bowl; water/wine glass; saucer; salad fork < dinner fork; teaspoon < soupspoon;
+The Farmer's Market | lemonade; vendor (小贩); samples (样品); live music;
+
+# Clothing
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Topic | Words
+--- | ---
+Everyday Clothes | athletic shoes (trainer?); blouse (女士衬衫); suit; slacks/pants/jeans (注意裤子都是复数);
+Casual, Work, and Formal Clothes | cardigan/pullover sweater (穿法不同的毛衣); maternity dress (孕妇装); overalls (有背带的工作裤); knit top (针织的上衣); capris (女紧身裤); sandals; business suit; sports jacket/coat (休闲西服?); bow tie (蝴蝶结领结); tuxedo; evening gown; clutch bag (女手提包); cocktail dress; high heels; sweatshirt (运动衫); sweatpants; tank top (紧身背心); shorts (短裤);
+Seasonal Clothing | (over)coat; headband (头巾); leather jacket; winter scarf; parka (有头套的皮毛大衣 派克大衣); mittens (不分手指); leggings (紧身弹力裤); earmuffs; down vest/jacket (鸭绒); raincoat (像衣服的样子 poncho类似短一点的中国式雨披); rain boots; trench coat (防水的像侦探穿的那种大衣); swimming trunks; straw hat; windbreaker (防风衣);  
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
