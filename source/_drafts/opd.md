@@ -107,7 +107,19 @@ Workplace Clothing | hard hat (安全帽); work shirt/pants; tool belt; safety v
 Shoes and Accessories | wait in line; suspenders (背带裤); belts; display case (展品柜); shoe/jewelry department; cap (比较紧凑 属于一种hat); change purse (零钱袋); shoulder bag; tote bag; sole (鞋底); shoelaces (鞋带); flats (平底鞋); oxfords (牛津皮鞋 有鞋带); loafers (一脚伸的皮鞋); hiking boots; tennis shoes (boots通常梆比较高); a string of beads/pearls (一串珠);
 Describing Clothes | scoop neck > V-neck > crewneck > turtleneck sweater; sleeveless/short-sleeved/long-sleeved shirt; mini-skirt; patterns: solid, striped, polka-dotted, plaid, checked, floral, paisley; heavy/light jacket; tight/loose/baggy pants; The zipper is broken; It's ripped (穿坏了); It's stained; It's unraveling (毛衣脱线);
 Making Clothes | material: linen, cashmere (羊绒 和wool不同); denim; suede; corduroy (灯芯绒); sewing machine; rack; fabric store; snap (按扣); buckle; hook and loop fastener (刺毛皮);
+Making Alterations | alterations shop (改衣店); dressmaker; collar; waistband; cuff (turn-up 裤子卷边); tape measure (皮尺); lengthen/shorten the pants;
+Doing the Laundry | piles of dirty laundry (脏衣服 集合名次); laundry detergent; clothesline (晾衣绳); clothespin; hanger; ironing board; wrinkled shirt (皱的); load the washer (放进洗衣机); unload the dryer (拿出干衣机); fold the laundry; iron the clothes; hang up the clothes;
+A Garage Sale | flyer (广告传单); used clothing; sticker; folding table/chair (折叠桌椅); browse (浏览商品);
 
+# Health 
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Topic | Words
+--- | ---
+The Body | chest;
+Inside and Outside the Body | 
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
