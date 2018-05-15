@@ -102,6 +102,12 @@ Topic | Words
 Everyday Clothes | athletic shoes (trainer?); blouse (女士衬衫); suit; slacks/pants/jeans (注意裤子都是复数);
 Casual, Work, and Formal Clothes | cardigan/pullover sweater (穿法不同的毛衣); maternity dress (孕妇装); overalls (有背带的工作裤); knit top (针织的上衣); capris (女紧身裤); sandals; business suit; sports jacket/coat (休闲西服?); bow tie (蝴蝶结领结); tuxedo; evening gown; clutch bag (女手提包); cocktail dress; high heels; sweatshirt (运动衫); sweatpants; tank top (紧身背心); shorts (短裤);
 Seasonal Clothing | (over)coat; headband (头巾); leather jacket; winter scarf; parka (有头套的皮毛大衣 派克大衣); mittens (不分手指); leggings (紧身弹力裤); earmuffs; down vest/jacket (鸭绒); raincoat (像衣服的样子 poncho类似短一点的中国式雨披); rain boots; trench coat (防水的像侦探穿的那种大衣); swimming trunks; straw hat; windbreaker (防风衣);  
+Underwear and Sleepwear | undershirt (背心); thermal undershirt (保暖内衣); long underwear (内衣和裤?); boxer shorts (平角裤); briefs (三角裤); ankle/crew/dress socks; knee highs (长筒袜); panty hose (tights 裤袜); camisole; full/half slip (衬裙); nightshirt; robe;
+Workplace Clothing | hard hat (安全帽); work shirt/pants; tool belt; safety vest; steel toe boots; coveralls; apron; blazer (=sport jacket?); polo shirt; name tag (贴在胸口的名牌); bandana (头巾); badge (门卡也算?); helmet; jumpsuit; hairnet; smock (罩在衣服外面的薄衣服); waist apron; scrubs (医生护士穿的卫生衣);
+Shoes and Accessories | wait in line; suspenders (背带裤); belts; display case (展品柜); shoe/jewelry department; cap (比较紧凑 属于一种hat); change purse (零钱袋); shoulder bag; tote bag; sole (鞋底); shoelaces (鞋带); flats (平底鞋); oxfords (牛津皮鞋 有鞋带); loafers (一脚伸的皮鞋); hiking boots; tennis shoes (boots通常梆比较高); a string of beads/pearls (一串珠);
+Describing Clothes | scoop neck > V-neck > crewneck > turtleneck sweater; sleeveless/short-sleeved/long-sleeved shirt; mini-skirt; patterns: solid, striped, polka-dotted, plaid, checked, floral, paisley; heavy/light jacket; tight/loose/baggy pants; The zipper is broken; It's ripped (穿坏了); It's stained; It's unraveling (毛衣脱线);
+Making Clothes | material: linen, cashmere (羊绒 和wool不同); denim; suede; corduroy (灯芯绒); sewing machine; rack; fabric store; snap (按扣); buckle; hook and loop fastener (刺毛皮);
+
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
