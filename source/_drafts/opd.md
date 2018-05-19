@@ -119,7 +119,18 @@ A Garage Sale | flyer (广告传单); used clothing; sticker; folding table/chai
 Topic | Words
 --- | ---
 The Body | chest;
-Inside and Outside the Body | 
+Inside and Outside the Body | chin; gum (牙床); eyelashes; wrist; palm (手掌); fingernail; thigh; knee; shin; abdomen; intestines; bladder; rib cage; spinal column; pelvis;
+Personal Hygiene | use deodorant (除臭 odour气味); perfume vs cologne (前者维持8小时 后者2-3小时); put on sunscreen; sunblock (防晒指数高); hair gel; bobby pins (夹头发的); unscented soap; gargle (漱口); dental floss (牙线); mouthwash; razorblade (剃须刀头); shaving cream; nail clipper; nail polish; blush (胭脂); foundation (粉底霜); face powder;
+Symptoms and Injuries | nasal congestion; he was confined to bed with a severe chill; rash (皮疹); sneeze; feel nauseous (打恶心); insect bite; sunburn; blister (水疱); swollen finger; bloody nose; sprained ankle (扭伤的);
+Illness and Medical Conditions | strep throat (发烧引起的喉咙痛); asthma; arthritis; dementia; Alzheimer's disease;
+A Pharmacy | pharmacist; prescription medication (处方药); dosage; expiration date; Finish all medication; Do not take with dairy products; humidifier; air purifier; cane; over-the-counter medication (非处方药); take pills/tablets/capsules/cough syrup (止咳糖浆); apply ointments/creams; use eye drops/nasal spray/inhalers; throat lozenges (润喉片); pain reliever; cold tablets;
+Taking Care of Your Health | Seek medical attention; Get bed rest; Stay fit; Eat a healthy diet; Have regular checkups; Get immunized; vision problems; hearing loss; hearing aid; talk therapy; therapist; support group;
+Medical Emergencies | paramedic; have an allergic reaction; get an electric shock; get frostbite; burn yourself; overdose on drugs; choke;
+First Aid | first aid kit; medical emergency bracelet (吊牌); bandage; sterile tape (消毒带); antihistamine cream (抗过敏); antibacterial ointment (消毒); ice pack; CPR (cardiopulmonary resuscitation); Heimlich maneuver (for choke);
+Medical Care | health insurance card; health history form; blood pressure gauge; stethoscope; thermometer; syringe; draw blood (抽血);
+Dental Care | orthodontist; wear a brace (牙箍); fill cavities (补洞); have a cavity; need a filling; a set of dentures (假牙); numb the mouth; drill/pull a tooth;
+Hospital | internist; orderly (non-medical care); bedpan (便盆); IV (intravenous drip); vital signs monitor; stretcher (担架);
+A Health Fair | low-cost exam; booth; aerobic exercise; sugar-free cooking; nutrition label;
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
