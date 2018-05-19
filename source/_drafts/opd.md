@@ -132,6 +132,18 @@ Dental Care | orthodontist; wear a brace (牙箍); fill cavities (补洞); have 
 Hospital | internist; orderly (non-medical care); bedpan (便盆); IV (intravenous drip); vital signs monitor; stretcher (担架);
 A Health Fair | low-cost exam; booth; aerobic exercise; sugar-free cooking; nutrition label;
 
+# Community 
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Topic | Words
+--- | ---
+Downtown | parking garage; office building; city hall; courthouse;
+City Streets | stadium; construction site; car dealership (汽车经销店); mosque; furniture store; skyscraper/high-rise; synagogue (犹太教堂); conference center;
+An Intersection | laundromat; dry cleaners; convenience store; drive-thru window; newsstand (报摊); jaywalk (乱穿马路); copy center (复印店); kerb (马路牙); pay phone; crosswalk; sidewalk; parking meter; street sign; fire hydrant; cart and street vendor (小车摊和小商贩); childcare center;
+A Mall | nail salon; florist; optician; food court (美食街 大食代); maternity store; electronics store; elevator; cell phone kiosk; escalator (自动扶梯);  
+
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
 --- | --- | --- | --- | --- | --- | ---
