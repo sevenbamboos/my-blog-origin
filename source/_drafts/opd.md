@@ -143,6 +143,11 @@ Downtown | parking garage; office building; city hall; courthouse;
 City Streets | stadium; construction site; car dealership (汽车经销店); mosque; furniture store; skyscraper/high-rise; synagogue (犹太教堂); conference center;
 An Intersection | laundromat; dry cleaners; convenience store; drive-thru window; newsstand (报摊); jaywalk (乱穿马路); copy center (复印店); kerb (马路牙); pay phone; crosswalk; sidewalk; parking meter; street sign; fire hydrant; cart and street vendor (小车摊和小商贩); childcare center;
 A Mall | nail salon; florist; optician; food court (美食街 大食代); maternity store; electronics store; elevator; cell phone kiosk; escalator (自动扶梯);  
+The Bank | teller (出纳); vault (银行的保险室); valuables (贵重物品); passbook (存折?); make a deposit; Automated Teller Machine (ATM); personal identification number (PIN);
+The Library | pay a late fine; library clerk; circulation desk (柜台); library patron; periodicals; self-checkout;
+The Post Office | send by express; parcel post (寄物品); Address the envelope; Mail the letter; Write back;
+Department of Motel Vehicles | fingerprint; vision exam; license plate (车牌);
+Government and Military Service | Congress (House of Representatives and Senate); Cabinet (内阁 政府而不是议会); Supreme Court; (chief) justice; lieutenant governor (助理官); legislature; political party;
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
