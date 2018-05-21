@@ -148,6 +148,20 @@ The Library | pay a late fine; library clerk; circulation desk (柜台); library
 The Post Office | send by express; parcel post (寄物品); Address the envelope; Mail the letter; Write back;
 Department of Motel Vehicles | fingerprint; vision exam; license plate (车牌);
 Government and Military Service | Congress (House of Representatives and Senate); Cabinet (内阁 政府而不是议会); Supreme Court; (chief) justice; lieutenant governor (助理官); legislature; political party;
+Civic Rights and Responsibilities | peaceful assembly; free speech; freedom of religion; freedom of the press; fair trial;
+The legal System | handcuffs; convict/sentence the defendant;
+Crime | vandalism (破坏); assault; gang violence; drunk driving; arson; identity theft; mugging;
+Public Safety | Stay on well-lit streets; join a neighborhood watch (邻里联防); that coffee sobered him up; designated drivers (代驾);
+Emergencies and Natural Disasters | explosion; mudslide; fire truck; drought and famine; hurricane; tornado; volcanic eruption; tidal wave; avalanche;
+
+
+# Transportation 
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Topic | Words
+--- | ---
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
