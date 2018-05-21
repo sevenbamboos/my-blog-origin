@@ -153,7 +153,8 @@ The legal System | handcuffs; convict/sentence the defendant;
 Crime | vandalism (破坏); assault; gang violence; drunk driving; arson; identity theft; mugging;
 Public Safety | Stay on well-lit streets; join a neighborhood watch (邻里联防); that coffee sobered him up; designated drivers (代驾);
 Emergencies and Natural Disasters | explosion; mudslide; fire truck; drought and famine; hurricane; tornado; volcanic eruption; tidal wave; avalanche;
-
+Emergency Procedures | meeting place; escape route; gas shut-off valve; warm clothes; canned food; packaged food; bottled water; moist towelettes (湿巾纸); toilet paper; follow directions; take cover; clean up debris;
+Community Cleanup | graffiti; litter (扔在外面的垃圾); streetlight; petition; applaud; 
 
 # Transportation 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
@@ -162,6 +163,9 @@ Emergencies and Natural Disasters | explosion; mudslide; fire truck; drought and
 
 Topic | Words
 --- | ---
+Basic Transportation | truck (包括皮卡); subway station;
+Public Transportation | bus route; fare; fare card; subway car (地铁车厢); turnstile; vending machine (自动售货机); ticket window; conductor; one-way/round trip; taxi stand (出租车候客区); hail a taxi;
+Prepositions of Motion | get on the highway; drive through the tunnel;
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
