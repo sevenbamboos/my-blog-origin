@@ -166,6 +166,47 @@ Topic | Words
 Basic Transportation | truck (包括皮卡); subway station;
 Public Transportation | bus route; fare; fare card; subway car (地铁车厢); turnstile; vending machine (自动售货机); ticket window; conductor; one-way/round trip; taxi stand (出租车候客区); hail a taxi;
 Prepositions of Motion | get on the highway; drive through the tunnel;
+Traffic Signs | speed limit; U-turn; no outlet/dead end; highway marker; pedestrian crossing;
+Directions and Maps | GPS (global positioning system);
+Cars and Trucks | sedan/4-door car; coupe/2-door car; convertible; station wagon; sport-utility vehicle; minivan; camper; recreational vehicle (RV 好像比camper更大); limousine (豪华出租车); pickup truck (皮卡); cargo van (货车); tow truck; tractor trailer (大拖车 车头cab 拖箱trailer); moving van (大货车); dump truck; tank truck (槽车);
+Buying and Maintaining a Car | Negotiate a price; Fill the tank with gas; Check the oil; Put in coolant; Go for a smog check; Replace the windshield wipers; Fill the tires with air;
+Parts of a Car | windshield wipers; side/rear-view mirror; hood; turn signal; headlight; bumper; wheel cover; gas tank; license plate; tail pipe; lug wrench (扳手); steering wheel; speedometer; odometer; oil/temperature/gas gauge; horn; ignition; turn signal; hazard light; glove compartment; break/gas pedal; gear shift; hand break; clutch; dashboard; instrument panel;
+An Airport | airline terminal; check-in kiosk (自助的值机终端); ticket agent -> boarding pass (人工值机); security checkpoint; flight attendant; overhead compartment; declaration form; go through security (过安检); board the plane; stow carry-on bags; claim baggages; baggage carousel; tray table (座位后的小托板); reclined/upright seat (倾倒的/竖直的); direct flight;
+Taking a Trip | starting point; scenery; gas station attendant; run out of gas; have a flat tire;
+
+# Work 
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Topic | Words
+--- | ---
+The Workplace | safety regulations; time clock (used to clock in and out); pay stub/ pay slip; salary - deductions = net;
+Jobs and Occupations | appliance repair person; auto mechanic; business owner; businessperson; cashier; customer service representative; delivery person; dockworker; florist; homemaker; machine operator; manicurist; messenger; mover; reporter; retail clerk; sanitation worker; stock clerk; telemarketer; veterinarian; truck driver;
+Job Skills | do manual labor; operate heavy machinery; program computers; repair appliances;
+Office Skills | make copies; staple; put the caller on hold; transfer the call;
+Career Planning | entry-level job; vocational training; internship; on-the-job training; resource center; career counselor; job fair;
+Job Search | look in the classifieds; look for help wanted signs; go to an employment agency; set up an interview; go on an interview;
+Interview Skills | dress appropriately; be neat; inquire about benefits (福利);
+A Factory | factory owner; conveyer belt; hand truck; forklift (叉车 因为铲的形状像fork); design -> manufacture -> assemble -> ship;
+Landscaping and Gardening | leaf blower; wheelbarrow; lawn mower; shovel; rake the leaves; trowel; trim the hedges (with hedge clippers); water the plants; weed the flower beds;
+Farming and Ranching | wheat (小麦); soybeans (大豆); farmworker; tractor; orchard (果园); vegetable garden; livestock; vineyard; corral;
+Construction | construction worker; scaffolding; cherry picker; bulldozer; backhoe; jackhammer; insulation; plywood; lay bricks; install tile (贴瓷砖); pickax;
+Job Safety | safety hazards (安全隐患); poisonous fumes; frayed cord; flammable liquids; hard hat; safety boots;
+Tools and Building Supplies | handsaw; hacksaw; pliers (钳子 复数); electric drill; circular saw; wire; extension cord; pipe; fittings (水管的接口); two-by-four (木条); particle board (碎木板); paintbrush; paint roller; wood stain (木漆); paint (油漆); drill bit (电锯头); screwdriver; machine screw (头不尖); wood screw; nail; bolt (和machine screw的区别是这个要用wrench); nut (套在bolt上); tape measure (卷尺); outlet cover (插座盖); plunger (马桶吸); sandpaper (砂皮纸);
+An Office | cubicle (办公室里的小隔间); fax machine; photocopier (复印机); paper shredder; stapler; staples; paper clip; packing tape (封箱胶带); clear tape (透明胶带); rubber band (橡皮筋); pushpin; mailer (大号的信封); ink pad + stamp (章);
+A Hotel | doorman; revolving door; parking attendant; concierge; bell captain and bellhop; double bed; king-size bed; hallway; ballroom;
+Food Service | short-order/line cook; walk-in freezer; storeroom; sous chef (低于大厨); head chef; banquet room;
+A Bad Day at Work | call in sick;  
+
+# Areas of Study 
+1 | 2 | 3 | 4 | 5 | 6 | 7 
+--- | --- | --- | --- | --- | --- | ---
+- | 
+
+Topic | Words
+--- | ---
+
 
 # 
 1 | 2 | 3 | 4 | 5 | 6 | 7 
