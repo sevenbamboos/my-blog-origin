@@ -1,8 +1,10 @@
 ---
 title: Single Script Pattern in Groovy and Style Suggestion
-date: 2018-06-09 20:52:00
 categories: Programming
+date: 2018-06-09 20:52:00
+tags:
 ---
+
 
 # Introduction
 In some cases, Groovy scripts are loaded (by script engine of the hosted application server) as a single piece and have no dependency to other shared libraries. In this situation, the scripts need to be self-contained with both application code and support code. How to split these two parts of code and how to make use of Groovy's dynamic language features is the main topic of this blog. There are also some suggestions of what is good code style about Groovy (for Java programmers).
