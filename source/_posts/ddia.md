@@ -2,7 +2,9 @@
 title: Memo of Design Data-intensive Applications
 categories: Programming
 date: 2018-02-02 10:13:33
+tags:
 ---
+
 
 It's a summary and abstraction of "Design Data-intensive Applications" (DDIA), which is an excellent book covering a vast majority domain of database administration and distribute systems.
 
