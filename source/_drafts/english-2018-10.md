@@ -8,8 +8,8 @@ categories: English
 
 Section | Contents
 --- | ---
-Basic Listening | [Basic Listening](#Basic-Listening)
-Reference | [Reference](#Reference)
+Basic Listening | [Basic Listening](#Basic-Listening) (1)
+G2 ELL | [G2 ELL](#G2-ELL)
 
 <!-- more -->
 
@@ -44,6 +44,33 @@ end up | What did you ~ getting?
 curve | At the last minute, I threw them a ~ ball by saying, "We're going to bring parents"
 withdraw | I was about to ~.
 tough it out | I think it was very brave of him to ~.
+get in shape | Trying to ~?
+tremendously | If you eat better, it will help ~.
+average | I heard people who sleep an ~ of eight hours a day have less health problems.
+worth | I think it is worth it.
+due to | Is it ~ old age or is he sick.
+point out | The doctor's can't ~ anything specifically.
+youth | didn't take care of himself during his ~
+makes sense | That ~.
+aches | my whole body ~
+couple of | the first ~ times
+
+
+# G2 ELL
+Question | Answer
+--- | ---
+collar | Blue-collar; White-collar
+curly | a curly yellow beak
+row | There must be a hundred birds in a row.
+straight | straight green feathers
+weight | She weighted his bird seed.
+floppy | Lucy would pet his floppy head.
+stand | Thomas stood in the door and said.
+convinced | They are convinced that ...
+guilty | a jury would decide if Sammy was guilty
+murmur | the sound of murmur came from ...
+trial | all the sea animals went to Sammy's trial
+stand | witness stand
 
 # Reference
 1. [talkenglish](www.talkenglish.com)
