@@ -1,51 +1,65 @@
 ---
 title: Curriculum Vitae
-date: 2018-01-06 14:56:20
+date: 2018-10-26 14:56:20
 ---
 
-# YU PING (SAM) WANG
+# SAM WANG
 
-Address | 75 Archmillen Ave, Pakuranga, Auckland
+Address | 30 Knights Road, Rothesay Bay, Auckland
 --- | ---
-Zip | 2010
+Zip | 6030
 Mobile | 0272576301
 Email | sevenbamboos@gmail.com
 LinkedIn | www.linkedin.com/in/sevenbamboos
 Git | github.com/sevenbamboos
 
 # PROFILE
-Highly skilled and experienced software developer in Java (Sun Certificated Java Programmer) and Web (Front-End Development Program), majored in both Computer Science and Software Engineering. Enthusiastic about programming skills like Object-Oriented Design, Functional Programming paradigm, SOLID principle and Design Pattern. Passionate about self-learning and new technologies especially sharing my progress, for example, I’m an open-source contributor of Health Level Seven International (HL7) message parsing: www.npmjs.com/package/sam-utility.
+Experienced software developer in Java (Sun Certificated Java Programmer) and Web (Front-End Development Program), majored in Computer Science and Software Engineering. Enthusiastic about programming skills: Object-Oriented and Functional Programming paradigms, SOLID principle and Design Pattern. Passionate about self-learning of new technologies and open source (www.npmjs.com/package/sam-utility#hl7-parser).
 
 # SKILL SET
 
 ## Key Skills Summary
 
-* Experience with Agile practices (Scrum, Domain-Driven Design, Test-Driven development, and Continuous Integration). Scrum master in a multinational development team.
+* Experience with Agile practices (Scrum, Domain-Driven Design, Test-Driven development, and Continuous Integration). Scrum master in an international development team.
 * Dedicated to deliver quality working products on time.
 * Passion for knowledge sharing and helping team members. Held responsible for internal technology training and share knowledge externally through a blog (sevenbamboos.github.io/my-blog).
-* Solid knowledge in technical stacks like JavaEE, .NET, Node.JS and iOS and broad interest in distributed systems, server-less architecture and concurrency programming.
+* Solid knowledge in technical stacks in Java, Javascript and .NET. Broad interests in microservices and DevOPs.
 
 ## Technical Skill Summary
 
 Category | Technology
 --- | ---
-Programming languages | Java, C#, Javascript, Typescript, Python, Scala, Swift
-Front end technologies | HTML, CSS (Sass), Angular, React, Java Swing 
-Back end technologies | JavaEE (JPA, EJB, JAX-RS, Java API for RESTful Web Services), Spring, Hibernate, ASP.NET MVC, Akka, Node.JS, SQL, XML
+Programming languages | Java, C#, Javascript, C#, Python, Scala, Groovy
+Front end technologies | HTML, CSS, Angular, React, VueJS, jQuery, Velocity, Java Swing 
+Back end technologies | JavaEE, Spring, Hibernate, ASP.NET, Node.JS, SQL, ElasticSearch, Redis, Swagger
 Database | Oracle, MySQL, MongoDB
-Application servers | JBoss, Tomcat
+Application servers | JBoss, Tomcat, Jetty
 Version control | Subversion, Git
 Build tool | Maven, Ant, NPM, Webpack, Gradle
+Containerization | Docker, Kubernetes
 Continuous Integration | Jenkins, Travis CI
 Defect tracking | Jira, TeamForge
 OS | Linux (CentOS and Debian), Windows, macOS
 
 # EXPERIENCE
 
-## SENIOR SOFTWARE ENGINEER 2010 – TO PRESENT
+## CONFIGURATION DEVELOPER 2018 - TO PRESENT
+FOSTER MOORE CO., LTD.
+Leading registry solution provider, based in Auckland with R&D sites worldwide
+
+## ACHIEVEMENTS & RESPONSIBILITIES
+* Work in project teams to develop software products. Interact with clients, business analysts, other developers, testers and project managers to configure, develop and maintain registry applications according to technical design and functional specification documents.
+* Develop software product for New Zealand Companies Office, using Java, SpringMVC, Groovy and other infrastructure tools from the company. Joined in the middle of the project, catch up with team members and deliver quality work on time.
+* Participate in the enhancement of infrastructure libraries including HTML/XSL Automation test report generation, Cucumber extension for integration test, Jenkins 2.0 pipeline upgrading.
+* Invent Single Script Pattern, which takes advantage of the strength of Domain-Driven Design to overcome the shortcoming of form-based project model (see details in sevenbamboos.github.io/my-blog)
+* Do large code refactoring to Filing Widget to make it a declarative (functional) way 
+* Practice DevOPs and do daily build and deployment of projects with Jenkins, Maven, Docker and AWS
+* Take part in code review and technical discussion, and actively give suggestions  
+
+## SENIOR SOFTWARE ENGINEER 2010 – 2018
 
 AGFA HEALTHCARE CO., LTD.
-A leading provider of Digital Imaging solutions, based in Belgium with R&D sites worldwide & over 200 software developers.
+A leading provider of Digital Imaging solutions, based in Belgium with R&D sites worldwide and over 200 software developers.
 
 ## ACHIEVEMENTS & RESPONSIBILITIES
 
@@ -91,9 +105,10 @@ SHANGHAI UNIVERSITY OF ELECTRIC POWER | BACHELOR OF COMPUTER SCIENCE | 1997-2001
 
 # References
 
+* Bevyn Quiding, Foster Moore, CCIS Manager, M 021 565113
 * Stephen Yu, Agfa HealthCare IT (Shanghai), General Manager, T +86 21 2412 2003, M +86 15026585382
 * Max Zhang, Agfa HealthCare IT (Shanghai), Solution Architecture, M +86 18516260537 
 * Shijie Wan, Ph.D, Kodak Shanghai Product Development Center, General Manager, T +86 21 5884 1818
 * Carrie Dailor, Lead QA tester for the Kodak Digital Cinema Services, cdailor@yahoo.com
 
-Reviewed at 3/19/2018
+Reviewed at 27/10/2018

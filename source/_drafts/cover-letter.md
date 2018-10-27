@@ -26,7 +26,7 @@ Programming skills
 * 10 years of software engineer, familiar with system analysis, software design, development and maintenance
 * Strong programming skill in Java, Web, C#, SQL, Python, Scala, Groovy
 * Board interest in technical stacks like JavaEE, Spring, NodeJS, ASP.NET and modern Javascript frameworks
-* Good understanding of object-oriented design, functional programming, distributed systems, Test Driven Development and Continuous Integration
+* Good understanding of object-oriented design, functional programming, microservices patterns,Test Driven Development and Continuous Integration
 * Solid knowledge of Agile Methodologies, taken Scrum Master for five years
 * Maintaining an open-source parser of Health Level Seven International
 

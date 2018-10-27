@@ -54,9 +54,25 @@ youth | didn't take care of himself during his ~
 makes sense | That ~.
 aches | my whole body ~
 couple of | the first ~ times
+it couldn't be better | very good
+supportive | he's very ~ and help around the house
+on your hands | have a lot of time ~
+complain | ~ about his hard day of work
+expect | he ~s me to do everything
+convince | he tries to ~ me to do it
+cross the line | that's ~ing
+live with it | stand it
+shirt and tie | a nice ~
+slacks | wear ~ to dress up a little
+casual | a normal ~ day
+matching | Do you have any ~ belts (for the pants)
+on sale | they are ~ for $40
+return policy | what's your ~ just in case he doesn't like them
+exchange | just save the receipt and we'll gladly return or ~ them for you
 
 
-# G2 ELL
+
+# G3 ELL
 Question | Answer
 --- | ---
 collar | Blue-collar; White-collar
@@ -71,6 +87,26 @@ guilty | a jury would decide if Sammy was guilty
 murmur | the sound of murmur came from ...
 trial | all the sea animals went to Sammy's trial
 stand | witness stand
+trick | do tricks
+proud | She was proud of her singing
+worried look | She had a worried look on her face
+soar | Her song soared, or flew, into the air
+principal | The principal was in her office
+certainly | We certainly can't do that
+stroll | She strolled slowly into class
+announce | She announced to the class
+prize | She could win the prize
+nervous | look very nervous
+enormous | an enormous smile on her face
+fine | a fine song
+afford | not able to afford to go on the trip
+raise | a plan to raise the money
+figure | I'm trying to figure out how we can get money
+block | a store on our block
+customer | soccer players are good customers
+contact | contact people at the newspaper
+spread | feel a smile spreading across her face
+
 
 # Reference
 1. [talkenglish](www.talkenglish.com)
