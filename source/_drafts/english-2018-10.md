@@ -69,8 +69,18 @@ matching | Do you have any ~ belts (for the pants)
 on sale | they are ~ for $40
 return policy | what's your ~ just in case he doesn't like them
 exchange | just save the receipt and we'll gladly return or ~ them for you
-
-
+understatement | That's an ~.
+I'm on cloud nine | very happy
+turn out | It's ~ing to be a great day.
+guarantee | money doesn't happiness
+eventually | You'll get bored ~. 
+responsibilities | but money takes away a lot of ~.
+dents | A tow truck was towing my car and put all those ~ in my car.
+damages | pay you for the damages
+suspicious | she started feeling ~
+screw up | I didn't mean to screw anything up
+jealous | she gets ~ easily
+Don't bother | 算了吧
 
 # G3 ELL
 Question | Answer
