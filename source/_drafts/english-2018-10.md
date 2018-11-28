@@ -9,6 +9,7 @@ categories: English
 Section | Contents
 --- | ---
 Basic Listening | [Basic Listening](#Basic-Listening) (1)
+ESL Lab | [ESL Lab](#ESL-Lab) (2)
 G2 ELL | [G2 ELL](#G2-ELL)
 
 <!-- more -->
@@ -81,6 +82,28 @@ suspicious | she started feeling ~
 screw up | I didn't mean to screw anything up
 jealous | she gets ~ easily
 Don't bother | 算了吧
+treat | so it's a real treat for me
+look forward to | I'm quite looking forward to making it fun
+portion | work is a huge ~ of our lives
+attitude | That's a great ~ to have
+bill | pay the bills
+market | the job ~ is very bad
+supportive | she's trying to be ~
+financial situation | she's very worried about ~
+appreciate | I really ~ your help
+tough | difficult
+In the meantime | Meanwhile
+get through | You'll get through this
+stressed out | I'm just a little ~
+keep up | I had a difficult time keeping up with class
+encourage | We can ~ each other
+freak out | I'm totally freaking out
+grab a drink | Let's go ~
+get drunk | I say we ~ tonight
+be concerned about | worry about
+depressed | feel ~
+That sucks. | He failed an exam. ~
+take his mind off it | We can try to ~
 
 # G3 ELL
 Question | Answer
@@ -116,7 +139,90 @@ block | a store on our block
 customer | soccer players are good customers
 contact | contact people at the newspaper
 spread | feel a smile spreading across her face
+disappear | appear, dis-cover
+tide | low/high tide
+stretch | stretch out against the side of a cliff
+excitement | he barked with ~
+crew | the ~ at the dam
+balancing | He liked ~ on the rocks
 
+# ESL Lab
+Question | Answer
+--- | ---
+working out | How's your new apartment working out?
+campus | It's a little far from campus.
+commute | the commute is just killing me
+budget | what's your budget
+utilities | somewhere under $200 a month, including utilities
+furnished | I'd prefer to rent a furnished apartment
+parking space | a place to park
+complex | an apartment complex
+vacancy | have a few vacancies
+drop by | I'll drop by there on my way home
+nonsense | That's nonsense
+spoil | Nothing can spoil our adventure
+porch | I left the raincoats on the front porch
+head down | we could head down the mountain and stay at that hotel
+make the best of it | why don't we just make the best of it here and hope the weather clears 
+brochure | send me a brochure detailing your newest line of laptop computers
+repair | our fax is being repaired at the moment
+catch | catch a bus
+get off work | I seldom get off work before 6 pm
+stay up | I never stay up past midnight
+set aside | you have to set aside enough time to study
+toughest | the toughest part
+groceries | I'm going to pick up some groceries from the store for dinner
+originally | Originally I'm from Argentina, but we moved to the United States...
+military | my father worked for the military
+overseas | Mostly, we were overseas
+transfer | we were transferred back to the States
+major | I'm majoring in psychology
+representative | I'm working as a sales representative
+kidding | No kidding!
+appointment | I have a dentist appointment
+cancel | I've canceled twice before
+project | help her with her science project
+due | that's due on Monday morning
+practice | pick up my brother from soccer practice
+slave | I feel like a slave
+assignment | finish reading my history assignment
+bound | The plane is bound for London with stops in Paris.
+connecting flight | We didn't arrive in time to catch our connecting flight
+destination | What's your final destination on this trip
+approach | The plane is approaching the airport
+altitude | fly at an altitude of 30000 feet
+announce | We need to wait at the gate until they announce our flight
+crew | The plane's crew were very friendly
+on behalf of | On behalf of Sky Airlines, I want to wish you an enjoyable stay
+section | Be sure to read this section of the book carefully
+discount | a ten percent discount
+make it | I don't think I can make it to the party tonight.
+pick up | I picked up English very quickly.
+laid-back | He's very laid-back about everything
+get along with | Why don't you get along with your roommate
+dorm | Are you going to live in the dorms at college next semester?
+mustard | 芥子酱
+catchup | 蕃茄酱
+mayonnaise | 蛋黄酱
+world traveller | Oh, a world traveller
+full time | She works full time at home
+homemaker | being a homemaker can be a real hard, but rewarding job
+greasy | ate greasy, unhealthy food
+opportunity | a new opportunity to be better
+generally | we generally stay home that evening
+careless | careless drivers
+finest | this area's finest store in eyeglasses
+additional | for an additional 20% off on the prices
+eye exams | eye exams are free
+weights | lift weights at the gym
+originally | I originally played soccer, but switched to baseball two years ago.
+agony | He was in agony
+at this point | 911 is the number you need at this point
+famous | He's famous for his popular novels
+guests | prepare food for many guests
+petite | She's very petite, so an extra small shirt would suit her best
+stocky | the stocky man over there is the host of the party
 
 # Reference
 1. [talkenglish](www.talkenglish.com)
+2. [esl-lab](www.esl-lab.com)

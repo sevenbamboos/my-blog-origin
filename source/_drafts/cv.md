@@ -30,8 +30,8 @@ Experienced software developer in Java (Sun Certificated Java Programmer) and We
 Category | Technology
 --- | ---
 Programming languages | Java, Javascript, C#, Python, Scala, Groovy
-Front end technologies | HTML, CSS, Angular, React, VueJS, jQuery, Velocity, Java Swing 
-Back end technologies | JavaEE, Spring, Hibernate, ASP.NET, Node.JS, SQL, ElasticSearch, Redis, Swagger
+Front end technologies | HTML, CSS, Angular, React (Redux), VueJS, jQuery, Velocity, Java Swing 
+Back end technologies | JavaEE, Spring (Cloud), Hibernate, ASP.NET, Node.JS, SQL, ElasticSearch, Redis, Swagger
 Database | Oracle, MySQL, MongoDB
 Application servers | JBoss, Tomcat, Jetty
 Version control | Subversion, Git
