@@ -6,11 +6,11 @@ categories: English
 
 # Intermediate
 
-Section | Contents
---- | ---
-01 | [01](#01)
-02 | [02](#02)
-03 | [03](#03)
+| Section
+| ---
+| [01](#01)
+| [02](#02)
+| [03](#03)
 
 <!-- more -->
 
@@ -36,5 +36,24 @@ get away with sth/doing sth | How can some students get away with doing no work 
 put up with sb | Her son is so horrible. I don't know how she puts up with him.
 
 # 02
+Question | Answer
+--- | ---
+give sth in | I gave my essay in yesterday.
+get on sth | She got on the bus.
+get on | Jim and Mary don't get on.
+come round | Would you like to come round this evening? He was unconscious for three hours but came round in hospital.
+put off sth | Let's put off the meeting until Friday.
+get over sth | It took him a long time to get over his illness.
+cut out | About five miles into our journey the engine cut out and we broke down completely.
+dress up | Do we need to dress up tonight or is it informal?
+go through sth | I shall never really appreciate what my grandparents went though during the war.
+brush aside sth | They just brushed aside my complaints; it made me very angry.
+fall for sth | I fell for his story about having lost all his money. How stupid I was!
+chase sth up | Could you chase Janet's report up? She promised it last week but I haven't seen it yet.
+leave out sth | If you are phoning from outside the country, leave out the first zero in the city code.
+put out sth | The government have put out a statement condemning the recent protests.
+see to sth | Could you see to lunch for our visitors? There will be four of them.
+
+# 03
 Question | Answer
 --- | ---
