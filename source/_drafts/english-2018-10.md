@@ -222,6 +222,22 @@ famous | He's famous for his popular novels
 guests | prepare food for many guests
 petite | She's very petite, so an extra small shirt would suit her best
 stocky | the stocky man over there is the host of the party
+soothe | listen to classical music to soothe your nerves
+sunup | We'll leave tomorrow before sunup
+identify | can you identify the names of all the constellations in the sky
+tune | the radio station plays some really good tunes
+household chores | get your household chores done
+scrub | scrub the bathtub
+vacuum | vacuum the family room and the hall
+dust | dust the table
+wipe | wipe the walls
+mop | sweep and mop the kitchen floor
+polish | polish the table in the living room
+pick up | pick up all your toys and put them away
+milk shake | go out for lunch and get a big milk shake
+rake | rake leaves and pull weeds
+
+80754860081433688
 
 # Reference
 1. [talkenglish](www.talkenglish.com)
