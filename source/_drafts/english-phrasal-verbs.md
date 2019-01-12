@@ -6,13 +6,29 @@ categories: English
 
 # Intermediate
 
+<!-- more -->
+
 | Section
 | ---
 | [01](#01)
 | [02](#02)
 | [03](#03)
-
-<!-- more -->
+| [04](#04)
+| [05](#05)
+| [06](#06)
+| [07](#07)
+| [08](#08)
+| [09](#09)
+| [10](#10)
+| [11](#11)
+| [12](#12)
+| [13](#13)
+| [14](#14)
+| [15](#15)
+| [16](#16)
+| [17](#17)
+| [18](#18)
+| [19](#19)
 
 # 01
 Question | Answer
@@ -55,5 +71,19 @@ put out sth | The government have put out a statement condemning the recent prot
 see to sth | Could you see to lunch for our visitors? There will be four of them.
 
 # 03
+Question | Answer
+--- | ---
+think sth over | Think it over before you make up your mind what to do next.
+turn over sth | You may turn over the page now and read the exam questions.
+pull over | It's raining too hard to drive. Pull over to the edge of the road.
+look over sth | Look over the answers before the end of the exam.
+have sth on | I have a lot of work on today (never in continuous tenses)
+have sth on; have on sth | John has an amazing tie on.
+have sb on | I don't believe you! I'm sure you're having me on.
+move over | Can you move over to make room for your sister?
+read sth over | When Jill finished her essay, she asked Harry to read it over.
+invite sb back | Jim has invited me back to his house tomorrow.
+
+# 04
 Question | Answer
 --- | ---
