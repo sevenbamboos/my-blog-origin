@@ -87,3 +87,24 @@ invite sb back | Jim has invited me back to his house tomorrow.
 # 04
 Question | Answer
 --- | ---
+be ripped off; rip-off | I got ripped off when I phoned that 800 number. Yes, those numbers are a big rip-off.
+drop out; dropout | He dropped out of college last year. Mm, there were a lot of dropouts that year.
+break in; break-in | Someone broke in last night and that's the second break-in this year!
+outset | I knew from the outset that there would be problems. (beginning, see also set out)
+downfall | The economic crisis caused the downfall of the government.
+onlooker/bystander | Crowds of onlookers/bystanders watched as the police arrested the man.
+pile-up | There was a big pile-up on the motorway involving five vehicles.
+cutback | The company has announced a series of cutbacks in order to save money.
+outcry | When the higher taxes were announced there was a public outcry.
+breakthrough | The new drug marks a breakthrough in the treatment of this illness.
+getaway | The robbers abandoned their getaway car.
+off-putting | I find his manner very off-putting. He's so unfriendly.
+throwaway | They decided to use throwaway paper plates and cups for their party.
+outgoing | Let's invite Sally - she's very outgoing and loves parties.
+bygone | It was like something from a bygone era.
+going-on | Have you heard about the scandal in the office? Mm, amazing goings-on.
+downturn | The economy is not doing so well these days. Yes, there's been a downturn. (see also upturn)
+
+# 05
+Question | Answer
+--- | ---
