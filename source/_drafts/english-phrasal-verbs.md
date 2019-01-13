@@ -108,3 +108,24 @@ downturn | The economy is not doing so well these days. Yes, there's been a down
 # 05
 Question | Answer
 --- | ---
+get on with sth | I'm trying to get on with my work.
+blow up | blow up a balloon -> blow up a building -> someone blows up
+slip up | These statistics look strange. Have you slipped up somewhere?
+take in 1 | Because so many passengers were stranded at the airport, some local families offered to take them in overnight.
+take in 2 | The news is so shocking - I still can't take it in.
+take in 3 | The excursion will take in two of the most beautiful castles in the region.
+take in 4 | Marie has lost weight - she's going to have to take in a lot of her clothes.
+take in 5 | Rob was totally dishonest but he was so charming that I was taken in by him.
+take in 6 | We'd better return to the shore at once - the boat seems to be taking in water.
+step in | She stepped in to stop the argument from becoming more serious.
+tie down | Mark dreams of travelling but he feels tied down by his family and work responsibilities.
+drive at | What are you driving at? I wish you would say exactly what you mean!
+drum sth into | The teach did all she could to drum the vocabulary into her pupils before the exam.
+cream off sth | The education system used to cream off the best pupils and teach them in separate schools.
+drown out | The noise of the children's music completely drowned out the television.
+let up | As the rain didn't let up, the football game was called off.
+get down to sth | The team got down to discussing its strategy for the next match.
+
+# 06
+Question | Answer
+--- | ---
