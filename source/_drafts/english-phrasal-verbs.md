@@ -29,6 +29,16 @@ categories: English
 | [17](#17)
 | [18](#18)
 | [19](#19)
+| [20](#20)
+| [21](#21)
+| [22](#22)
+| [23](#23)
+| [24](#24)
+| [25](#25)
+| [26](#26)
+| [27](#27)
+| [28](#28)
+| [29](#29)
 
 # 01
 Question | Answer
@@ -111,12 +121,12 @@ Question | Answer
 get on with sth | I'm trying to get on with my work.
 blow up | blow up a balloon -> blow up a building -> someone blows up
 slip up | These statistics look strange. Have you slipped up somewhere?
-take in 1 | Because so many passengers were stranded at the airport, some local families offered to take them in overnight.
-take in 2 | The news is so shocking - I still can't take it in.
-take in 3 | The excursion will take in two of the most beautiful castles in the region.
-take in 4 | Marie has lost weight - she's going to have to take in a lot of her clothes.
-take in 5 | Rob was totally dishonest but he was so charming that I was taken in by him.
-take in 6 | We'd better return to the shore at once - the boat seems to be taking in water.
+take sb in (stay) | Because so many passengers were stranded at the airport, some local families offered to take them in overnight.
+take sth in (understand) | The news is so shocking - I still can't take it in.
+take in sth (include) | The excursion will take in two of the most beautiful castles in the region.
+take in sth (reduce) | Marie has lost weight - she's going to have to take in a lot of her clothes.
+be taken in (deceive) | Rob was totally dishonest but he was so charming that I was taken in by him.
+(boat) take in sth | We'd better return to the shore at once - the boat seems to be taking in water.
 step in | She stepped in to stop the argument from becoming more serious.
 tie down | Mark dreams of travelling but he feels tied down by his family and work responsibilities.
 drive at | What are you driving at? I wish you would say exactly what you mean!
@@ -126,6 +136,34 @@ drown out | The noise of the children's music completely drowned out the televis
 let up | As the rain didn't let up, the football game was called off.
 get down to sth | The team got down to discussing its strategy for the next match.
 
+<!-- imported to quizlet -->
+
 # 06
+Question | Answer
+--- | ---
+come along (with sb) | Not many people bought tickets for the concert in advance, but quite a few came along and bought tickets at the door.
+come apart | The antique picture frame just came apart in my hands.
+come out (disappear) | Let your shirt soak overnight and the stain will probably come out.
+come off (happen successfully) | I was planning to arrange a surprise holiday for her birthday, but I'm not sure it's going to come off.
+came about (happened, sth not planned) | I've had to organize the school fair this year - I'm not quite sure how that came about.
+come up (mentioned) | The subject comes up in conversation.
+come up (unexpectedly) | But sth came up and we had to deal with it straightaway.
+come up (available) | chances like this don't come up very often.
+come to sth (result in) | all her efforts came to nothing.
+come down to sth | I guess in the end my decision will come down to what my professor recommends.
+
+# 07
+Question | Answer
+--- | ---
+get together with; get on with (be good) | It's nice to get together with people you get on with.
+get on with (continue); get behind with | I must get on with my work. I got behind because I spent too much time on the Internet.
+get sth over with; get away | Let's get this meeting over with, or else we'll never get away before the rush hour and it will take ages to get home.
+can't get over sth (not understand); get away with | I can't get over how she manages to get away with doing so little work.
+get by | How do you manage to survive without a job? I get by with a bit of help from my parents.
+get around sth (find a way or avoid) | Don't worry. We'll get around it somehow.
+get around to sth (do sth that you've intended to do for a long time) | Sorry, I haven't got around to it yet, but I'll do it after lunch, I promise.
+get at | You ought to apologize to you-know-who about you-know-what. I'm sorry, I don't know what you're getting at.
+
+# 08
 Question | Answer
 --- | ---
