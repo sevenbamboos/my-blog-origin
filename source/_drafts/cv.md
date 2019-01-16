@@ -94,6 +94,73 @@ An American technology company that produces imaging products with over six thou
 * Participated in design and coding of Advertisement Player module (Java Swing, RMI) for Kodak Digital Cinema System. Apply UML class diagrams and sequence diagrams to large-scale software system and receive positive feedback from supervisor.
 * Quickly build up knowledge of C# (WPF) in prototyping projects and deliver working components on time.
 
+# PROJECTS OVERVIEW
+
+## Foster Moore Company Registration for MBIE
+2018.4 - Present
+
+A form-based website to register legal entities and roles.
+
+Working with clients, business analysts, other developers, testers and project managers to configure, develop and maintain registry applications according to technical design and functional specification documents.
+Joined in the middle of the project, catch up with team members and deliver quality work on time.
+Participate in the enhancement of infrastructure libraries including HTML/XSL Automation test report generation, Cucumber extension for integration test, Jenkins 2.0 pipeline upgrading.
+Did large code refactoring to Filing Widget to make it a declarative (functional) way 
+Practice DevOPs and do daily build and deployment of projects with Jenkins, Maven, Docker and AWS
+Take part in code review and technical discussion, and actively give suggestions
+
+Tools: VueJS, jQuery, Spring MVC, Spring Boot, MongoDB, RabbitMQ, Docker, ElasticSearch, Groovy, Maven, Git
+
+## Healthcare Message Broker
+2017.11 - 2018.4
+
+Key developer of middle-ware module providing high throughput of message parsing and exchanging between medical systems.
+
+Tools: React (+redux), NodeJS, MongoDB
+
+## Agfa Enterprise Imaging 
+2015.8 - 2018.4
+
+A solution to exchange and diagnose clinical imaging across healthcare departments.
+
+Creator of a Domain Specific Language which customizes message contents via Abstract Syntax Tree (JavaCC) with high scalability in distributed environment (Infinispan). Creator of Javascript dialect of this DSL. Creator of the DSL runtime, providing expression optimism including type-inference, group and order, and context-awareness. 
+Participated in the user-interface implementation on client side.
+
+Tools: AngularJS (migrated to Angular 2), RESTful API, JPA, Oracle, npm, Maven
+
+## Agfa Radiologist Information System
+2010.3 - 2015.8
+
+An information system supporting radiology workflow and providing template reporting for medical reports.
+
+Designing, developing and trouble-shooting JavaEE application. Developing executing unit and integration test plans. Participating in the architecture and design of software components. Contributing to the estimates of software component designs, and reviewing the work of team members.
+
+Tools: Java Swing, EJB, Hibernate, JBoss, Oracle
+
+## Kodak Digital Medical Record Management System 
+2009.10 - 2010.2
+
+An innovation project to share digital medical records among patients and clinics.
+
+Involved in software design and coding. Quickly built up knowledge of C# and delivered working components on time.
+
+Tools: WPF, C#, .NET3.5, SQLServer
+
+## Kodak Digital Cinema Distribution System
+2008.3 - 2009.10
+
+A website to manage and distribute movies and security information for Kodak Digital Cinema.
+
+Responsible for maintaining and fixing software defects and implement functionalities, and took the role as a contact with the development team from headquarters and got good feedback.
+
+Tools: Java Server Page, jQuery1.3, Struts, Tomcat, Oracle9
+
+## Kodak Digital Cinema Playback System
+2007.1 - 2008.3
+A software system to control the playback of advertisement and movie in digital cinema.
+Responsible for developing and debugging software. Participated in design and coding of Advertisement Player module. Proficient in using UML class diagrams and sequence diagrams in design processing, and received positive feedback from supervisor.
+
+Tools: Java Swing, RMI, JNI
+
 # EDUCATION & QUALIFICATIONS
 
 INSTITUTION | QUALIFICATION | YEAR
