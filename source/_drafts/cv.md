@@ -30,9 +30,9 @@ Experienced software developer in Java (Sun Certificated Java Programmer) and We
 Category | Technology
 --- | ---
 Programming languages | Java, Javascript, C#, Python, Scala, Groovy
-Front end technologies | HTML, CSS, Angular, React (Redux), VueJS, jQuery, Velocity, Java Swing 
-Back end technologies | JavaEE, Spring (Cloud), Hibernate, ASP.NET, Node.JS, SQL, ElasticSearch, Redis, Swagger
-Database | Oracle, MySQL, MongoDB
+Front end technologies | HTML, CSS, Vue, React, Angular, jQuery, Backbone, Velocity, Java Swing 
+Back end technologies | JavaEE, Spring, Hibernate, NodeJS, SQL, Grails, ElasticSearch, Redis, ASP.NET, Swagger
+Database | Oracle, MySQL, SQLServer, MongoDB
 Application servers | JBoss, Tomcat, Jetty
 Version control | Subversion, Git
 Build tool | Maven, Ant, NPM, Webpack, Gradle
@@ -43,7 +43,18 @@ OS | Linux (CentOS and Debian), Windows, macOS
 
 # EXPERIENCE
 
-## CONFIGURATION DEVELOPER 2018 - TO PRESENT
+## SENIOR FULLSTACK DEVELOPER 2019 - TO PRESENT
+
+HENRY SCHEIN ONE NEW ZEALAND
+Dental practice solution provider, based in Auckland
+
+## ACHIEVEMENTS & RESPONSIBILITIES
+* Develop new features for dental practice software in scrum team. The backend is Spring + Grails + RabbitMQ + SQLServer, and the frontend is a fusion of Backbone and Vue.
+* Participate in the development work of next generation system (Node + Vue)
+* Work with DevOPs team on software deployment (Bamboo), containarization (Docker, AWS ECR), test automation (Selenium Grid, Cypress, Specflow), continues integration (Gitlab Pipeline)
+* Mentor junior developer and do knowledge sharing
+
+## CONFIGURATION DEVELOPER 2018 - 2019
 FOSTER MOORE CO., LTD.
 Leading registry solution provider, based in Auckland with R&D sites worldwide
 
@@ -52,7 +63,7 @@ Leading registry solution provider, based in Auckland with R&D sites worldwide
 * Develop software product for New Zealand Companies Office, using Java, SpringMVC, Groovy and other infrastructure tools from the company. Joined in the middle of the project, catch up with team members and deliver quality work on time.
 * Participate in the enhancement of infrastructure libraries including HTML/XSL Automation test report generation, Cucumber extension for integration test, Jenkins 2.0 pipeline upgrading.
 * Invent Single Script Pattern, which takes advantage of the strength of Domain-Driven Design to overcome the shortcoming of form-based project model (see details in sevenbamboos.github.io/my-blog)
-* Do large code refactoring to Filing Widget to make it a declarative (functional) way 
+* Do code refactoring to UI Widget to improve composability
 * Practice DevOPs and do daily build and deployment of projects with Jenkins, Maven, Docker and AWS
 * Take part in code review and technical discussion, and actively give suggestions  
 
