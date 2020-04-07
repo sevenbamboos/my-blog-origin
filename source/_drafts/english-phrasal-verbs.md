@@ -263,17 +263,28 @@ Emily has _ (not done nearly as much work on her thesis as she should have done 
 Question | Answer
 --- | ---
 I was going _ some old letters the other day when I found one from my friend Nancy | through
+go through | I was going through some old letters the other day when I found one from my friend Nancy
 I'm thinking of _ (competing in) the New York Marathon next year | going in for
+go in for (compete in) | I'm thinking of going in for the New York Marathon next year
 Life in Africa was not as comfortable as it was in our hometown, and there were many things she had to go _ which the rest of us think of as necessities in our daily lives | without
+go without | Life in Africa was not as comfortable as it was in our hometown, and there were many things she had to go without which the rest of us think of as necessities in our daily lives
 Suddenly the lights went _ | off
+go off (turn off) | Suddenly the lights went off
 I want him back, but I just don't know how to go _ it | about
+go about (deal with) | I want him back, but I just don't know how to go about it
 How can I go _ getting a good idea? | about
 It must be something special so that the judges go _ my story over all the others | for
+go for (choose) | It must be something special so that the judges go for my story over all the others
 After high school she had gone _ to train as a doctor and ended up in Africa | off
+go off (leave) | After high school she had gone off to train as a doctor and ended up in Africa
 I refused to _ (support) their decision to close the youth club | go along with
+go along with (support) | I refused to go along with their decision to close the youth club
 What was _ (happening) in the staffroom at lunchtime? I heard someone shouting | going on
+go on (happen) | What was going on in the staffroom at lunchtime? I heard someone shouting
 He decided to _ (undergo) the operation even though there were risks | go through with
+go through with (undergo) | He decided to go through with the operation even though there were risks
 A bad cough and a sore throat often go _ | together
+go together | A bad cough and a sore throat often go together
 Do you think I should _ (try) the advanced level exam? It might be too difficult | go in for
 
 # 09
@@ -281,17 +292,29 @@ Question | Answer
 --- | ---
 Did you manage to read the report? Well, I looked _ it, but I haven't read it properly | at
 How do I get to your village coming from the city? When you're on the motorway, look _ for a sign saying "Willowsdean" | out
+look out | How do I get to your village coming from the city? When you're on the motorway, look out for a sign saying "Willowsdean"
 The bank robbers had a _ standing at the street corner to warn them if the police came | lookout
+lookout | The bank robbers had a lookout standing at the street corner to warn them if the police came
 I wasn't in the demonstration. I was just an _ | onlooker
+onlooker | I wasn't in the demonstration. I was just an onlooker
 Lord Muck is such a terrible snob. He looks _ on most other people | down
+look down | Lord Muck is such a terrible snob. He looks down on most other people
 We had to look _ to the time when our child will be old enough to go to university | ahead
+look ahead | We had to look ahead to the time when our child will be old enough to go to university
 She's looking _ for a new English course. She's not very satisfied with the one she's following at the moment | around
+look around | She's looking around for a new English course. She's not very satisfied with the one she's following at the moment
 I'm really looking _ to seeing my cousins again next week | forward
+look forward to | I'm really looking forward to seeing my cousins again next week
 You're a popular girl, Grace, and a lot of the younger ones look _ to you | up
+look up to sb | You're a popular girl, Grace, and a lot of the younger ones look up to you
 After a long recession the economic situation is looking _ | up
+looking up (getting improved) | After a long recession the economic situation is looking up
 I looked _ the report on the way to the meeting | over
+look over (check quickly) | I looked over the report on the way to the meeting
 I looked _ the report and scribbled down a few notes | through
+look through (check thoroughly) | I looked through the report and scribbled down a few notes
 Detectives are looking _ the murder | into
+look into | Detectives are looking into the murder
 
 # 10
 Question | Answer
