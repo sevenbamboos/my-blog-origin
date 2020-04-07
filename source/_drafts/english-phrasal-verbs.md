@@ -49,121 +49,213 @@ put up with sb | Her son is so horrible. I don't know how she puts up with him.
 # 02
 Question | Answer
 --- | ---
+I _ my essay in yesterday (handed it to the teacher) | gave
 give sth in | I gave my essay in yesterday.
+She _ on the bus | got
 get on sth | She got on the bus.
+Jim and Mary don't _ on | get
 get on | Jim and Mary don't get on.
+Would you like to _ round this evening? He was unconscious for three hours but _ round in hospital | come,came
 come round | Would you like to come round this evening? He was unconscious for three hours but came round in hospital.
+Let's _ off the meeting until Friday | put
 put off sth | Let's put off the meeting until Friday.
+It took him a long time to _ over his illness | get
 get over sth | It took him a long time to get over his illness.
+About five miles into our journey the engine _ out and we broke down completely | cut
 cut out | About five miles into our journey the engine cut out and we broke down completely.
+Do we need to _ up tonight or is it informal? | dress
 dress up | Do we need to dress up tonight or is it informal?
+I shall never really appreciate what my grandparents _ though during the war. | went
 go through sth | I shall never really appreciate what my grandparents went though during the war.
+They just _ aside my complaints; it made me very angry. | brushed
 brush aside sth | They just brushed aside my complaints; it made me very angry.
+I _ for his story about having lost all his money. How stupid I was! | fell
 fall for sth | I fell for his story about having lost all his money. How stupid I was!
+Could you _ Janet's report up? She promised it last week but I haven't seen it yet. | chase
 chase sth up | Could you chase Janet's report up? She promised it last week but I haven't seen it yet.
+If you are phoning from outside the country, _ out the first zero in the city code. | leave
 leave out sth | If you are phoning from outside the country, leave out the first zero in the city code.
+The government have _ out a statement condemning the recent protests. | put
 put out sth | The government have put out a statement condemning the recent protests.
+Could you _ to lunch for our visitors? There will be four of them. | see
 see to sth | Could you see to lunch for our visitors? There will be four of them.
 
 # 03
 Question | Answer
 --- | ---
+_ it over before you make up your mind what to do next. | think
 think sth over | Think it over before you make up your mind what to do next.
+You may _ over the page now and read the exam questions. | turn
 turn over sth | You may turn over the page now and read the exam questions.
+It's raining too hard to drive. _ over to the edge of the road. | pull
 pull over | It's raining too hard to drive. Pull over to the edge of the road.
+_ over the answers before the end of the exam. | look
 look over sth | Look over the answers before the end of the exam.
+I _ a lot of work on today (never in continuous tenses) | have
 have sth on | I have a lot of work on today (never in continuous tenses)
+John _ an amazing tie on. | has
 have sth on; have on sth | John has an amazing tie on.
+I don't believe you! I'm sure you're _ me on. | having
 have sb on | I don't believe you! I'm sure you're having me on.
+Can you _ over to make room for your sister? | move
 move over | Can you move over to make room for your sister?
+When Jill finished her essay, she asked Harry to _ it over. | read
 read sth over | When Jill finished her essay, she asked Harry to read it over.
+Jim has _ me back to his house tomorrow. | invited
 invite sb back | Jim has invited me back to his house tomorrow.
 
 # 04
 Question | Answer
 --- | ---
+I got _ off when I phoned that 800 number. Yes, those numbers are a big _. | ripped,rip-off
 be ripped off; rip-off | I got ripped off when I phoned that 800 number. Yes, those numbers are a big rip-off.
+He _ out of college last year. Mm, there were a lot of _ that year. | dropped,dropout
 drop out; dropout | He dropped out of college last year. Mm, there were a lot of dropouts that year.
+Someone _ in last night and that's the second _ this year! | broke,break-in
 break in; break-in | Someone broke in last night and that's the second break-in this year!
+I knew from the _ that there would be problems. (beginning, see also set out) | outset
 outset | I knew from the outset that there would be problems. (beginning, see also set out)
+The economic crisis caused the _ of the government. | downfall
 downfall | The economic crisis caused the downfall of the government.
+Crowds of _ (bystanders) watched as the police arrested the man. | onlookers
 onlooker/bystander | Crowds of onlookers/bystanders watched as the police arrested the man.
+There was a big _ on the motorway involving five vehicles. | pile-up
 pile-up | There was a big pile-up on the motorway involving five vehicles.
+The company has announced a series of _ in order to save money. | cutbacks
 cutback | The company has announced a series of cutbacks in order to save money.
+When the higher taxes were announced there was a public _. | outcry
 outcry | When the higher taxes were announced there was a public outcry.
+The new drug marks a _ in the treatment of this illness. | breakthrough
 breakthrough | The new drug marks a breakthrough in the treatment of this illness.
+The robbers abandoned their _ (leaving a place) car. | getaway
 getaway | The robbers abandoned their getaway car.
+I find his manner very _. He's so unfriendly. | off-putting
 off-putting | I find his manner very off-putting. He's so unfriendly.
+They decided to use _ (intended to be used only once) paper plates and cups for their party. | throwaway
 throwaway | They decided to use throwaway paper plates and cups for their party.
+Let's invite Sally - she's very _ (like meeting people) and loves parties. | outgoing
 outgoing | Let's invite Sally - she's very outgoing and loves parties.
+It was like something from a _ (old) era. | bygone
 bygone | It was like something from a bygone era.
+Have you heard about the scandal in the office? Mm, amazing _ (things) . | goings-on
 going-on | Have you heard about the scandal in the office? Mm, amazing goings-on.
+The economy is not doing so well these days. Yes, there's been a _. (see also upturn) | downturn
 downturn | The economy is not doing so well these days. Yes, there's been a downturn. (see also upturn)
 
 # 05
 Question | Answer
 --- | ---
+I'm trying to _ on with my work | get
 get on with sth | I'm trying to get on with my work.
 blow up | blow up a balloon -> blow up a building -> someone blows up
+These statistics look strange. Have you _ up somewhere? | slipped
 slip up | These statistics look strange. Have you slipped up somewhere?
+Because so many passengers were stranded at the airport, some local families offered to _ them in (stay) overnight. | take
 take sb in (stay) | Because so many passengers were stranded at the airport, some local families offered to take them in overnight.
+The news is so shocking - I still can't _ it in (understand). | take
 take sth in (understand) | The news is so shocking - I still can't take it in.
+The excursion will _ in (include) two of the most beautiful castles in the region. | take
 take in sth (include) | The excursion will take in two of the most beautiful castles in the region.
+Marie has lost weight - she's going to have to _ in (reduce) a lot of her clothes. | take
 take in sth (reduce) | Marie has lost weight - she's going to have to take in a lot of her clothes.
+Rob was totally dishonest but he was so charming that I was _ in (deceive) by him. | take
 be taken in (deceive) | Rob was totally dishonest but he was so charming that I was taken in by him.
+We'd better return to the shore at once - the boat seems to be _ in water. | taking
 (boat) take in sth | We'd better return to the shore at once - the boat seems to be taking in water.
+She _ in to stop the argument from becoming more serious. | stepped
 step in | She stepped in to stop the argument from becoming more serious.
+Mark dreams of travelling but he feels _ down by his family and work responsibilities. | tied
 tie down | Mark dreams of travelling but he feels tied down by his family and work responsibilities.
+What are you _ at? I wish you would say exactly what you mean! | driving
 drive at | What are you driving at? I wish you would say exactly what you mean!
+The teach did all she could to _ the vocabulary into her pupils before the exam. | drum
 drum sth into | The teach did all she could to drum the vocabulary into her pupils before the exam.
+The education system used to _ off the best pupils and teach them in separate schools. | cream
 cream off sth | The education system used to cream off the best pupils and teach them in separate schools.
+The noise of the children's music completely _ out the television. | drown
 drown out | The noise of the children's music completely drowned out the television.
+As the rain didn't _ up, the football game was called off. | let
 let up | As the rain didn't let up, the football game was called off.
+The team _ down to discussing its strategy for the next match. | got
 get down to sth | The team got down to discussing its strategy for the next match.
 
 # 06
 Question | Answer
 --- | ---
 Do you have any glue? The cover of my address book is coming _ and I want to stick it together again | apart
+come apart | Do you have any glue? The cover of my address book is coming apart and I want to stick it together again
 I spilt some orange juice on the tablecloth. Do you think it will come _ if I put it in the washing machine? | out
+come out (disappear) | I spilt some orange juice on the tablecloth. Do you think it will come out if I put it in the washing machine?
 The last thing I remember was feeling very dizzy. The next thing I knew, I came _ in hospital and a doctor was standing by my bed | around
+come around | The last thing I remember was feeling very dizzy. The next thing I knew, I came around in hospital and a doctor was standing by my bed
 The government is going to release a report on traffic congestion. I wonder when it's coming _ | out
+come out (available) | The government is going to release a report on traffic congestion. I wonder when it's coming out
 We were just chatting at the corner when Jim Gore came _ with his girlfriend | along
+come along | We were just chatting at the corner when Jim Gore came along with his girlfriend
 I hear Bruce's operation was successful. When is he coming _ of the clinic? | out
+come out (leave) | I hear Bruce's operation was successful. When is he coming out of the clinic?
 Some very shocking facts have come _ about government corruption, thanks to an investigation by a national newspaper | out
-We lost everybody's email address and had to start all over again. Really? How did that _ ? | come about (happened, especially sth which is not planned)
-David keeps saying he's going to sail around the world. Huh! Do you think it will ever _ ? | come off (happen successfully or as planned)
+come out (get known) | Some very shocking facts have come out about government corruption, thanks to an investigation by a national newspaper
+We lost everybody's email address and had to start all over again. Really? How did that _ ? (happened, especially sth which is not planned) | come about 
+come about (happened, especially sth which is not planned) | We lost everybody's email address and had to start all over again. Really? How did that come about?
+David keeps saying he's going to sail around the world. Huh! Do you think it will ever _ ? (happen successfully or as planned) | come off 
+come off (happen successfully or as planned) | David keeps saying he's going to sail around the world. Huh! Do you think it will ever come off?
 We'll let you know what we decide. We'll phone you. When do you think you'll _ ? | come to a decision
+come to a decision | We'll let you know what we decide. We'll phone you. When do you think you'll come to a decision?
 I thought you were coming to the dinner party last night. Yes, I was intending to, but right at the last minute something _ | came up
+come up (happen) | I thought you were coming to the dinner party last night. Yes, I was intending to, but right at the last minute something came up
 You may _ (have to deal with) a few problems at work today | come up against
+come up against (have to deal with) | You may come up against a few problems at work today | come up against
 A new job opportunity will _ (arise) which could change your life | come up
+come up (arise) | A new job opportunity will come up which could change your life
 The name of an old friend _ (is mentioned) in conversation, bringing back powerful memories | comes up
+come up (mentioned) | The name of an old friend comes up in conversation, bringing back powerful memories
 You will _ (meet someone by pure chance) who seems to share the same world view as you | come across
-True love _ (is mainly about) finding someone you can trust | comes down to (depend mostly on or be influenced most by)
+come across (meet someone by pure chance) | You will come across who seems to share the same world view as you
+True love _ (is mainly about) finding someone you can trust (depend mostly on or be influenced most by) | comes down to 
+come down to | True love comes down to (is mainly about) finding someone you can trust (depend mostly on or be influenced most by)
 
 # 07
 Question | Answer
 --- | ---
-It's nice to get _ _ people you get _ _ | together with on with
-I must get _ _ my work. I got _ because I spent too much time on the Internet | on with behind
-Let's get this meeting _ _, or else we'll never get _ before the rush hour | over with away
-I can't get _ how she manages to get _ _ doing so little work. | over away with
+It's nice to get _ people you get _ | together with, on with
+get together with sb, get on with sb | It's nice to get together with people you get on with
+I must get _ my work. I got _ because I spent too much time on the Internet | on with, behind
+get on with sth, get behind | I must get on with my work. I got behind because I spent too much time on the Internet
+Let's get this meeting _ , or else we'll never get _ before the rush hour | over with, away
+get sth over with, get away | Let's get this meeting over with , or else we'll never get away before the rush hour
+I can't get _ how she manages to get _ doing so little work. | over, away with
+get over (understand), get away with doing sth | I can't get over how she manages to get away with doing so little work.
 Why don't you get your homework _ with so that you can enjoy the rest of the evening | over
+get sth over with | Why don't you get your homework over with so that you can enjoy the rest of the evening
 As soon as Sue and I met, we knew we are going to get _ well | on
+get on | As soon as Sue and I met, we knew we are going to get on well
 I just can't come out with you tonight as I've got so _ with my work | behind
+get behind with | I just can't come out with you tonight as I've got so behind with my work
 Why does Rita always get _ with arriving late? It doesn't seems fair | away
+get away with doing | Why does Rita always get away with arriving late? It doesn't seems fair
 I'm going to have to get _ to filling in my tax form soon | round
+get round (find time to do) | I'm going to have to get round to filling in my tax form soon
 I hope you'll be able to get _ from work early tonight | away
+get away (leave) | I hope you'll be able to get away from work early tonight
 Your mother couldn't get _ the cost of restaurants in London | over
+get over (understand) | Your mother couldn't get over the cost of restaurants in London
 How do you get _ on a student grant? I manage somehow, though it isn't easy | by
+get by | How do you get by on a student grant? I manage somehow, though it isn't easy
 How did you get so _ ? I just wasn't organized enough | behind
-When are you going to get _ to it? Soon, I promise
+get behind | How did you get so behind ? I just wasn't organized enough
+When are you going to get _ to it? Soon, I promise | around
+get around (find a way of dealing with) | When are you going to get around to it? Soon, I promise
 I've been planning to sort out my files but I haven't _ (found time to do it) yet | got round to it
 I _ (can't believe) how much money they spent on their New Year's party | can't get over
 Don't try to _ (travel without) paying your train fare - an inspector might come on and want to see you ticket | get away with not
+get away with not doing (travel without) | Don't try to get away with not paying your train fare - an inspector might come on and want to see you ticket
 The teachers in the school often _ (meet) after work on Fridays in a cafe near the school | get together
+get together (meet) | The teachers in the school often get together after work on Fridays in a cafe near the school
 They _ (avoid) the problem of offending anyone and just invited all their friends to the wedding | got around
+get around (avoid) | They got around the problem of offending anyone and just invited all their friends to the wedding
 I usually find it quite hard to understand what Professor Mactoft is _ (trying to say) in his lectures | getting at
+getting at (trying to say) | I usually find it quite hard to understand what Professor Mactoft is getting at in his lectures
 I hope _ (no-one will mind if I don't send) any Christmas cards this year | I can get away with not sending
 Emily has _ (not done nearly as much work on her thesis as she should have done by now) | got very behind with her thesis
 
@@ -213,8 +305,8 @@ Jack is behaving very strangely at the moment. I just can't make him _ | out
 I can't make _ why my computer won't let me save this document | out
 My sister never goes out without any make-_ on, but I only wear it for special occasions | up
 The class has an interesting make-_, with students from 12 different countries | up
-The wonderful food in the restaurant made _ _ the rather uncomfortable seats | up for
-I forgot Teresa's birthday yesterday so I'll have to take her somewhere nice to make it _ _ her | up to
+The wonderful food in the restaurant made _ the rather uncomfortable seats | up for
+I forgot Teresa's birthday yesterday so I'll have to take her somewhere nice to make it _ her | up to
 
 # 11
 Question | Answer
