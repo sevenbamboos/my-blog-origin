@@ -242,7 +242,7 @@ I tried to buy the new CD, but all the shops had already sold out. Yes, apparent
 Dr Zasta's research is incredibly original and has made some new discoveries. Yes, he's done some really *_-breaking* work | ground
 Fiona was very friendly and smiling after our quarrel, but in a really false way. Yes, one minute she was angry, the next minute she was *all _ and _* | sweetness, light
 After a while she started *getting on _*, and we soon begin to have arguments | my nerves
-Why are you *_ me such _*? I know I was wrong, but I said I'm sorry. | giving, hard time
+Why are you *_ me such _*? I know I was wrong, but I said I'm sorry. | giving, a hard time
 Comedy shows often *_ fun _* politicians | poke, at
 She had already upset me, but *to add _ to _* she told me I was ugly | insult, injury
 I don't think you should *cast _ on* him. He's not here to defend himself | aspersions
@@ -479,7 +479,7 @@ He was *_* (-invited to join a new workplace-) by a rival company for one of the
 Simon had *climbed to the _ of the career _* | top, ladder
 A: Are you very busy at work at the moment? B: Yes, I'm *up to my _* in work | eyes/ears
 A: Are you very busy at work at the moment? B: Yes, I'm *on the _* all the time | go
-A: Are you very busy at work at the moment? B: Yes, I'm certainly *got _ full* | my hands 
+A: Are you very busy at work at the moment? B: Yes, I've certainly *got _ full* | my hands 
 Plans for building the extension have been *put on _* until our finances are in a better state | hold
 The plans look great *on _*, but you never know whether it will work in reality | design
 A lot of preparation has gone on *behind _* for the opening ceremony for the Olympics | the scenes
@@ -565,7 +565,7 @@ Question | Answer
 Question | Answer
 --- | ---
 He never writes phone numbers down - he just *_ them to _* (remember) | commits, memory
-The class reunion gave use a great opportunity for *a _ down _ lane* | trip, memory
+The class reunion gave us a great opportunity for *a _ down _ lane* | trip, memory
 The police are reconstructing the crime to try to *_ the memory* of possible witnesses | jog
 Streets lit by gas lamps are still *within living _* | memory
 I'd like to get him a special birthday present, but nothing *_ to mind* | springs/comes
@@ -616,7 +616,7 @@ Question | Answer
 --- | ---
 He's the *_ of the earth* (good and honest) | salt
 She'd *go to the _* to save her child | ends of the earth
-The royal couple were *run to _* (discovered) in Wales | ground
+The royal couple *were run to _* (discovered) in Wales | ground
 All my warnings *fell on _* (ignored) | stony ground
 *_ a number out of _* and multiply it by 3 | Plunk, the air
 I hate the way he *blows _ and _* (react in unpredictable ways) | hot, cold
@@ -674,3 +674,382 @@ We just jumped in a car *on the _ of the moment* and drove to the seaside | spur
 It's still *on the _* (likely to happen) that I'll get a contract for the job | cards
 Going by train rather than bus or car would be *your best _* | bet
 One day *when the _ are down*, you will know who your true friends are | chips
+
+# 36
+Question | Answer
+--- | ---
+Anna's such *a _ horse* - I had no idea she'd published a novel | dark
+A: He never seems to want to go out with other people. B: No, he's a  bit of *a lone _* | wolf
+She's a lovely person, but her husband's a bit of *a cold _* | fish
+Her own son accused her of having used him *as a _ pig* to test her theories about the education of children | guinea
+Sarah's a real *party _* - she likes to dance all night | animal
+I'd *love to be a _ on the _* when Nigel tells the boss he's resigning | fly, wall
+A: Phil scared everyone yesterday. He looked really angry. B: Oh, don't worry about him. *His _ is worse than his _* | bark, bite
+Big Joe is quite harmless really, although he looks tough. He *wouldn't _ a _* | hurt, fly
+I really *got the travel _* after I went on a trekking holiday to Nepal. I can't wait to go away again | bug
+She's working very hard for her exams. She's really *got the _ between her _* | bit, teeth
+They've *given me _* to do what I like in this new job | free rein
+A: How did you know I lost my job? B: *A little _ told me* | bird
+As soon as the meeting was over, we all *made a _ for* the food. We were so hungry | beeline
+I always *have _ in my _* just before an exam | butterflies, stomach
+I *made a real _ of myself* last night, so I'm not going to eat any lunch today | pig
+I have so much work to do these days. I'm just *chasing my _* trying to catch up | tail
+
+# 37
+Question | Answer
+--- | ---
+The country has *gone to the _* (from a good situation to a bad one) since the new government took over | dogs
+She *let _ out of _* (accidentally tell people a secret) and now everyone knows the news | the cat, the bag
+There's *not enough room to _* in our flat, so I don't think a party is a good idea | swing a cat
+A: Everyone is so selfish and they don't care about how much other people suffer. B: Yes, it really is *the law of _*. It's very depressing | the jungle
+It's a waste of time complaining to Rob. He doesn't take any notice. Yes, it's *like _ off _* | water, a duck's back
+A: We're all overworked and in a panic. B: Yes, I agree. We're all just *running round like _* | headless chickens
+They have started *putting out _* (make informal enquiries) to local residents and interest groups | feelers
+Why don't you *take the bull by _* (do sth difficult in a brave and determined way) and tell him to leave | the horns
+The roads were full of traffic and we were travelling *at a _ pace* for two hours | snail's
+You're *like a bear with _* (in a bad mood that caused you to treat others badly) this morning. What's wrong with you? | a sore head
+
+# 38
+Question | Answer
+--- | ---
+I decided I had to *bite the _* and take a couple of math classes even though I knew they were hard | bullet
+They only met three weeks ago – isn’t it *jumping the _* to start talking about marriage? | gun
+My parents didn’t want me to be an actor, but I *stuck to _* | my guns
+She was *looking _ at me* last night. I wonder what I've done to upset her? | daggers
+Freddy really *puts _ in* sometimes. He is capable of saying such cruel things | the knife
+Her last remark was so hurtful, especially as I was already upset. I think she was just trying to *_ the knife* even further | twist
+A: Have you ever tried snowboarding? B: No, but I'd like to *have a _ at* it one day | shot
+A: Do you find people always blame you immediately for any problems that arise? B: Yes, I'm *in the _* all the time | firing line
+A: So it's Peter who makes all the important decisions and has all the power? B: Yes, he *calls the _* these days | shots
+A: It must have been awful for you, being in the middle of such a terrible argument between Roz and Bob? B: Yes, I was really *caught in the _*; I found it very difficult | crossfire
+A: So you think we should wait and not ask for the funds yet? B: Yes, I think we should *hold _* till the future is more certain | fire
+The village people are *up in _* over the plan to build a motorway very near their homes | arms
+Jim's *his own _* when it comes to getting promotion at work. He's just so negative about everything | worst enemy
+I think you're *fighting a _* trying to get a pay rise. The boss never listens to anyone | losing battle
+I wouldn't give up this job till you've got another offer. You don't want to *burn _* | your bridges
+Joe can be very boring sometimes. He always seems to *have an axe _* | to grind
+*When it comes to the _* (a situation becomes serious or difficult), I won't let you down | crunch
+I think we've found *a _ in his armour* | chink
+
+# 39
+Question | Answer
+--- | ---
+One look at those cakes *makes my _ water* | mouth
+*Having such a _* makes it difficult for me to lose weight | sweet tooth
+Watching that cookery programme on TV has really *whet _* for trying some new recipes | my appetite
+This trophy is *the _ on the _* for Peter who has had a great year as a tennis player | icing, cake
+He *wants to _ and _*: he wants a well-paid job, but he doesn't want to work hard | have his cake, eat it
+My last job *left a _ in my _* (unpleasant memory) | sour taste, mouth
+Although it was too slow-moving for my taste, I sat through the film *to the _ end* | bitter
+You'll *have _ on your face* (feel stupid or embarrassed) if your plan doesn't work | egg
+I love email. For me, it's *the best thing since _* | sliced bread
+A: How do you like your boring job? B: It provides *the _ and _* | bread, butter
+At last our work is *bearing _* (produce a positive result) | fruit
+Although TF Boys is *_ of the month* at the moment, their popularity is unlikely to last | flavour
+I certainly feel as if I've *passed my _ date* (not useful because you are tool old) | sell-by
+
+# 40
+Question | Answer
+--- | ---
+Goodbye. I hope *our paths _* again soon | cross
+I'm really *stuck in _* in this job. I think I'll look for something new | a rut
+This book is *right up your _* (perfect for you) | street/alley
+Josh is very *_-of-the-_* (neither left-wing nor right-wing) politically | middle, road
+I think the government is *on the right/wrong _* these days | track
+It's *an _ battle/fight/struggle* (difficult) trying to persuade Joe to get a job | uphill
+That restaurant's really *gone _* (was good, but not any longer) lately | downhill
+She lives right *off the _* (very isolated), but she loves the peace and quiet | beaten track
+The country is *at a _* (decisive moment) | crossroads
+I use a sharing bicycle these days to *go/get from _ to _* | A, B
+The new hotel has really *put the village on the _* (become well-known) | map
+Well, it's almost midnight. We should *hit the _* (start the journey home) | road
+*Road _* is increasing in many countries | rage
+
+# 41
+Question | Answer
+--- | ---
+I *feel at _* here. I'm quite comfortable | home
+Please *make yourself at _* and relax | home
+You can feel *as safe as _* here with electric entrance gates | houses
+The danger really *came _ to me* (understand it clearly) when I saw the pictures on TV | home
+The news has really *brought _* (make me understand sth unpleasant) to me the horrors of war | home
+They don't pay me very well for the work I do at the moment, but at least I've *got my _ in the _* | foot, door
+Female voters *hold the _ to* the party's success in the election | key
+Her father *flew off the _* when she said she wasn't going to return to university | handle
+The government can't *sit on the _* (postpone making a decision) for ever | fence
+You have multiple choices, but in the end, you have to *come down on _ or _* (make a choice) | one side, the other
+Alf *hit the _* (reacted angrily) this morning for no reason | ceiling/roof
+What's the matter with you? You seem to have *got out of _ on the _* (got up in a bad mood) | bed, wrong side
+Sophie will make herself ill if she goes on *burning the _ at _* (allowing herself so little sleep) | candle, both ends
+Before you take over the project, I'll *put you in the _* (explain the situation) | picture
+If you want to get fit, why don't you *take a _ out of Kate's _* (copy sth sb does) | leaf, book
+
+# 42
+Question | Answer
+--- | ---
+There was a sense of relief *in the _* when the 'not guilty' verdict was announced | air
+The news has come as *a _ of _ air* (sth new and exciting) for students worried about the high level of fees | breath, flesh
+Whether the government will change the law is *up in the _* (undecided) at the moment | air
+Tom said the news had *come out of the _* (~ = the sky) and it had shocked everyone | blue
+The discussions have not solved the problem, but they have helped to *clear the _* a bit | air
+Is Alf a very romantic type of person? No, he's very *_-to-_* (practical) | down, earth
+Sally *came back down to _ with a _* (be brought back to reality) when the bank manager told her she had spent all her money | earth, bang
+So your new project failed after all? Yes, it *bit the _* | dust
+Our new mayor is *living on _*! He really doesn't know how ordinary people live | another planet
+The price of houses has *hit _ bottom* (very low) this year | rock
+We should find out *how the _ lies* (true facts about a situation) before we decide | land
+Is Anna really a princess? I don't know, but she's very *upper-_* (belong to a high social class) | crust
+They've *kept me in the _* about their future plans. I wish they'd tell me | dark
+I'm *_ my element* when I'm playing video games / the guitar | in/out of
+I was *shaking like a _* as I waited to hear if I had passed the exam | leaf
+I *slept like a _* last night. It was so quiet and the bed was very comfortable | log
+I hate making big decisions. I usually prefer to just *go with the _* | flow
+These days it *goes against the _* (won't do it because it's unusual) to show too much respect for authority | grain
+
+# 43
+Question | Answer
+--- | ---
+I know the party is costing a lot, but you have to *push _ out* occasionally | the boat
+Party members were told firmly not to *_ the boat* by publicly criticising the government just before the election | rock
+Can I still get tickets for the concert or have I already *_ the boat* | missed
+Don't sell your house to finance your business - that would be *_ your boats* | burning
+Things here are very difficult, but at least we're all *in the _ boat* | same
+I'd try to *_ clear of* Maggie if I were you - she's trouble | steer
+You *are sailing a bit _ to the _* (taking risks) by speaking to the boss like that | close, wind
+It'll be hard climbing the mountain, but should be *_ sailing* on the way down | plain
+His business has been *in the _* (not successful, start with dol) for several years now | doldrums
+I hope John has the sense not to *stick his _ in* at tomorrow's meeting | oar
+As it's your first day at work, Sue will *show you the _* | ropes
+I hate job interviews - I'm always *a _ wreck* before them | nervous/quivering
+We'd better *clear the _* before we paint the room | decks
+The new boy is bound to be feeling *at _* on his first day at school - perhaps you can help | sea
+Things are not working out - let's *_ tack* | change / try a different
+Parents usually try to *_ a middle _* between leniency and strictness | steer, course
+Everything must seem strange at first, but you'll soon *learn the _* | ropes
+
+# 44
+Question | Answer
+--- | ---
+A: We'll have to get ready to start work on the new system. B: Yes, we'll have to *get into _*, I suppose | gear
+A: I hate having Lisa in my car. She always tells me what I'm doing wrong. B: Yes, she's a real *_ driver* | back-seat
+We'll have to *put the _ on* (be careful) with regard to how much we spend | brakes
+I'll be able to keep things *ticking _* (continue to work but make little progress) in the office until you get back | over
+She jogs after work to *let off _* (get rid of strong feelings) | steam
+A: I'm glad we organised out own travel instead of going with a group. B: Yes, I'm glad we decided to *go under own own _* | steam
+A: It seems there was a misunderstanding between us. B: Yes, I think we *got our _ crossed* | wires/lines
+Members of the team must be *on the same _* | wavelength
+I'll *give you a _* (phone call, b~) | buzz
+The government is *back-_* over its plans to lower taxes | pedalling
+His comments really *put/threw a _ in the works* (spoilt sth) | spanner
+She always buys the latest, *state-of-the-_* computer (cutting edge) | art
+Plans for a new bridge across the river are *in the _* | pipeline
+
+# 45
+Question | Answer
+--- | ---
+Rose had all the statistics *at her _* so that she was able to quote them immediately | fingertips
+I'm getting my exam results tomorrow. *Keep your fingers _* for me! | crossed
+He's *put his _ on* the problem and has identified exactly what's wrong | finger
+Fiona never *lifts a _* at home. She's so lazy | finger
+He *got his fingers _* in a financial deal recently and lost a lot of money | burnt
+The plan has been *given the thumbs _* | up/down
+That office block *sticks/stands out like a sore _* next to such a beautiful park | thumb
+As *a rule of _*, always wash hands before dinner | thumb
+The boss has *given me a free _* (allows me to take whatever action) at work | hand
+Ed can *turn his _ to* (has the ability to do unfamiliar jobs) any job round the house | hand
+Things *got out of _* (out of control) and the police arrived | hand
+I don't really have any *first-_* (direct) knowledge of nature conservation | hand
+That restaurant has *changed _* twice | hands
+I *have my _ full* with three children | hands
+I'd like to *try my _ at* scuba-diving one day | hand
+I play tennis occasionally just *to keep _ in* (-not to lose my skill-) | my hand
+I always like to have a dictionary *to _* when I'm reading English newspaper | hand
+*Give me a _* with this big box, will you | hand
+I've *washed my _ of* the whole project as it caused so many problems | hands
+
+# 46
+Question | Answer
+--- | ---
+You're an adult now; you have to learn to *stand on your _* (be independent) | own two feet
+He's famous, but he's always *keep _ on the ground* (realistic) | both feet
+I accepted the job, but then *got _ feet* (regret) | cold
+Don't worry. It will take you a while to *_ your feet*. It's always like this in a new job | find
+Nancy and I *got off on the _* (relationship started badly) | wrong foot
+The children are always *under my _* when I'm trying to do the housework | feet
+He really seems to have *_ on his feet*. He got a new job and found a flat within a week of arriving in the city | landed/fallen
+I think you should *put your foot _* (assert your authority) and say no | down
+He *followed in his father's _* and become a doctor | footsteps
+I don't think Sara wants to join us; she's *dragging her _* (deliberately being slow) a bit | heels
+They're *digging their _ in* and refusing to compromise | heels
+The boss always *keeps us on our _* (keep us busy) | toes
+His parents can’t afford to *_ the bill* (pay) for his college education | foot
+Unfortunately, bad news has come *hard on the _ of* good | heels
+
+# 47
+Question | Answer
+--- | ---
+I *have a _ to _ with* you (you did sth that has annoyed me and we must discuss it) | bone, pick
+She's going to get that job; I *can feel it in _* | my bones
+How best to use the money we raised has become *a _ of _* (people are arguing and disagreeing over it) | bone, contention
+Let's try and get to *the _* (most basic aspects) of the problem | bare bones
+She *has a _ on her _* about the fact that she lost the job during the lock-down | chip, shoulder
+I'm having a horrible time and I need *a _ to _* (support in time of trouble) | shoulder, cry on
+You are not alone in your fight against the authorities. We will *stand _ to _ with you* | shoulder, shoulder
+Lora gave Mark *the cold _* when he asked her to go with him to the party | shoulder
+I didn't really want to do the job, but he *twisted _* (persuade me) and I said yes | my arm
+I've been trying to *keep/hold her at _ length* (keep a distance) | arm's
+I haven't really won the lottery. I was only *pulling your _* | leg
+He'll find it difficult to convince the police that he's innocent. He *hasn't got a _ to _* (has nothing to support his claim) | leg, stand on
+The tickets for the concert *cost us _ and _* (very expensive) | an arm, a leg
+
+# 48
+Question | Answer
+--- | ---
+If you can *keep your _* when all around are losing theirs, you'll be a man | head
+They were *shouting their _ off* until late at night and I just couldn't fall asleep | heads
+Trying to get the boys to tidy their bedroom is just *banging your _ against a _* | head, brick wall
+Jack and Sue have not been getting on well for some time now, but Jack's rudeness to her last night *bring things _* and they had a blazing row | to a head
+The disagreement over pay *came to _* at a meeting yesterday | a head
+Lue was always quite happy in the village until Rex started *putting _ into her _* | ideas, head
+I just *can't get my _ around* what's happened. It's been such a shock | head
+*Off the _ of my _*, I couldn't tell you where they live, but I could soon find out | top, head
+Dick hadn't had time to prepare a speech, but he spoke very well *off the _ of _* | top, his head
+Mary will never *turn _* in the way that her sister does | heads
+Sam wants to use your saw to build a tree house - you'd better *knock that idea on _* (put a stop to it) | the head
+If I were you, I'd *keep my _ down* until the situation improves | head
+I wish he wouldn't *_ my head off* (speak to me angrily) when I ask him about his work | bite/snap
+I'm going to have to work very hard to *keep my _ above _* (have just enough money to live) | head, water
+
+# 49
+Question | Answer
+--- | ---
+Emma *pulled a _* (feel unhappy) when she heard that Jim was coming to the party | face
+It was all I could do to *keep a straight _* when I saw Jim in his new suit | face
+Chris was disappointed about not getting the job, but he's *put a _* on it | brave face
+I decided to *take his words at _ value* although my brother told me I was being naive | face
+*On the _ of it*, it's a generous offer. But I feel there might be a trick in it | face
+You should really discuss this with her *_ to _* | face, face
+*Keep your _ on* (calm down) | hair
+I am *_ my hair out* (very anxious) | tearing/pulling
+My boss *didn't turn a _* when I handed in my letter of resign | hair
+Tom and Dick *are at each other's _* (arguing in a very angry way) | throat
+Tom decided to *make a clean _ of it* (tell the truth so that won't feel guilty) | breast
+My boss is always *breathing down my _* (pay close attention in an annoying way) | neck
+I find this *a real pain in the _* (annoying) | neck
+I had to *get my feelings off my _*, and today I decided to unburden myself to the manager | chest
+I wish Dick wouldn't keep *ramming it down my _* (force him to listen to his opinions) all the time | throat
+
+# 50
+Question | Answer
+--- | ---
+I *couldn't believe _* when I saw that my parents had bought me a new car | my eyes
+She's so beautiful, I just *couldn't keep _ off* her | my eyes
+I tried to *catch her _* to say hello | eye
+As a teacher, you always have to *keep _ on* the students | an eye
+Sometimes you just have to *turn a _ eye* if the students behave badly | blind
+If you want to be a teacher, you have to go into the profession *with your eyes _* | open
+Jenny and I were good friends at first, but now we don't *see _ to _* | eye, eye
+The fact that we stopped being friends *raised a few _* at the time | eyebrows
+Could you *_ your eye over* this report and see if there are any spelling mistakes? | run/cast
+My computer's *on the _* (beginning to break down) | blink
+It all happened *in the _ of an eye* (in short time) | blink
+A: Did she react in any way when you told her the awful news? B: No, she *didn't _ an eyelid* | bat
+I don't know whether she's seen us. Let's wave and see if we can *catch _* | her eye
+Working in such a poor country *opened _ to* how unjust the world is | my eyes
+I learned a lot from the working experience. It was *a real _-opener* | eye
+
+# 51
+Question | Answer
+--- | ---
+I can't really advise you on how to behave at the interview. Just *play it by _*, and I'm sure you'll be great | ear
+Do you play the guitar from music or *by _* | ear
+I *couldn't _ my ears* when she told me | believe
+Bill never listens when you tell him important things. It just *goes in _ and out _* | one ear, the other
+Go on! Tell me the gossip. I *am all _* | ears
+The company *pays _ service to* the principle of equal rights for women | lip
+I promise I won't tell anyone. *My _ are sealed* | lips
+I heard about the school *by _ of mouth*. Everyone said it was good | word
+Stop *_ your nose into* other people's business | poking/sticking
+You shouldn't *turn your _ up at* 200 pounds a week. It's better than nothing | nose
+That new secretary *gets right up _*. Someone will have to talk to the boss about it before it's too late | everybody's nose
+He achieved it *in the _ of* (despite) serious opposition | teeth
+We can't change what's happened. We'll just have to *_ our teeth* and do our best to carry on as before | grit
+Joe is *lying _ his teeth*. I never said any such thing | through
+I was upset by her remarks, but I *_ my tongue* (didn't react) | bit
+*My _ was in my _* (very nervous) when I opened the letter | heart, mouth
+Could I *have a word in your _* | ear
+These people just live *from hand to _* (just earn enough to survive) | mouth
+The boss was *_ at the mouth* (very angry) when it emerged how much money had been lost | foaming
+
+# 52
+Question | Answer
+--- | ---
+Tony *_ his heart to* me (o~, share feelings) | opened
+I find it rather painful to *_ my heart to* anyone else (b~, share feelings) | bare
+Linda *_ her heart out to* me (p~, share feelings) | poured
+When I first saw Pat, my *heart _ a beat* (feel excited or frightened) | missed/skipped
+He is a bit rude sometimes, but his *heart is in the _* (sb is good even if they behave the wrong way) | right place
+Ben wants to buy the boat before his wife *has a change of _* (change opinion) | heart
+It *_ my heart* to see the refugees on the news | breaks
+My *heart _* as Bob approached (feel sad) | sank
+He loves dogs - he's *a man after my _* (admire him because they believe the same) | own heart
+They *had a _-to-_* (express feelings openly) and sorted out their differences | heart, heart
+Don't *take it to _*. He really didn't mean to upset you | heart
+Paul didn't *lose _* even though he had failed his driving test sim times | heart
+Rose *put her _ and _ into* a project aimed at helping blind children | heart, soul
+Tom *set his _ on* emigrating to Australia | heart
+When you've done your homework, you can play computer games *to your _* | heart's content
+Actors get very good at *learning things by _* | heart
+
+# 53
+Question | Answer
+--- | ---
+I've got that computer game *on the _* (can't stop thinking about) | brain
+If you can't do it alone, you could try to *pick his _* (ask for advice) | brain
+There was a large *brain _* (movement of highly skilled people move to another country) from the UK to the US 50 years ago | drain
+Knowing he was safe *was a _ off my mind* | weight/load
+The PM is *keeping an _* until the report is ready | open mind
+My word processor seems to *have a mind of _* | its own
+If it'll *put your _ at rest*, I'll phone home every day | mind
+The thought of having to make a decision soon is always *at the _ of my mind* | back
+*In my mind's _* I can still see the house I grew up in | eye
+There is too much *blood and _* on TV these days | guts
+The man was murdered *in cold _* | blood
+Getting him to agree to spend money is *like getting _ out of a _* | blood, stone
+Don't think too long about the question. Just tell me your *gut _* | feeling/reaction
+He's exhausted because he's been *working his _ out* | guts
+
+# 54
+Question | Answer
+--- | ---
+The teacher *is always on my _* (complaining) about my handwriting | back
+I'll be *glad to see the _ of* this government. They've been a bit of a disappointment | back
+The test was easy. I could've *done it with _ tied behind _* | one hand, my back
+I *put her _ up* when I criticized Americans - I didn't know she came from New York | back
+Although she's friendly to my face. I suspect she'd happily *_ me in the _* | stab, back
+As soon as *the teacher's _ was turned*, the children started passing notes to each other | back
+We can help each other - *you _ my _ and I'll _ yours* | scratch, back, scratch
+He's a great guide as he *knows the town like the _ of his _* | back, hand
+Let's put the discussion *on the back _* until after next week's meeting | burner
+Where is the castle? Somewhere *in the back of _* | beyond
+How's your project going? It's *taking a _* at the moment | back seat
+Where did they get the computer? It *fell off the _* | back of a lorry
+How on earth did she get that position? *By the _*, I'm sure | back door
+Joe went off to join the navy *without a _* (any regrets) | backward glance
+
+# 55
+Question | Answer
+--- | ---
+A: Hey, what happened to your plan? B: Oh, *it's a long _*. I'll tell you next time | story
+A: How long do we have to wait till they give us an answer? B: *How long is _ of _* (impossible to answer) | piece, string
+A: But how did it happen? B: Well, *to cut _ short*, he became the general manager | a long story
+A: Did you write down the names of people? B: Yes, I've got *a list as long as _* | your arm
+The speech is *long-_* (too long) | winded
+The task is going to be *a long _* (not easy and take long) | haul
+Fiona has *a long _* (look sad and gloomy) | face
+She always *goes to _* to make us feel welcome | great lengths
+He would *go to any _* to avoid meeting Chris; he hates him | lengths
+I think you will *go a long _* (successful) | way
+Helen and I *go back a _* (known for a long time) | long way
+Kyoko has really *come a _* (made great progress) since she first started learning English | long way
+I think we should *take a _ look* at the cost of all this | long, hard

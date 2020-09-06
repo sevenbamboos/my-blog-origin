@@ -40,7 +40,7 @@ Let's *_ off* the meeting until Friday | put
 It took him a long time to *_ over* his illness | get
 About five miles into our journey the engine *_ out* and we broke down completely | cut
 Do we need to *_ up* tonight or is it informal? | dress
-I shall never really appreciate what my grandparents *_ though* during the war. | went
+I shall never really appreciate what my grandparents *_ through* during the war. | went
 They just *_ aside* my complaints; it made me very angry. | brushed
 I *_ for* his story about having lost all his money. How stupid I was! | fell
 Could you *_ Janet's report up*? She promised it last week but I haven't seen it yet. | chase
@@ -229,7 +229,7 @@ My son has recently *taken _* stamp collecting as a hobby | up
 The shop assistant *took ten per cent _* because the item was damaged | off
 If you *take 11 _ from 33*, you're left with 22 | away
 I shouldn't have called you lazy - I *take it _* | back
-He showed me a photo of his house, but I was so tired that I didn't really *take it _* | in
+He showed me a photo of his house, but I was so tired that I didn't really *take it _* (look at it carefully) | in
 Lucy has *taken _* (subscribed to or registered) a year's membership at a local sports club | out
 Fiona seems keen on her tennis these days. Yes, she's really *taken _* (started to do) it | to
 Fiona's so *taken _ with* (very busy doing) her tennis that she stopped going to the swimming pool | up
@@ -274,7 +274,7 @@ I *_ out* by not learning a foreign language at school. I meet so many people I 
 Question | Answer
 --- | ---
 The company is not doing well - isn't it time you *_ off* your shares in it? | sell
-We were talking to Janice when she suddenly *_ off* in the middle of a sentence and ran out of the room | broke
+We were talking to Janice when she suddenly *_ off* (stop) in the middle of a sentence and ran out of the room | broke
 I thought it was very rude of him just to *_ off* like that without saying goodbye | slip
 Would you like me to come and *_ you off* at the station? | see
 I thought I'd *_ off* fairly soon - I've got to get up early tomorrow, but thank you for a lovely party | head
@@ -409,7 +409,7 @@ Many exhibits *_ back* to the early 19th century | date
 Is that old vacuum cleaner just a *_* from a *_* ear? | leftover, bygone
 I'm sorry to *_ you up* but you must sign these forms before you go in | hold
 If there are no *_* (traffic), we should arrive by about 7 o'clock | hold-ups
-Mum walks so fast. It's quite hard to *_ up with* her | keep
+Mum walks so fast. It's quite hard to *_ up with* (catch) her | keep
 The meeting *_ on* (continued for too long) and everyone got irritable | dragged
 I'm sorry I'm late. My French lesson *_ on*, so I didn't leave school till 4.30 p.m. | ran
 Three weeks *_ by* before I got a reply to my letter of complaint | passed
@@ -999,7 +999,7 @@ While Sue was unemployed she had to *_ off* her savings | live
 Would you be able to *_ me up* (let me stay in your home for a short time) when I'm in London next week? | put
 My daughter loves it when a school friend *sleeps _* (sleep in sb's home for a night) | over
 At the weekends I love *sleeping _* (sleep later than usual) | in
-On Saturdays I sometimes *lie _* till 11 | in
+On Saturdays I sometimes *lie _* (sleep late) till 11 | in
 On weekday evenings I *turn _* quite early | in
 I *stay _* (go to bed later than usual) at weekends | up
 If I get home before my flatmates, I *wait _* until they arrive | up
@@ -1095,6 +1095,59 @@ Jail *_* Alarms Villagers | Breakout
 The escaped convict has found a *_* (secret place) not far from the prison | hideaway
 Police have encouraged the inhabitants of nearby villages to *look _ for* anything suspicious | out
 
-# 66
+# 67
 Question | Answer
 --- | ---
+A security guard *was _ up* (attacked and badly injured) last night | beaten
+Two guys *_ off with* six computers from a school yesterday in broad daylight | walked
+The thieves *held _* (steal money by violence or threatening) a local bank yesterday | up
+They were arrested after the police were *tipped _* | off
+Some suspicious-looking people may be *putting him _* doing some dishonest things | up to
+All that time she'd been *_ him on* (pretending she liked him), but she was only interested in his money | leading
+The judge is *_ a criminal off* | letting
+I suppose they could *lean _ him* by threatening him if he refuses to help them | on
+I suspect that young neighbour of ours has *got _ in* something illegal | mixed up
+
+# 68
+Question | Answer
+--- | ---
+Why did you decide to *stand _* (compete in an election) Parliament? | for
+In short, I wanted to do everything I could to *stand _* (defend) the principles that I believed in | up for
+Did you *stand _* (state opinions forcefully and refuse to change mind) those influential MPs? | up to
+Did other MPs in your party still *stand _* (support) you at this point? | by
+I wanted to help *bring _* laws that would lessen the divisions between the rich and the poor | in
+I wanted to *do _* (get rid of) taxes for the poorest members of society | away with
+I wanted to *clamp _* (stop) on rich people who were attempting to avoid paying tax | down
+Once you were elected, how did you *go _* (start to do) with your plans for social change | ahead
+I told them I was not in Parliament to *carry _* (do sth you have been told to) the wishes of big business | out
+A few very good people did *stick _* (support) me | by
+We eventually decided to *break _* and form our own new party | away
+
+# 69
+Question | Answer
+--- | ---
+The boss *bawled jack _* for losing the deal | out
+I'll *call _* (telephone several people) and see if I can get a good price | around
+Tom spent too much time *goofing _* and failed his exams | off
+I'm sure you'd like to *wash _* (clean hands and face) after your journey | up
+I'll be *barracking _* you in the competition tomorrow | for
+We just *belted _* the job and got it finished in an hour | into
+She really *get _* (lay into) me. I didn't think I deserved so much criticism | into
+He's not here any more. He *shot _* (leave a place suddenly and secretly) a couple of days ago | through
+
+# 70
+Question | Answer
+--- | ---
+After a whole week of birthday celebrations, I fell totally *partied _* | out
+He *bigged _* that new film but when I went to see it I was really disappointed | up
+They *blissed _ on* (happy and relaxed) music | out
+I don't really *buy _* all that homeopathic medicine stuff | into
+*Chill _*! Life's too short to get so stressed | out
+The government has been accused of *sexing _* a report on economic growth | up
+I'll *text you _* when my meeting finishes | back
+I feel totally *stressed-_* | out
+The shop refused me *_* (get money when buy goods with a debit card) | cashback
+When I got to work I discovered that today wasn't a *dress-_* (dress less formal) day | down
+All the emails I sent yesterday have *bounced _* (didn't get to the destination) | back
+If working too hard, I will feel stressed-out and suffer from *_* (ill or tired because of working too hard) | burnout
+I wish I had loads of money - I'd go and *veg _* in the Caribbean | out
