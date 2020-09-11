@@ -1053,3 +1053,40 @@ I think you will *go a long _* (successful) | way
 Helen and I *go back a _* (known for a long time) | long way
 Kyoko has really *come a _* (made great progress) since she first started learning English | long way
 I think we should *take a _ look* at the cost of all this | long, hard
+
+# 56
+Question | Answer
+--- | ---
+I hope I'm *in _ for* a pay rise this year | line
+A: You're absolutely *out of _*. B: I'm sorry | line
+My dream is to open a school *along the _ of* the one I attended myself as a child | lines
+It's not a good idea to *step out of _* | line
+A: What's Tony's *_ of work*? B: He's a developer | line
+Would you mind telling me whether you think I'm *going along the _ lines* or not? |right
+It's uncanny how we always seem to be thinking *along the _ lines* | same
+At what point does a child stop being a minor? You have to *_ the line* somewhere | draw
+I quite like modern fashions, but I *_ the line at* body-piercing | draw
+Let's *draw a line _* this episode and try to make a fresh start | under
+*There is a _ line between* determination and pigheadedness | fine/thin
+*_ me a line* when you have a spare moment | Drop
+*_ between the lines*, I think he's feeling a little lonely | Reading
+It is foolish to *sign on the _ line* until you have checked all the details | dotted
+*The _ line* is that children must be protected | bottom
+
+# 57
+Question | Answer
+--- | ---
+He was stealing a car, and the police *caught him _* | in the act
+A: Bob should go and get a job. B: Yes, it's time he *got _ together* | his act
+Everyone wants to *get in on _* now that we are making a lot of money | the act
+Everyone wants to *get a _ of the action* now that we are making a lot of money | slice/piece
+I don't believe he's ill. I think he's just *putting on _* because he doesn't want to work | an act
+It's always *a difficult _ act* to please the younger people and the old ones at the same time | balancing
+Tha tabloid newspaper should *clean up _* and stop destroying famous people's lives | their act
+Stop behaving like a child! *_ your age* | Act
+Stop *acting the _*! This is a serious matter | fool/goat
+Normally, the office is *a hive of _* (busy place) | activity
+The boss is not here and he has *been out of _* for a week | action
+The boss will probably *be back in _* next week | action
+He *is all _ and no _* (says a lot but does nothing) | talk, action
+He *_ a different _ of action* from his usual way of doing things | follows/takes, course

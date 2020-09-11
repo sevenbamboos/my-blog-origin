@@ -521,3 +521,113 @@ Question | Answer
 [c] Can you turn off *_* (television), please? | the television
 [c] Our train leaves from *_* (platform 5) | Platform 5
 [c] Have you got these shoes in *_* (size 43) | size 43 
+
+# 73
+Question | Answer
+--- | ---
+[c] Ken's brother is in *_* (prison) for robbery | prison
+[c] Ken went to *_* (prison) to visit his brother | the prison
+[c] Jack had an accident last week. He was taken to *_* (hospital) | hospital
+[c] Jill has gone to *_* (hospital) to visit Jack | the hospital
+[c] When I leave *_* (school), I want to go to *_* (university) | school, university
+[c] Excuse me, where is *_* (university), please | the university
+[c] Mrs Kelly goes to *_* (church) every Sunday | church
+[c] The workmen went to *_* (church) to repair the roof | the church
+[c] Keith is a seaman. He spends most of his life at *_* (sea) | sea
+[c] I'd like to live near *_* (sea) | the sea
+
+# 74
+Question | Answer
+--- | ---
+[c] *_* (crime be) a problem in most big cities | Crime is
+[c] *_* (doctor be) paid more than teachers | Doctors are
+[c] All *_* (cars) have wheels | cars
+[c] All *_* (cars) in this car park belong to people who work here | the cars
+[c] Do you like *_* (strong black coffee) | strong black coffee
+[c] Did you like *_* (coffee) we had after our meal last night | the coffee
+
+# 75
+Question | Answer
+--- | ---
+[c] *_* (giraffe) is the tallest of all animals | The giraffe
+[c] We saw *_* (giraffe) at the zoo | a giraffe
+[c] *_* (bicycle) is an excellent means of transport | The bicycle
+[c] *_* (piano) is my favorite instrument | The piano
+[c] I'd like to have *_* (piano) | a piano
+[c] What do you know about the origins of *_* (man) | man
+[c] Do you think *_* (rich people) should pay more taxes to help *_* (poor people) | the rich, the poor
+[c] *_* (homeless people) need more help from the government | The homeless
+[c] *_* (French people) are famous for their food | The French
+[c] *_* (Chinese people) invented printing | The Chinese
+
+# 76
+Question | Answer
+--- | ---
+[c] They live near *_* (mount Everest) | Mount Everest
+[c] They live near *_* (Suez canal) | the Suez Canal
+[c] The highest mountain in *_* (Alps) is *_* (mont Blanc) | the Alps, Mont Blanc
+
+# 77
+Question | Answer
+--- | ---
+[c] I live near *_* (fifth avenue) | Fifth Avenue
+[c] I live near *_* (Kennedy airport) | Kennedy Airport
+[c] I live near *_* (Edinburgh castle) | Edinburgh Castle
+[c] I live near *_* (broadway) | Broadway
+[c] I live near *_* (station hotel) | the Station Hotel
+[c] I live near *_* (palace theatre) | the Palace Theatre
+
+# 78
+Question | Answer
+--- | ---
+[c] There is a *_* (means) of transport | means
+[c] There are many *_* (means) of transport | means
+[c] There is a television *_* (series) | series
+[c] There are two television *_* (series) | series
+[c] There is a *_* (species) of bird | species 
+[c] There are two *_* (species) of bird | species
+[c] The government *_* (want) to increase taxes | want
+[c] The staff at the school *_* (be) not happy with their working conditions | are
+[c] Scotland *_* (be) playing France next week (in a football match) | are
+[c] Shell *_* (have) increased the price of petrol | have
+[c] The police *_* (have) arrested a friend of mine | have
+[c] Six miles *_* (be) a long way to walk | is 
+
+# 80
+Question | Answer
+--- | ---
+[c] Jill has got a *_* (three week) holiday | three-week
+[c] Jill has got *_* (three week) holiday | three weeks'
+
+# 81
+Question | Answer
+--- | ---
+[c] Learner drivers are not allowed to drive *on _* | their own
+[c] Learner drivers are not allowed to drive *by _* | themselves
+[c] I don't like strawberries with cream. I like them *on _* | their own
+
+# 82
+Question | Answer
+--- | ---
+[c] It might rain. I'll take an umbrella with *_* (me or myself) | me
+
+# 83
+Question | Answer
+--- | ---
+[c] There is *_* to be a flight to Paris this evening | sure/certain/likely
+
+# 84
+Question | Answer
+--- | ---
+[c] What's wrong? Have you got *_* in your eye? (I expect you to answer yes) | something
+[c] Would you like *_* to eat? | something
+[c] I'm sorry for *_* trouble I've caused | any
+[c] Someone has forgotten *_* umbrella | their
+[c] If anybody wants to leave early, *_* can | they
+
+# 85
+Question | Answer
+--- | ---
+[c] Nobody phoned, did *_*? | they/he/she
+[c] The party was a disaster. Nobody enjoyed *_* | themselves/himself/herself
+[c] No one in the class did *_* homework | their/his/her
